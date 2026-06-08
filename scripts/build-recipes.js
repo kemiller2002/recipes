@@ -9,17 +9,49 @@ if (!fs.existsSync(htmlDir)) {
   fs.mkdirSync(htmlDir, { recursive: true });
 }
 
+function wrapIngredientLine(line) {
+  return line.replace(
+    /^-\s+((?:\d+[\d/–\-.\s]*|½|⅓|⅔|¼|¾|⅛|⅜|⅝|⅞)\s*(?:cups?|tbsp|tsp|tablespoons?|teaspoons?|lb|lbs|oz|ounces?|cloves?|slices?|cans?|qt|quarts?|g|kg|ml|l)?\.?)\s+(.+)$/i,
+    `- <span class="amount">$1</span> <span class="item">$2</span>`
+  );
+}
+
+function wrapActionLine(line) {
+  return line.replace(
+    /^(\d+\.\s+)(Simmer|Cook|Add|Stir|Heat|Drain|Rinse|Soak|Mash|Season|Serve|Deglaze|Bring|Reduce|Taste|Adjust|Reserve|Place|Remove|Cover|Uncover)\b/i,
+    `$1<span class="verb">$2</span>`
+  );
+}
+
+function enhanceMarkdown(markdown) {
+  return markdown
+    .split("\n")
+    .map(line => {
+      if (line.startsWith("- ")) {
+        return wrapIngredientLine(line);
+      }
+
+      if (/^\d+\.\s+/.test(line)) {
+        return wrapActionLine(line);
+      }
+
+      return line;
+    })
+    .join("\n");
+}
+
 const files = fs
   .readdirSync(recipesDir)
   .filter(file => file.endsWith(".md"));
 
 for (const file of files) {
   const markdownPath = path.join(recipesDir, file);
-  const markdown = fs.readFileSync(markdownPath, "utf8");
+  const rawMarkdown = fs.readFileSync(markdownPath, "utf8");
 
-  const body = marked(markdown);
+  const enhancedMarkdown = enhanceMarkdown(rawMarkdown);
+  const body = marked.parse(enhancedMarkdown);
 
-  const titleMatch = markdown.match(/^#\s+(.+)$/m);
+  const titleMatch = rawMarkdown.match(/^#\s+(.+)$/m);
   const title = titleMatch ? titleMatch[1] : "Recipe";
 
   const html = `<!DOCTYPE html>
