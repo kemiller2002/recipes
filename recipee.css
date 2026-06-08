@@ -1,0 +1,253 @@
+/* recipe.css
+   Mobile-first recipe styling with ingredient/action/amount differentiation.
+*/
+
+:root {
+  --recipe-bg: #fffaf3;
+  --recipe-surface: #ffffff;
+  --recipe-text: #2b2520;
+  --recipe-muted: #6f6258;
+  --recipe-border: #e6d8c7;
+  --recipe-accent: #8a4b24;
+  --recipe-accent-soft: #f3dfca;
+  --recipe-action-bg: #f7efe6;
+  --recipe-ingredient-bg: #fff6e8;
+  --recipe-amount-bg: #ead2b8;
+  --recipe-shadow: 0 8px 24px rgba(43, 37, 32, 0.08);
+
+  --recipe-radius: 16px;
+  --recipe-max-width: 780px;
+  --recipe-pad: 1rem;
+  --recipe-line: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--recipe-bg);
+  color: var(--recipe-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  line-height: var(--recipe-line);
+}
+
+.recipe {
+  width: 100%;
+  max-width: var(--recipe-max-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.recipe-card {
+  background: var(--recipe-surface);
+  border: 1px solid var(--recipe-border);
+  border-radius: var(--recipe-radius);
+  box-shadow: var(--recipe-shadow);
+  padding: var(--recipe-pad);
+}
+
+/* ========================================
+   HEADINGS
+======================================== */
+
+.recipe h1 {
+  font-size: clamp(2rem, 8vw, 3.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.recipe h2 {
+  font-size: clamp(1.35rem, 5vw, 2rem);
+  border-bottom: 2px solid var(--recipe-border);
+  padding-bottom: 0.35rem;
+  margin-top: 2rem;
+}
+
+.recipe h3 {
+  font-size: 1rem;
+  color: var(--recipe-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ========================================
+   RECIPE META
+======================================== */
+
+.recipe-meta {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.recipe-meta__item {
+  background: var(--recipe-action-bg);
+  border: 1px solid var(--recipe-border);
+  border-radius: 999px;
+  padding: 0.75rem;
+}
+
+.recipe-meta__label {
+  font-weight: 700;
+  color: var(--recipe-muted);
+}
+
+/* ========================================
+   INGREDIENTS
+======================================== */
+
+.ingredients {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+
+  margin-bottom: 0.75rem;
+  padding: 0.85rem;
+
+  background: var(--recipe-ingredient-bg);
+  border: 1px solid var(--recipe-border);
+  border-radius: 12px;
+}
+
+.ingredient::before {
+  content: "•";
+  color: var(--recipe-accent);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Quantity styling */
+
+.amount {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+
+  background: var(--recipe-amount-bg);
+  border-radius: 999px;
+
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Ingredient name */
+
+.item {
+  font-weight: 600;
+}
+
+/* Prep notes */
+
+.note {
+  color: var(--recipe-muted);
+  font-style: italic;
+}
+
+/* ========================================
+   ACTIONS / INSTRUCTIONS
+======================================== */
+
+.actions {
+  list-style: none;
+  counter-reset: step;
+  padding: 0;
+}
+
+.action {
+  counter-increment: step;
+
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 3.5rem;
+
+  background: var(--recipe-action-bg);
+  border: 1px solid var(--recipe-border);
+  border-radius: 14px;
+}
+
+.action::before {
+  content: counter(step);
+
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+
+  width: 1.75rem;
+  height: 1.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--recipe-accent);
+  color: white;
+
+  border-radius: 50%;
+  font-weight: 800;
+}
+
+/* Important cooking verbs */
+
+.verb {
+  color: var(--recipe-accent);
+  font-weight: 800;
+}
+
+/* Time references */
+
+.time {
+  font-weight: 700;
+  border-bottom: 2px solid var(--recipe-accent-soft);
+}
+
+/* Temperatures */
+
+.temp {
+  font-weight: 700;
+  border-bottom: 2px solid var(--recipe-accent-soft);
+}
+
+/* ========================================
+   CHEF NOTES / CALLOUTS
+======================================== */
+
+.recipe-callout {
+  margin: 1.5rem 0;
+  padding: 1rem;
+
+  background: var(--recipe-accent-soft);
+  border-left: 4px solid var(--recipe-accent);
+  border-radius: 12px;
+}
+
+.recipe-callout strong {
+  color: var(--recipe-accent);
+}
+
+/* ========================================
+   TABLET / DESKTOP
+======================================== */
+
+@media (min-width: 720px) {
+  .recipe {
+    padding: 2rem;
+  }
+
+  .recipe-card {
+    padding: 2rem;
+  }
+
+  .recipe-meta {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
