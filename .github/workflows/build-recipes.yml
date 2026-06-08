@@ -1,0 +1,27 @@
+name: Build Recipes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-recipes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install
+
+      - run: npm run build:recipes
+
+      - name: Commit generated HTML
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Build recipe HTML
+          file_pattern: html/*.html
