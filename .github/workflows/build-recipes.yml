@@ -9,6 +9,9 @@ jobs:
   build-recipes:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -19,6 +22,49 @@ jobs:
       - run: npm install
 
       - run: npm run build:recipes
+
+      - name: Generate recipe index
+        run: |
+          mkdir -p html
+
+          cat > html/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Recipes</title>
+            <link rel="stylesheet" href="../recipe.css">
+          </head>
+          <body>
+            <main class="recipe">
+              <article class="recipe-card">
+                <h1>Recipes</h1>
+                <ul>
+          EOF
+
+          for file in recipes/*.md; do
+            [ -e "$file" ] || continue
+
+            filename=$(basename "$file" .md)
+            html_file="${filename}.html"
+
+            title=$(grep -m 1 '^# ' "$file" | sed 's/^# //')
+
+            if [ -z "$title" ]; then
+              title="$filename"
+            fi
+
+            echo "          <li><a href=\"$html_file\">$title</a></li>" >> html/index.html
+          done
+
+          cat >> html/index.html << 'EOF'
+                </ul>
+              </article>
+            </main>
+          </body>
+          </html>
+          EOF
 
       - name: Commit generated HTML
         uses: stefanzweifel/git-auto-commit-action@v5

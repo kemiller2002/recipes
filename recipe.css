@@ -1,0 +1,290 @@
+/* recipe.css
+   Mobile-first recipe styling with ingredient/action/amount differentiation.
+   Designed for Markdown-rendered recipe pages.
+*/
+
+/* ---------- Base ---------- */
+
+:root {
+  --recipe-bg: #fffaf3;
+  --recipe-surface: #ffffff;
+  --recipe-text: #2b2520;
+  --recipe-muted: #6f6258;
+  --recipe-border: #e6d8c7;
+  --recipe-accent: #8a4b24;
+  --recipe-accent-soft: #f3dfca;
+  --recipe-action-bg: #f7efe6;
+  --recipe-ingredient-bg: #fff6e8;
+  --recipe-amount-bg: #ead2b8;
+  --recipe-shadow: 0 8px 24px rgba(43, 37, 32, 0.08);
+
+  --recipe-radius: 16px;
+  --recipe-max-width: 780px;
+  --recipe-pad: 1rem;
+  --recipe-line: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--recipe-bg);
+  color: var(--recipe-text);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  line-height: var(--recipe-line);
+}
+
+/* ---------- Recipe Container ---------- */
+
+.recipe {
+  width: 100%;
+  max-width: var(--recipe-max-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.recipe-card {
+  background: var(--recipe-surface);
+  border: 1px solid var(--recipe-border);
+  border-radius: var(--recipe-radius);
+  box-shadow: var(--recipe-shadow);
+  padding: var(--recipe-pad);
+}
+
+/* ---------- Headings ---------- */
+
+.recipe h1,
+.recipe h2,
+.recipe h3 {
+  line-height: 1.2;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+.recipe h1 {
+  font-size: clamp(2rem, 8vw, 3.25rem);
+  letter-spacing: -0.04em;
+}
+
+.recipe h2 {
+  font-size: clamp(1.35rem, 5vw, 2rem);
+  border-bottom: 2px solid var(--recipe-border);
+  padding-bottom: 0.35rem;
+}
+
+.recipe h3 {
+  font-size: 1.1rem;
+  color: var(--recipe-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.recipe p {
+  margin: 0 0 1rem;
+}
+
+.recipe blockquote {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid var(--recipe-accent);
+  background: var(--recipe-action-bg);
+  border-radius: 0 12px 12px 0;
+  color: var(--recipe-muted);
+}
+
+/* ---------- Metadata ---------- */
+
+.recipe-meta {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.recipe-meta__item {
+  background: var(--recipe-action-bg);
+  border: 1px solid var(--recipe-border);
+  border-radius: 999px;
+  padding: 0.55rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.recipe-meta__label {
+  color: var(--recipe-muted);
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+/* ---------- Ingredient Lists ---------- */
+
+.ingredient,
+.recipe ul li {
+  display: grid;
+
+  grid-template-columns: auto auto 1fr;
+
+  gap: 0.6rem;
+
+  align-items: baseline;
+
+  margin-bottom: 0.55rem;
+
+  padding: 0.75rem 0.85rem;
+
+  background: var(--recipe-ingredient-bg);
+
+  border: 1px solid var(--recipe-border);
+
+  border-radius: 12px;
+}
+
+.ingredient::before,
+.recipe ul li::before {
+  content: "";
+
+  width: 0.55rem;
+
+  height: 0.55rem;
+
+  border-radius: 999px;
+
+  background: var(--recipe-accent);
+
+  margin-top: 0.45rem;
+}
+
+.recipe ul li .amount {
+  display: inline-flex;
+
+  width: fit-content;
+
+  justify-self: start;
+}
+
+.recipe ul li .item {
+  min-width: 0;
+}
+
+/* Amounts are intentionally inline-friendly.
+   Example: <span class="amount">1 lb</span> dried black beans */
+.amount {
+  display: inline-block;
+  min-width: max-content;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.18rem;
+  border-radius: 999px;
+  background: var(--recipe-amount-bg);
+  color: var(--recipe-text);
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+}
+
+/* Ingredient names can be emphasized separately from prep notes. */
+.item {
+  font-weight: 650;
+}
+
+.note {
+  color: var(--recipe-muted);
+  font-size: 0.95em;
+}
+
+/* ---------- Action / Instruction Steps ---------- */
+
+.actions,
+.recipe ol {
+  counter-reset: recipe-step;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+}
+
+.action,
+.recipe ol li {
+  counter-increment: recipe-step;
+  position: relative;
+  margin-bottom: 0.85rem;
+  padding: 0.9rem 0.9rem 0.9rem 3.1rem;
+  background: var(--recipe-action-bg);
+  border: 1px solid var(--recipe-border);
+  border-radius: 14px;
+}
+
+.action::before,
+.recipe ol li::before {
+  content: counter(recipe-step);
+  position: absolute;
+  left: 0.85rem;
+  top: 0.85rem;
+  width: 1.55rem;
+  height: 1.55rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--recipe-accent);
+  color: white;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+/* Verbs or key actions.
+   Example: <span class="verb">Simmer</span> until tender. */
+.verb {
+  font-weight: 800;
+  color: var(--recipe-accent);
+}
+
+/* Time and temperature are useful action subtypes. */
+.time,
+.temp {
+  font-weight: 750;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--recipe-accent-soft);
+}
+
+/* ---------- Callouts ---------- */
+
+.recipe-callout {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--recipe-accent-soft);
+  border: 1px solid var(--recipe-border);
+  border-radius: 14px;
+}
+
+.recipe-callout strong {
+  color: var(--recipe-accent);
+}
+
+/* ---------- Desktop Enhancement ---------- */
+
+@media (min-width: 720px) {
+  .recipe {
+    padding: 2rem;
+  }
+
+  .recipe-card {
+    padding: 2rem;
+  }
+
+  .recipe-meta {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ingredient,
+  .recipe ul li {
+    padding: 0.85rem 1rem;
+  }
+
+  .action,
+  .recipe ol li {
+    padding: 1rem 1rem 1rem 3.4rem;
+  }
+}
