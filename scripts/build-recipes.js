@@ -12,21 +12,21 @@ if (!fs.existsSync(htmlDir)) {
 function wrapIngredientLine(line) {
   return line.replace(
     /^-\s+((?:\d+[\d/–\-.\s]*|½|⅓|⅔|¼|¾|⅛|⅜|⅝|⅞)\s*(?:cups?|tbsp|tsp|tablespoons?|teaspoons?|lb|lbs|oz|ounces?|cloves?|slices?|cans?|qt|quarts?|g|kg|ml|l)?\.?)\s+(.+)$/i,
-    `- <span class="amount">$1</span> <span class="item">$2</span>`
+    `- <span class="amount">$1</span> <span class="item">$2</span>`,
   );
 }
 
 function wrapActionLine(line) {
   return line.replace(
     /^(\d+\.\s+)(Simmer|Cook|Add|Stir|Heat|Drain|Rinse|Soak|Mash|Season|Serve|Deglaze|Bring|Reduce|Taste|Adjust|Reserve|Place|Remove|Cover|Uncover)\b/i,
-    `$1<span class="verb">$2</span>`
+    `$1<span class="verb">$2</span>`,
   );
 }
 
 function enhanceMarkdown(markdown) {
   return markdown
     .split("\n")
-    .map(line => {
+    .map((line) => {
       if (line.startsWith("- ")) {
         return wrapIngredientLine(line);
       }
@@ -40,9 +40,7 @@ function enhanceMarkdown(markdown) {
     .join("\n");
 }
 
-const files = fs
-  .readdirSync(recipesDir)
-  .filter(file => file.endsWith(".md"));
+const files = fs.readdirSync(recipesDir).filter((file) => file.endsWith(".md"));
 
 for (const file of files) {
   const markdownPath = path.join(recipesDir, file);
@@ -60,7 +58,7 @@ for (const file of files) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${title}</title>
-  <link rel="stylesheet" href="../recipe.css" />
+  <link rel="stylesheet" href="recipe.css" />
 </head>
 <body>
   <main class="recipe">
