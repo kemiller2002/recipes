@@ -1,0 +1,2730 @@
+{
+  "schemaVersion": "1.0",
+  "classifiedBy": "codex",
+  "classificationDate": "2026-07-14",
+  "recipes": [
+    {
+      "slug": "beef-stew",
+      "title": "Pro Beef Stew",
+      "description": "A slow-cooked beef stew built with deep browning, stock, wine, and a bright acidic finish.",
+      "sourcePath": "recipes/beef-stew.md",
+      "href": "beef-stew.html",
+      "overallConfidence": 0.92,
+      "uncertainFields": [
+        "estimatedServings",
+        "glutenFree"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "culturalInfluences": [
+            "french"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [
+            "main"
+          ],
+          "cookingStyles": [
+            "comfort-food",
+            "restaurant-style"
+          ],
+          "primaryIngredientCategories": [
+            "beef",
+            "vegetables"
+          ],
+          "featuredIngredients": [
+            "beef-chuck",
+            "potato",
+            "mushroom",
+            "red-wine",
+            "thyme"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "rich",
+            "umami",
+            "hearty"
+          ],
+          "textureProfiles": [
+            "tender",
+            "brothy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "bowl"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "braise"
+          ],
+          "secondaryCookingMethods": [
+            "browning",
+            "deglazing"
+          ],
+          "preparationTechniques": [
+            "batch-searing",
+            "fond-building",
+            "oven-braising"
+          ],
+          "equipmentRequired": [
+            "dutch-oven",
+            "oven"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": null,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": null,
+          "dairyFree": false,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": false,
+          "lowCarb": false,
+          "ketoCompatible": false,
+          "paleoCompatible": false
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "soy"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 45,
+          "inactiveTimeMinutes": 180,
+          "totalTimeMinutes": 225,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": true,
+          "reheatsWell": true,
+          "overnightRestRequired": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner"
+          ],
+          "seasons": [
+            "fall",
+            "winter"
+          ],
+          "eventTypes": [
+            "cold-weather-meal"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": null,
+          "bestServed": [
+            "fresh",
+            "next-day"
+          ],
+          "storageMethods": [
+            "refrigerate",
+            "freeze"
+          ],
+          "transportability": "medium",
+          "picnicFriendly": false,
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "high",
+          "richnessLevel": "high",
+          "smokeLevel": "low",
+          "heatLevel": "low",
+          "spiceIntensity": "low",
+          "dominantAromas": [
+            "beef",
+            "thyme",
+            "wine"
+          ],
+          "dominantFlavors": [
+            "beefy",
+            "savory",
+            "umami"
+          ],
+          "contrastingFlavors": [
+            "vinegar"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "specialtyIngredients": [
+            "gelatin"
+          ],
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "stew"
+          ],
+          "hasSubRecipes": false,
+          "requiresAssembly": false,
+          "requiresGarnish": true,
+          "garnishes": [
+            "parsley"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "beef stew",
+            "dutch oven",
+            "slow cooked",
+            "comfort food"
+          ],
+          "additionalTags": [
+            "one-pot",
+            "make-ahead"
+          ],
+          "pairsWith": [
+            "sourdough",
+            "mashed-potatoes",
+            "polenta"
+          ],
+          "collectionNames": [
+            "comfort-food",
+            "cold-weather"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "beef-tacos",
+      "title": "Pro Hard-Shell Ground Beef Tacos",
+      "description": "A crisp hard-shell taco built around juicy seasoned ground beef and layered toppings.",
+      "sourcePath": "recipes/beef-tacos.md",
+      "href": "beef-tacos.html",
+      "overallConfidence": 0.95,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "tex-mex",
+            "american"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "beef",
+            "dairy"
+          ],
+          "featuredIngredients": [
+            "ground-beef",
+            "hard-taco-shells",
+            "cheddar",
+            "lettuce",
+            "tomato"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "smoky",
+            "tangy"
+          ],
+          "textureProfiles": [
+            "crisp",
+            "juicy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "handheld"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "saute"
+          ],
+          "secondaryCookingMethods": [
+            "bake",
+            "simmer"
+          ],
+          "preparationTechniques": [
+            "browning",
+            "assembly"
+          ],
+          "equipmentRequired": [
+            "skillet",
+            "oven",
+            "baking-sheet"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true,
+          "lowCarb": false
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "gluten",
+            "soy"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 35,
+          "inactiveTimeMinutes": 0,
+          "totalTimeMinutes": 35,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "taco-night",
+            "family-dinner"
+          ],
+          "eventTypes": [
+            "casual-dinner"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "tacos",
+          "estimatedServings": 8,
+          "bestServed": [
+            "fresh"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 3,
+          "transportability": "low",
+          "picnicFriendly": false,
+          "potluckFriendly": false
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "medium",
+          "smokeLevel": "medium",
+          "heatLevel": "low",
+          "spiceIntensity": "low",
+          "dominantFlavors": [
+            "beef",
+            "cheese",
+            "tomato"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 2,
+          "components": [
+            "taco-meat",
+            "taco-assembly"
+          ],
+          "hasSubRecipes": false,
+          "requiresAssembly": true,
+          "requiresGarnish": true,
+          "garnishes": [
+            "lime",
+            "salsa"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "ground beef tacos",
+            "hard shell tacos",
+            "taco night"
+          ],
+          "additionalTags": [
+            "crispy-shell"
+          ],
+          "relatedRecipes": [
+            "mexican-rice"
+          ],
+          "pairsWith": [
+            "mexican-rice",
+            "refried-beans",
+            "chips-and-salsa"
+          ],
+          "collectionNames": [
+            "weeknight-dinner",
+            "tex-mex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bread-pudding-savory",
+      "title": "Pro-Style Savory Bread Pudding",
+      "description": "A custardy savory baked bread pudding with cheese, herbs, and either bacon or mushrooms.",
+      "sourcePath": "recipes/bread-pudding-savory.md",
+      "href": "bread-pudding-savory.html",
+      "overallConfidence": 0.9,
+      "uncertainFields": [
+        "containsMeat",
+        "vegetarian"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american",
+            "french"
+          ],
+          "recipeTypes": [
+            "casserole"
+          ],
+          "dishCourses": [
+            "side-dish",
+            "brunch-main"
+          ],
+          "mealTypes": [
+            "brunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "side",
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "bread",
+            "dairy",
+            "egg"
+          ],
+          "featuredIngredients": [
+            "brioche",
+            "cream",
+            "egg",
+            "gruyere",
+            "thyme"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "rich",
+            "umami",
+            "buttery"
+          ],
+          "textureProfiles": [
+            "custardy",
+            "crisp-top"
+          ],
+          "temperatureServed": [
+            "hot",
+            "warm"
+          ],
+          "servingFormats": [
+            "slice"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "bake"
+          ],
+          "secondaryCookingMethods": [
+            "toast",
+            "brown"
+          ],
+          "preparationTechniques": [
+            "custard-making",
+            "layering",
+            "resting"
+          ],
+          "equipmentRequired": [
+            "oven",
+            "baking-dish",
+            "mixing-bowl"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": null,
+          "containsSeafood": false,
+          "vegetarian": null,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": false,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "egg",
+            "gluten"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 35,
+          "inactiveTimeMinutes": 60,
+          "totalTimeMinutes": 95,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "brunch",
+            "holiday-side"
+          ],
+          "seasons": [
+            "fall",
+            "winter"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 8,
+          "bestServed": [
+            "warm"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 3,
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "low",
+          "umamiLevel": "high",
+          "richnessLevel": "high",
+          "heatLevel": "low",
+          "spiceIntensity": "low",
+          "dominantAromas": [
+            "brown-butter",
+            "thyme",
+            "cheese"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 3,
+          "components": [
+            "bread-base",
+            "savory-custard",
+            "flavor-core"
+          ],
+          "hasSubRecipes": false,
+          "requiresAssembly": true,
+          "requiresGarnish": true,
+          "garnishes": [
+            "chive-oil",
+            "brown-butter"
+          ],
+          "optionalComponents": [
+            "bacon",
+            "mushrooms"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "savory bread pudding",
+            "brunch casserole",
+            "cheesy bread bake"
+          ],
+          "additionalTags": [
+            "make-ahead",
+            "holiday-side"
+          ],
+          "collectionNames": [
+            "brunch",
+            "comfort-food"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bread-pudding-sweet",
+      "title": "Pro-Style Bread Pudding",
+      "description": "A rich dessert bread pudding with browned butter, warm spices, and an optional bourbon sauce.",
+      "sourcePath": "recipes/bread-pudding-sweet.md",
+      "href": "bread-pudding-sweet.html",
+      "overallConfidence": 0.94,
+      "uncertainFields": [
+        "alcoholFree"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american",
+            "british"
+          ],
+          "recipeTypes": [
+            "dessert"
+          ],
+          "dishCourses": [
+            "dessert-course"
+          ],
+          "mealTypes": [
+            "dessert"
+          ],
+          "menuRoles": [
+            "dessert"
+          ],
+          "primaryIngredientCategories": [
+            "bread",
+            "dairy",
+            "egg"
+          ],
+          "featuredIngredients": [
+            "brioche",
+            "brown-butter",
+            "vanilla",
+            "cinnamon",
+            "bourbon"
+          ],
+          "flavorProfiles": [
+            "sweet",
+            "rich",
+            "warm-spiced"
+          ],
+          "textureProfiles": [
+            "custardy",
+            "soft",
+            "golden-top"
+          ],
+          "temperatureServed": [
+            "warm"
+          ],
+          "servingFormats": [
+            "slice"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "bake"
+          ],
+          "secondaryCookingMethods": [
+            "brown"
+          ],
+          "preparationTechniques": [
+            "custard-making",
+            "resting"
+          ],
+          "equipmentRequired": [
+            "oven",
+            "baking-dish",
+            "saucepan"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": false,
+          "containsSeafood": false,
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": false,
+          "nutFree": null,
+          "alcoholFree": null
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "egg",
+            "gluten"
+          ],
+          "mayContain": [
+            "tree-nuts"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 30,
+          "inactiveTimeMinutes": 60,
+          "totalTimeMinutes": 90,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "holiday-dessert",
+            "dinner-party"
+          ],
+          "seasons": [
+            "fall",
+            "winter"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 9,
+          "bestServed": [
+            "warm"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 3,
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "medium",
+          "saltinessLevel": "low",
+          "acidityLevel": "low",
+          "umamiLevel": "low",
+          "richnessLevel": "high",
+          "smokeLevel": "low",
+          "heatLevel": "low",
+          "spiceIntensity": "medium",
+          "dominantFlavors": [
+            "vanilla",
+            "brown-sugar",
+            "cinnamon"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "specialtyIngredients": [
+            "vanilla-bean-paste"
+          ],
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 2,
+          "components": [
+            "bread-pudding",
+            "bourbon-vanilla-sauce"
+          ],
+          "hasSubRecipes": true,
+          "requiresAssembly": false,
+          "requiresGarnish": true,
+          "garnishes": [
+            "powdered-sugar",
+            "vanilla-ice-cream",
+            "whipped-mascarpone"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "bread pudding",
+            "bourbon sauce",
+            "holiday dessert"
+          ],
+          "additionalTags": [
+            "restaurant-style"
+          ],
+          "collectionNames": [
+            "desserts",
+            "holiday-baking"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cuban-black-beans",
+      "title": "Pro Cuban Black Beans (Frijoles Negros)",
+      "description": "A Cuban-style black bean preparation with sofrito, vinegar, and a silky bean broth.",
+      "sourcePath": "recipes/cuban-black-beans.md",
+      "href": "cuban-black-beans.html",
+      "overallConfidence": 0.93,
+      "uncertainFields": [
+        "containsMeat",
+        "vegetarian",
+        "vegan"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "cuban",
+            "caribbean"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "side-dish",
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "side",
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "beans",
+            "legumes"
+          ],
+          "featuredIngredients": [
+            "black-beans",
+            "sofrito",
+            "red-wine-vinegar"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "earthy",
+            "tangy"
+          ],
+          "textureProfiles": [
+            "creamy",
+            "brothy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "bowl"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer"
+          ],
+          "secondaryCookingMethods": [
+            "soak"
+          ],
+          "preparationTechniques": [
+            "sofrito-building",
+            "bean-cooking",
+            "mashing"
+          ],
+          "equipmentRequired": [
+            "pot",
+            "dutch-oven"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": null,
+          "containsSeafood": false,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": true,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": null
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 35,
+          "inactiveTimeMinutes": 120,
+          "totalTimeMinutes": 155,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": true,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner"
+          ],
+          "eventTypes": [
+            "beans-and-rice-meal"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 7,
+          "bestServed": [
+            "fresh",
+            "next-day"
+          ],
+          "storageMethods": [
+            "refrigerate",
+            "freeze"
+          ],
+          "refrigeratedShelfLifeDays": 5,
+          "frozenShelfLifeDays": 90,
+          "transportability": "high",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "medium",
+          "heatLevel": "low",
+          "spiceIntensity": "low",
+          "dominantFlavors": [
+            "black-bean",
+            "sofrito",
+            "vinegar"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "beans"
+          ],
+          "hasSubRecipes": false,
+          "requiresAssembly": false
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "cuban black beans",
+            "frijoles negros",
+            "beans and rice"
+          ],
+          "additionalTags": [
+            "make-ahead",
+            "freezer-friendly"
+          ],
+          "pairsWith": [
+            "white-rice",
+            "roast-pork",
+            "plantains"
+          ],
+          "collectionNames": [
+            "caribbean",
+            "budget-friendly"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "giant-cookie",
+      "title": "9x9 Cookie Bar (or Giant Cookie)",
+      "description": "A simple chocolate chip cookie dough baked as a bar or giant cookie cake.",
+      "sourcePath": "recipes/giant-cookie.md",
+      "href": "giant-cookie.html",
+      "overallConfidence": 0.95,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "recipeTypes": [
+            "cookie",
+            "dessert"
+          ],
+          "dishCourses": [
+            "dessert-course"
+          ],
+          "mealTypes": [
+            "dessert",
+            "snack"
+          ],
+          "menuRoles": [
+            "dessert"
+          ],
+          "primaryIngredientCategories": [
+            "baking",
+            "chocolate"
+          ],
+          "featuredIngredients": [
+            "butter",
+            "brown-sugar",
+            "chocolate-chips"
+          ],
+          "flavorProfiles": [
+            "sweet",
+            "buttery"
+          ],
+          "textureProfiles": [
+            "chewy",
+            "gooey-center",
+            "crisp-edge"
+          ],
+          "temperatureServed": [
+            "warm",
+            "room-temperature"
+          ],
+          "servingFormats": [
+            "bar",
+            "slice"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "bake"
+          ],
+          "secondaryCookingMethods": [
+            "smoke"
+          ],
+          "preparationTechniques": [
+            "mixing",
+            "pan-pressing"
+          ],
+          "equipmentRequired": [
+            "mixing-bowl",
+            "9x9-pan",
+            "oven"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": false,
+          "containsSeafood": false,
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": false,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "egg",
+            "gluten"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 15,
+          "inactiveTimeMinutes": 25,
+          "totalTimeMinutes": 40,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": true,
+          "reheatsWell": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "birthday",
+            "casual-dessert"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "bars",
+          "estimatedServings": 9,
+          "bestServed": [
+            "warm",
+            "room-temperature"
+          ],
+          "storageMethods": [
+            "counter",
+            "freeze"
+          ],
+          "transportability": "high",
+          "picnicFriendly": true,
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "high",
+          "saltinessLevel": "low",
+          "richnessLevel": "medium",
+          "dominantFlavors": [
+            "brown-sugar",
+            "vanilla",
+            "chocolate"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-pantry",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "cookie-bar"
+          ],
+          "hasSubRecipes": false
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "giant cookie",
+            "cookie bar",
+            "cookie cake"
+          ],
+          "additionalTags": [
+            "one-bowl",
+            "kid-friendly"
+          ],
+          "collectionNames": [
+            "desserts",
+            "easy-baking"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "grilled-lamb-chops",
+      "title": "Pro Grilled Lamb Chops",
+      "description": "Herb-marinated lamb chops grilled over high heat and finished with lemon and optional mint chimichurri.",
+      "sourcePath": "recipes/grilled-lamb-chops.md",
+      "href": "grilled-lamb-chops.html",
+      "overallConfidence": 0.93,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "mediterranean"
+          ],
+          "culturalInfluences": [
+            "greek"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "lamb"
+          ],
+          "featuredIngredients": [
+            "lamb-chops",
+            "rosemary",
+            "thyme",
+            "lemon",
+            "mint"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "herbaceous",
+            "smoky",
+            "bright"
+          ],
+          "textureProfiles": [
+            "charred",
+            "tender",
+            "juicy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "plated"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "grill"
+          ],
+          "secondaryCookingMethods": [
+            "sear"
+          ],
+          "preparationTechniques": [
+            "marinating",
+            "two-zone-cooking",
+            "resting"
+          ],
+          "equipmentRequired": [
+            "grill",
+            "mixing-bowl"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true,
+          "lowCarb": true,
+          "ketoCompatible": true,
+          "paleoCompatible": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 30,
+          "inactiveTimeMinutes": 300,
+          "totalTimeMinutes": 330,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": false,
+          "reheatsWell": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "date-night",
+            "dinner-party"
+          ],
+          "eventTypes": [
+            "grill-out"
+          ],
+          "crowdFriendly": false,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 4,
+          "bestServed": [
+            "fresh"
+          ],
+          "transportability": "low",
+          "potluckFriendly": false
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "high",
+          "smokeLevel": "medium",
+          "heatLevel": "low",
+          "dominantAromas": [
+            "rosemary",
+            "garlic",
+            "grill-smoke"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "mixed",
+          "budgetLevel": "high"
+        },
+        "recipeStructure": {
+          "componentCount": 2,
+          "components": [
+            "lamb-chops",
+            "mint-chimichurri"
+          ],
+          "hasSubRecipes": true,
+          "requiresGarnish": true,
+          "garnishes": [
+            "lemon",
+            "flaky-sea-salt"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "grilled lamb chops",
+            "mint chimichurri",
+            "special occasion dinner"
+          ],
+          "additionalTags": [
+            "high-heat-grilling"
+          ],
+          "collectionNames": [
+            "grilling",
+            "special-occasion"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "lobster-corn-chowder",
+      "title": "Restaurant-Style Lobster Corn Chowder",
+      "description": "A creamy chowder featuring lobster, sweet corn, potatoes, and bacon in a rich broth.",
+      "sourcePath": "recipes/lobster-corn-chowder.md",
+      "href": "lobster-corn-chowder.html",
+      "overallConfidence": 0.94,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "new-england",
+            "american"
+          ],
+          "recipeTypes": [
+            "broth",
+            "entree"
+          ],
+          "dishCourses": [
+            "starter",
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "starter",
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "seafood",
+            "dairy",
+            "vegetables"
+          ],
+          "featuredIngredients": [
+            "lobster",
+            "corn",
+            "potato",
+            "bacon",
+            "cream"
+          ],
+          "flavorProfiles": [
+            "rich",
+            "savory",
+            "sweet-corn",
+            "briny"
+          ],
+          "textureProfiles": [
+            "creamy",
+            "chunky"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "bowl"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer"
+          ],
+          "secondaryCookingMethods": [
+            "render",
+            "poach"
+          ],
+          "preparationTechniques": [
+            "roux-building",
+            "layered-soup-building"
+          ],
+          "equipmentRequired": [
+            "dutch-oven",
+            "pot"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": true,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": null
+        },
+        "allergenClassification": {
+          "contains": [
+            "shellfish",
+            "milk",
+            "gluten"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": "intermediate",
+          "activeTimeMinutes": 30,
+          "inactiveTimeMinutes": 30,
+          "totalTimeMinutes": 60,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": false,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "dinner-party",
+            "summer-seafood"
+          ],
+          "seasons": [
+            "summer",
+            "fall"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 6,
+          "bestServed": [
+            "fresh"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 2,
+          "transportability": "medium",
+          "potluckFriendly": false
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "low",
+          "umamiLevel": "high",
+          "richnessLevel": "high",
+          "smokeLevel": "low",
+          "heatLevel": "low",
+          "dominantFlavors": [
+            "lobster",
+            "corn",
+            "cream"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "mixed",
+          "specialtyIngredients": [
+            "lobster",
+            "seafood-stock"
+          ],
+          "budgetLevel": "high"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "chowder"
+          ],
+          "hasSubRecipes": false,
+          "requiresGarnish": true,
+          "garnishes": [
+            "bacon",
+            "chives",
+            "parsley"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "lobster chowder",
+            "corn chowder",
+            "seafood soup"
+          ],
+          "additionalTags": [
+            "restaurant-style"
+          ],
+          "collectionNames": [
+            "seafood",
+            "special-occasion"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mac-and-cheese",
+      "title": "Pro Mac & Cheese (Sloppy-Joe-Proof Edition)",
+      "description": "A structured baked macaroni and cheese with a crisp panko topping and savory cheese blend.",
+      "sourcePath": "recipes/mac-and-cheese.md",
+      "href": "mac-and-cheese.html",
+      "overallConfidence": 0.96,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "recipeTypes": [
+            "casserole",
+            "entree"
+          ],
+          "dishCourses": [
+            "side-dish",
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "side"
+          ],
+          "primaryIngredientCategories": [
+            "pasta",
+            "dairy"
+          ],
+          "featuredIngredients": [
+            "cavatappi",
+            "cheddar",
+            "gruyere",
+            "fontina",
+            "panko"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "cheesy",
+            "rich"
+          ],
+          "textureProfiles": [
+            "creamy",
+            "crisp-top"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "spooned"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "bake"
+          ],
+          "secondaryCookingMethods": [
+            "boil",
+            "broil"
+          ],
+          "preparationTechniques": [
+            "bechamel",
+            "cheese-sauce"
+          ],
+          "equipmentRequired": [
+            "pot",
+            "baking-dish",
+            "oven"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": false,
+          "containsSeafood": false,
+          "vegetarian": true,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "allergenClassification": {
+          "contains": [
+            "milk",
+            "gluten"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 30,
+          "inactiveTimeMinutes": 20,
+          "totalTimeMinutes": 50,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": 24,
+          "freezerFriendly": false,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner",
+            "potluck"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 6,
+          "bestServed": [
+            "hot"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 3,
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "high",
+          "dominantFlavors": [
+            "cheddar",
+            "gruyere",
+            "butter"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 2,
+          "components": [
+            "pasta",
+            "cheese-sauce"
+          ],
+          "hasSubRecipes": false,
+          "requiresAssembly": true,
+          "requiresGarnish": true,
+          "garnishes": [
+            "parsley",
+            "chives"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "mac and cheese",
+            "baked macaroni",
+            "panko topping"
+          ],
+          "additionalTags": [
+            "comfort-food",
+            "make-ahead"
+          ],
+          "relatedRecipes": [
+            "sloppy-joes",
+            "nacho-bar"
+          ],
+          "collectionNames": [
+            "comfort-food",
+            "weeknight-dinner"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mexican-rice",
+      "title": "Pro Mexican Rice (Arroz Rojo)",
+      "description": "A fluffy tomato-forward Mexican rice finished with a savory stock base.",
+      "sourcePath": "recipes/mexican-rice.md",
+      "href": "mexican-rice.html",
+      "overallConfidence": 0.95,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "mexican"
+          ],
+          "recipeTypes": [],
+          "dishCourses": [
+            "side-dish"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "side"
+          ],
+          "primaryIngredientCategories": [
+            "rice"
+          ],
+          "featuredIngredients": [
+            "long-grain-rice",
+            "tomato",
+            "chicken-stock"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "tomato-forward"
+          ],
+          "textureProfiles": [
+            "fluffy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "spooned"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer"
+          ],
+          "secondaryCookingMethods": [
+            "toast",
+            "steam"
+          ],
+          "preparationTechniques": [
+            "blending",
+            "rice-toasting",
+            "covered-resting"
+          ],
+          "equipmentRequired": [
+            "blender",
+            "saucepan"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 20,
+          "inactiveTimeMinutes": 15,
+          "totalTimeMinutes": 35,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": false,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner",
+            "taco-night"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 5,
+          "bestServed": [
+            "fresh"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "refrigeratedShelfLifeDays": 3,
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "low",
+          "umamiLevel": "medium",
+          "richnessLevel": "low",
+          "dominantFlavors": [
+            "tomato",
+            "chicken-stock",
+            "toasted-rice"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-pantry",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "rice"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "arroz rojo",
+            "mexican rice",
+            "restaurant rice"
+          ],
+          "relatedRecipes": [
+            "beef-tacos"
+          ],
+          "pairsWith": [
+            "beef-tacos",
+            "enchiladas",
+            "carnitas"
+          ],
+          "collectionNames": [
+            "mexican-sides",
+            "weeknight-dinner"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "nacho-bar",
+      "title": "Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar",
+      "description": "A multi-component event packet for a themed nacho and mac-and-cheese buffet with proteins, queso, toppings, and service notes.",
+      "sourcePath": "recipes/nacho-bar.md",
+      "href": "nacho-bar.html",
+      "overallConfidence": 0.97,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "tex-mex",
+            "american",
+            "fusion"
+          ],
+          "recipeTypes": [],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "party",
+            "dinner"
+          ],
+          "menuRoles": [
+            "buffet"
+          ],
+          "cookingStyles": [
+            "party-food",
+            "batch-cooking"
+          ],
+          "primaryIngredientCategories": [
+            "beef",
+            "chicken",
+            "dairy",
+            "pasta"
+          ],
+          "featuredIngredients": [
+            "ground-beef",
+            "chicken-thighs",
+            "queso",
+            "tortilla-chips",
+            "cavatappi"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "crowd-pleasing",
+            "customizable"
+          ],
+          "textureProfiles": [
+            "crispy",
+            "melty",
+            "saucy"
+          ],
+          "temperatureServed": [
+            "hot",
+            "room-temperature"
+          ],
+          "servingFormats": [
+            "buffet",
+            "bar"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "braise",
+            "saute",
+            "bake"
+          ],
+          "secondaryCookingMethods": [
+            "hold-hot",
+            "pickle"
+          ],
+          "preparationTechniques": [
+            "dry-brine",
+            "batch-cooking",
+            "assembly"
+          ],
+          "equipmentRequired": [
+            "oven",
+            "stovetop",
+            "hotel-pan",
+            "sheet-pan"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": false,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "hard",
+          "skillLevel": "advanced",
+          "activeTimeMinutes": 240,
+          "inactiveTimeMinutes": 120,
+          "totalTimeMinutes": 360,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": false,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "game-night",
+            "party"
+          ],
+          "eventTypes": [
+            "buffet",
+            "themed-event"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "event",
+          "estimatedServings": 8,
+          "batchSize": "teen-party",
+          "bestServed": [
+            "buffet-service"
+          ],
+          "holdingSuitability": "high",
+          "maximumHoldingMinutes": 240,
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "transportability": "low",
+          "potluckFriendly": false
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "high",
+          "richnessLevel": "high",
+          "heatLevel": "medium",
+          "spiceIntensity": "medium",
+          "dominantFlavors": [
+            "chile",
+            "cheese",
+            "smoke"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "mixed",
+          "specialtyIngredients": [
+            "guajillo-chiles",
+            "ancho-chiles",
+            "calabrian-chile-paste"
+          ],
+          "budgetLevel": "high"
+        },
+        "recipeStructure": {
+          "componentCount": 10,
+          "components": [
+            "red-chile-base",
+            "braised-chicken",
+            "nacho-beef",
+            "queso",
+            "pickled-onions",
+            "nacho-bar-layout",
+            "mac-base",
+            "bacon-topping",
+            "panko-topping",
+            "chile-oil"
+          ],
+          "hasSubRecipes": true,
+          "requiresAssembly": true,
+          "requiresGarnish": true,
+          "garnishes": [
+            "scallions",
+            "chives",
+            "parsley",
+            "pickled-red-onions"
+          ],
+          "optionalComponents": [
+            "blue-corn-chips",
+            "dragon-breath-reserve"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "nacho bar",
+            "mac and cheese bar",
+            "party menu",
+            "dungeons and dragons food"
+          ],
+          "additionalTags": [
+            "event-packet",
+            "multi-component",
+            "theme-menu"
+          ],
+          "relatedRecipes": [
+            "mac-and-cheese"
+          ],
+          "collectionNames": [
+            "party-food",
+            "game-night"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "potato-soup-spanish",
+      "title": "Potaje de Garbanzos con Chorizo",
+      "description": "A Spanish chickpea, vegetable, and chorizo stew with smoky paprika broth.",
+      "sourcePath": "recipes/potato-soup-spanish.md",
+      "href": "potato-soup-spanish.html",
+      "overallConfidence": 0.95,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "spanish"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "pork",
+            "legumes",
+            "vegetables"
+          ],
+          "featuredIngredients": [
+            "chorizo",
+            "chickpeas",
+            "potato",
+            "smoked-paprika"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "smoky",
+            "hearty"
+          ],
+          "textureProfiles": [
+            "brothy",
+            "hearty"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "bowl"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer"
+          ],
+          "secondaryCookingMethods": [
+            "render"
+          ],
+          "preparationTechniques": [
+            "sofrito-building",
+            "stewing"
+          ],
+          "equipmentRequired": [
+            "dutch-oven",
+            "soup-pot"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 20,
+          "inactiveTimeMinutes": 40,
+          "totalTimeMinutes": 60,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": true,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner"
+          ],
+          "seasons": [
+            "fall",
+            "winter"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 5,
+          "bestServed": [
+            "fresh",
+            "next-day"
+          ],
+          "storageMethods": [
+            "refrigerate",
+            "freeze"
+          ],
+          "transportability": "high",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "low",
+          "umamiLevel": "medium",
+          "richnessLevel": "medium",
+          "smokeLevel": "medium",
+          "dominantFlavors": [
+            "chorizo",
+            "paprika",
+            "chickpea"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "stew"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "potaje de garbanzos",
+            "spanish chickpea stew",
+            "chorizo stew"
+          ],
+          "collectionNames": [
+            "spanish",
+            "cold-weather"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "savory-chicken-wing-rub",
+      "title": "Savory Grilled Chicken Wings",
+      "description": "Dry-rubbed grilled chicken wings with an optional garlic butter finish.",
+      "sourcePath": "recipes/savory-chicken-wing-rub.md",
+      "href": "savory-chicken-wing-rub.html",
+      "overallConfidence": 0.96,
+      "uncertainFields": [
+        "dairyFree"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "appetizer",
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "starter",
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "chicken",
+            "seasoning"
+          ],
+          "featuredIngredients": [
+            "chicken-wings",
+            "smoked-paprika",
+            "garlic",
+            "butter"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "smoky"
+          ],
+          "textureProfiles": [
+            "crisp-skin",
+            "juicy"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "finger-food"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "grill"
+          ],
+          "secondaryCookingMethods": [
+            "smoke"
+          ],
+          "preparationTechniques": [
+            "dry-brine",
+            "two-zone-cooking"
+          ],
+          "equipmentRequired": [
+            "grill",
+            "mixing-bowl"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": true,
+          "dairyFree": null,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 20,
+          "inactiveTimeMinutes": 60,
+          "totalTimeMinutes": 80,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": false
+        },
+        "occasionClassification": {
+          "occasions": [
+            "game-day",
+            "cookout"
+          ],
+          "eventTypes": [
+            "grill-out"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 5,
+          "bestServed": [
+            "fresh"
+          ],
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "medium",
+          "smokeLevel": "medium",
+          "heatLevel": "low",
+          "dominantFlavors": [
+            "paprika",
+            "garlic",
+            "chicken"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "medium"
+        },
+        "recipeStructure": {
+          "componentCount": 2,
+          "components": [
+            "dry-rub",
+            "garlic-butter-finish"
+          ],
+          "hasSubRecipes": true,
+          "requiresAssembly": false
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "grilled chicken wings",
+            "dry rub wings",
+            "game day wings"
+          ],
+          "collectionNames": [
+            "game-day",
+            "grilling"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sloppy-joes",
+      "title": "Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)",
+      "description": "A savory-sweet loose beef sandwich filling with ketchup, mustard, Worcestershire, and optional add-ins.",
+      "sourcePath": "recipes/sloppy-joes.md",
+      "href": "sloppy-joes.html",
+      "overallConfidence": 0.96,
+      "uncertainFields": [
+        "glutenFree"
+      ],
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "beef",
+            "sandwich"
+          ],
+          "featuredIngredients": [
+            "ground-beef",
+            "ketchup",
+            "mustard",
+            "worcestershire"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "sweet-savory",
+            "tangy",
+            "smoky"
+          ],
+          "textureProfiles": [
+            "saucy",
+            "crumbly"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "sandwich"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "saute"
+          ],
+          "secondaryCookingMethods": [
+            "simmer"
+          ],
+          "preparationTechniques": [
+            "browning",
+            "sauce-building"
+          ],
+          "equipmentRequired": [
+            "skillet"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": null,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": null
+        },
+        "allergenClassification": {
+          "contains": [
+            "soy"
+          ]
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 15,
+          "inactiveTimeMinutes": 30,
+          "totalTimeMinutes": 45,
+          "makeAheadSuitability": "high",
+          "freezerFriendly": true,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true,
+          "specialOccasion": false
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 5,
+          "bestServed": [
+            "hot"
+          ],
+          "storageMethods": [
+            "refrigerate",
+            "freeze"
+          ],
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "medium",
+          "saltinessLevel": "medium",
+          "acidityLevel": "medium",
+          "umamiLevel": "medium",
+          "richnessLevel": "medium",
+          "smokeLevel": "low",
+          "heatLevel": "low",
+          "dominantFlavors": [
+            "beef",
+            "ketchup",
+            "mustard"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "sandwich-filling"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "sloppy joes",
+            "ground beef sandwich",
+            "weeknight sandwich"
+          ],
+          "relatedRecipes": [
+            "mac-and-cheese"
+          ],
+          "collectionNames": [
+            "comfort-food",
+            "weeknight-dinner"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sopa-de-pollo",
+      "title": "Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)",
+      "description": "A Spanish-style chicken noodle soup with paprika, tomato, chickpeas, and optional saffron.",
+      "sourcePath": "recipes/sopa-de-pollo.md",
+      "href": "sopa-de-pollo.html",
+      "overallConfidence": 0.95,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "spanish"
+          ],
+          "recipeTypes": [
+            "entree"
+          ],
+          "dishCourses": [
+            "starter",
+            "main-course"
+          ],
+          "mealTypes": [
+            "lunch",
+            "dinner"
+          ],
+          "menuRoles": [
+            "starter",
+            "main"
+          ],
+          "primaryIngredientCategories": [
+            "chicken",
+            "pasta",
+            "legumes"
+          ],
+          "featuredIngredients": [
+            "chicken",
+            "fideos",
+            "chickpeas",
+            "smoked-paprika",
+            "saffron"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "comforting",
+            "bright"
+          ],
+          "textureProfiles": [
+            "brothy",
+            "hearty"
+          ],
+          "temperatureServed": [
+            "hot"
+          ],
+          "servingFormats": [
+            "bowl"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer"
+          ],
+          "preparationTechniques": [
+            "soup-building"
+          ],
+          "equipmentRequired": [
+            "dutch-oven",
+            "soup-pot"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": false,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": false,
+          "dairyFree": true,
+          "eggFree": true,
+          "nutFree": true,
+          "alcoholFree": true
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": "beginner",
+          "activeTimeMinutes": 20,
+          "inactiveTimeMinutes": 20,
+          "totalTimeMinutes": 40,
+          "makeAheadSuitability": "medium",
+          "freezerFriendly": false,
+          "reheatsWell": true
+        },
+        "occasionClassification": {
+          "occasions": [
+            "family-dinner"
+          ],
+          "seasons": [
+            "fall",
+            "winter"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "servings",
+          "estimatedServings": 7,
+          "bestServed": [
+            "fresh"
+          ],
+          "storageMethods": [
+            "refrigerate"
+          ],
+          "transportability": "medium",
+          "potluckFriendly": true
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": "low",
+          "saltinessLevel": "medium",
+          "acidityLevel": "low",
+          "umamiLevel": "medium",
+          "richnessLevel": "low",
+          "smokeLevel": "medium",
+          "heatLevel": "low",
+          "dominantFlavors": [
+            "chicken",
+            "paprika",
+            "tomato"
+          ]
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "common-grocery",
+          "budgetLevel": "low"
+        },
+        "recipeStructure": {
+          "componentCount": 1,
+          "components": [
+            "soup"
+          ]
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "sopa de pollo",
+            "spanish chicken soup",
+            "fideos soup"
+          ],
+          "collectionNames": [
+            "soups",
+            "comfort-food"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "spanish-ribs",
+      "title": "Spanish-Inspired Rib Dinner Menu",
+      "description": "A Spanish-style dinner menu centered on smoked paprika ribs with tapas, sides, dessert, and beverage pairings.",
+      "sourcePath": "recipes/spanish-ribs.md",
+      "href": "spanish-ribs.html",
+      "overallConfidence": 0.96,
+      "classification": {
+        "culinaryClassification": {
+          "cuisines": [
+            "spanish"
+          ],
+          "recipeTypes": [],
+          "dishCourses": [
+            "main-course"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [
+            "menu"
+          ],
+          "cookingStyles": [
+            "dinner-party",
+            "family-style"
+          ],
+          "primaryIngredientCategories": [
+            "pork",
+            "appetizers",
+            "dessert"
+          ],
+          "featuredIngredients": [
+            "ribs",
+            "smoked-paprika",
+            "sherry",
+            "marcona-almonds",
+            "basque-cheesecake"
+          ],
+          "flavorProfiles": [
+            "savory",
+            "smoky",
+            "bright"
+          ],
+          "textureProfiles": [
+            "multi-texture"
+          ],
+          "temperatureServed": [
+            "hot",
+            "room-temperature"
+          ],
+          "servingFormats": [
+            "plated-menu",
+            "family-style"
+          ]
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "roast"
+          ],
+          "secondaryCookingMethods": [
+            "assemble"
+          ],
+          "preparationTechniques": [
+            "menu-planning",
+            "multi-course-service"
+          ],
+          "equipmentRequired": [
+            "oven",
+            "serving-platters"
+          ]
+        },
+        "dietaryClassification": {
+          "containsMeat": true,
+          "containsSeafood": null,
+          "vegetarian": false,
+          "vegan": false,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": false,
+          "alcoholFree": false
+        },
+        "difficultyAndTime": {
+          "difficulty": "hard",
+          "skillLevel": "advanced",
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "medium"
+        },
+        "occasionClassification": {
+          "occasions": [
+            "dinner-party",
+            "holiday-dinner"
+          ],
+          "crowdFriendly": true,
+          "weeknightFriendly": false,
+          "specialOccasion": true
+        },
+        "serviceAndStorage": {
+          "yieldType": "menu",
+          "estimatedServings": null,
+          "bestServed": [
+            "staged-service"
+          ],
+          "transportability": "low",
+          "potluckFriendly": false
+        },
+        "ingredientAndCost": {
+          "ingredientAvailability": "mixed",
+          "specialtyIngredients": [
+            "marcona-almonds",
+            "sherry"
+          ],
+          "budgetLevel": "high"
+        },
+        "recipeStructure": {
+          "componentCount": 7,
+          "components": [
+            "paprika-ribs",
+            "pan-con-tomate",
+            "olive-tapenade",
+            "warm-marcona-almonds",
+            "roasted-peppers",
+            "citrus-fennel-salad",
+            "basque-cheesecake"
+          ],
+          "hasSubRecipes": true,
+          "requiresAssembly": true,
+          "requiresGarnish": true
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "spanish dinner menu",
+            "paprika ribs",
+            "dinner party menu"
+          ],
+          "additionalTags": [
+            "menu-plan",
+            "multi-course"
+          ],
+          "collectionNames": [
+            "spanish",
+            "dinner-party"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "build:recipes": "node scripts/build-recipes.js"
+    "build:recipes": "node scripts/build-recipes.js",
+    "build:classifications": "node scripts/build-classifications.js",
+    "build:index": "node scripts/build-index.js",
+    "build:site": "npm run build:classifications && npm run build:index"
   },
   "dependencies": {
     "marked": "^15.0.0"
