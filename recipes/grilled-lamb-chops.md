@@ -1,3 +1,31 @@
+---
+title: Pro Grilled Lamb Chops
+slug: grilled-lamb-chops
+description: Herb-marinated lamb chops grilled over high heat and finished with lemon and optional mint chimichurri.
+servings: 4
+yield: servings
+prepTime: 30 minutes
+cookTime: 5 hours
+totalTime: 5 hours 30 minutes
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [mediterranean]
+  courses: [main-course]
+  mealTypes: [dinner]
+  cookingMethods: [grill]
+  primaryIngredients: [lamb]
+  dietaryTags: []
+  occasions: [date-night, dinner-party]
+  collections: [grilling, special-occasion]
+  keywords: [grilled lamb chops, mint chimichurri, special occasion dinner]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: false
+---
 # Pro Grilled Lamb Chops
 
 Restaurant-style grilled lamb chops with a flavorful herb marinade, a beautifully charred crust, and a bright finish.

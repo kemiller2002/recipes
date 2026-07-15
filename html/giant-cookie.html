@@ -3,45 +3,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>9×9 Cookie Bar (or Giant Cookie)</title>
+  <title>9x9 Cookie Bar (or Giant Cookie)</title>
   <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
 </head>
 <body>
-  <main class="recipe">
-    <article class="recipe-card">
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>9x9 Cookie Bar (or Giant Cookie)</h1>
+        <p class="recipe-summary">A simple chocolate chip cookie dough baked as a bar or giant cookie cake.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>9</dd></div>
+<div><dt>Yield</dt><dd>bars</dd></div>
+<div><dt>Prep</dt><dd>15 minutes</dd></div>
+<div><dt>Cook</dt><dd>25 minutes</dd></div>
+<div><dt>Total</dt><dd>40 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
 <h1>9×9 Cookie Bar (or Giant Cookie)</h1>
-<p>If you&#39;re deciding between a giant cookie and a 9×9 cookie bar, they&#39;re essentially the same thing—the main difference is thickness and baking time.</p>
+<p>If you're deciding between a giant cookie and a 9×9 cookie bar, they're essentially the same thing—the main difference is thickness and baking time.</p>
 <h2>Ingredients</h2>
 <ul>
-<li><span class="amount">1/2 cup</span> <span class="item">(1 stick) butter, melted</span></li>
-<li><span class="amount">1/2 cup</span> <span class="item">brown sugar</span></li>
-<li><span class="amount">1/4 cup</span> <span class="item">granulated sugar</span></li>
-<li><span class="amount">1</span> <span class="item">egg</span></li>
-<li><span class="amount">1 tsp</span> <span class="item">vanilla extract</span></li>
-<li><span class="amount">1 1/4 cups</span> <span class="item">all-purpose flour</span></li>
-<li><span class="amount">1/2 tsp</span> <span class="item">baking soda</span></li>
-<li><span class="amount">1/2 tsp</span> <span class="item">salt</span></li>
-<li><span class="amount">1 cup</span> <span class="item">chocolate chips</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">(1 stick) butter, melted</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">brown sugar</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">granulated sugar</span></li>
+  <li><span class="amount">1</span> <span class="item">egg</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">vanilla extract</span></li>
+  <li><span class="amount">1 1/4 cups</span> <span class="item">all-purpose flour</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">baking soda</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">salt</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">chocolate chips</span></li>
 </ul>
 <h2>Directions</h2>
 <ol>
-<li>Preheat oven to <strong>350°F (175°C)</strong>.</li>
-<li>Grease a 9×9-inch baking pan or line it with parchment paper.</li>
-<li>In a mixing bowl, combine the melted butter, brown sugar, and granulated sugar.</li>
-<li><span class="verb">Stir</span> in the egg and vanilla until well combined.</li>
-<li><span class="verb">Add</span> the flour, baking soda, and salt. Mix until just combined.</li>
-<li>Fold in the chocolate chips.</li>
-<li>Press the dough evenly into the prepared pan.</li>
-<li>Bake for <strong>22–28 minutes</strong>, until the edges are golden brown and the center is just set.</li>
+  <li>Preheat oven to <strong>350°F (175°C)</strong>.</li>
+  <li>Grease a 9×9-inch baking pan or line it with parchment paper.</li>
+  <li>In a mixing bowl, combine the melted butter, brown sugar, and granulated sugar.</li>
+  <li><span class="verb">Stir</span> in the egg and vanilla until well combined.</li>
+  <li><span class="verb">Add</span> the flour, baking soda, and salt. Mix until just combined.</li>
+  <li>Fold in the chocolate chips.</li>
+  <li>Press the dough evenly into the prepared pan.</li>
+  <li>Bake for <strong>22–28 minutes</strong>, until the edges are golden brown and the center is just set.</li>
 </ol>
 <h2>For a Gooey Center</h2>
 <p>Remove from the oven after <strong>22–24 minutes</strong>. The cookie bar will continue to cook slightly as it cools.</p>
 <h2>For a Giant Cookie Cake</h2>
 <p>Use the same dough and bake it in a round cake pan or cast-iron skillet. Allow it to cool completely before decorating with frosting.</p>
 <h2>Smoker Variation</h2>
-<p>If you&#39;re already using a smoker, place the cast-iron skillet on the smoker and cook indirectly at <strong>325–350°F</strong> for <strong>25–35 minutes</strong>. This adds a subtle wood-fired flavor.</p>
-
+<p>If you're already using a smoker, place the cast-iron skillet on the smoker and cook indirectly at <strong>325–350°F</strong> for <strong>25–35 minutes</strong>. This adds a subtle wood-fired flavor.</p>
+      </section>
     </article>
   </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
 </body>
 </html>

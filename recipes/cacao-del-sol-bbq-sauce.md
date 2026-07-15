@@ -1,11 +1,34 @@
 ---
 title: Cacao del Sol Competition Sauce
-servings: 3 cups
-prepTime: 20 minutes
-cookTime: 40 minutes
----
+slug: cacao-del-sol-bbq-sauce
+description: A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert.
+servings: null
+yield: sauce
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: medium
+source: null
+author: null
 
+search:
+  cuisines: [fusion]
+  courses: [condiment]
+  mealTypes: [dinner]
+  cookingMethods: [simmer, blend]
+  primaryIngredients: [tomato, chocolate]
+  dietaryTags: []
+  occasions: [cookout, competition]
+  collections: [sauces, grilling]
+  keywords: [bbq sauce, competition sauce, cacao sauce]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Cacao del Sol Competition Sauce
+
+A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert.
 
 ## Main Recipe
 

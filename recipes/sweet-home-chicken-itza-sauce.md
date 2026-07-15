@@ -1,11 +1,34 @@
 ---
 title: Sweet Home Chichén Itzá Sauce
-servings: 3 cups
-prepTime: 20 minutes
-cookTime: 35 minutes
----
+slug: sweet-home-chicken-itza-sauce
+description: A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle.
+servings: null
+yield: sauce
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: easy
+source: null
+author: null
 
+search:
+  cuisines: [fusion]
+  courses: [condiment]
+  mealTypes: [dinner]
+  cookingMethods: [simmer, blend]
+  primaryIngredients: [tomato, chocolate]
+  dietaryTags: []
+  occasions: [cookout, competition]
+  collections: [sauces, grilling]
+  keywords: [table sauce, yucatan sauce, cacao sauce]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Sweet Home Chichén Itzá Sauce
+
+A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle.
 
 ## Main Recipe
 

@@ -1,11 +1,34 @@
 ---
 title: Mayan Three-Cacao BBQ Sauce
-servings: 3 cups
-prepTime: 20 minutes
-cookTime: 40 minutes
----
+slug: mayan-three-cacoa-bbq-sauce
+description: A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke.
+servings: null
+yield: sauce
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: medium
+source: null
+author: null
 
+search:
+  cuisines: [fusion]
+  courses: [condiment]
+  mealTypes: [dinner]
+  cookingMethods: [simmer, blend]
+  primaryIngredients: [tomato, chocolate]
+  dietaryTags: []
+  occasions: [cookout, competition]
+  collections: [sauces, grilling]
+  keywords: [bbq sauce, cacao bbq sauce, competition sauce]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Mayan Three-Cacao BBQ Sauce
+
+A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke.
 
 ## Main Recipe
 

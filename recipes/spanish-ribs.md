@@ -1,4 +1,34 @@
+---
+title: Spanish-Inspired Rib Dinner Menu
+slug: spanish-ribs
+description: A Spanish-style dinner menu centered on smoked paprika ribs with tapas, sides, dessert, and beverage pairings.
+servings: null
+yield: menu
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: hard
+source: null
+author: null
+
+search:
+  cuisines: [spanish]
+  courses: [main-course]
+  mealTypes: [dinner]
+  cookingMethods: [roast]
+  primaryIngredients: [pork, appetizers, dessert]
+  dietaryTags: []
+  occasions: [dinner-party, holiday-dinner]
+  collections: [spanish, dinner-party]
+  keywords: [spanish dinner menu, paprika ribs, dinner party menu]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: null
+  reheatsWell: null
+---
 # Spanish-Inspired Rib Dinner Menu
+
+A Spanish-style dinner menu centered on smoked paprika ribs with tapas, sides, dessert, and beverage pairings.
 
 ## Main Course
 

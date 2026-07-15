@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "generatedAt": "2026-07-14",
-  "recipeCount": 16,
+  "recipeCount": 21,
   "fields": {
     "id": "stable slug",
     "title": "display title",
@@ -477,6 +477,86 @@
         "totalTimeMinutes": 90,
         "estimatedServings": 9,
         "confidence": 0.94
+      }
+    },
+    {
+      "id": "cacao-del-sol-bbq-sauce",
+      "title": "Cacao del Sol Competition Sauce",
+      "slug": "cacao-del-sol-bbq-sauce",
+      "description": "A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert.",
+      "href": "cacao-del-sol-bbq-sauce.html",
+      "sourcePath": "recipes/cacao-del-sol-bbq-sauce.md",
+      "searchText": "Cacao del Sol Competition Sauce cacao-del-sol-bbq-sauce A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert. fusion condiment dinner tomato chocolate simmer blend cookout competition bbq sauce competition sauce cacao sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Cacao del Sol Competition Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
       }
     },
     {
@@ -1035,6 +1115,165 @@
         "totalTimeMinutes": 50,
         "estimatedServings": 6,
         "confidence": 0.96
+      }
+    },
+    {
+      "id": "mayan-night-bbq-sauce",
+      "title": "Mayan Night BBQ Sauce",
+      "slug": "mayan-night-bbq-sauce",
+      "description": "A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats.",
+      "href": "mayan-night-bbq-sauce.html",
+      "sourcePath": "recipes/mayan-night-bbq-sauce.md",
+      "searchText": "Mayan Night BBQ Sauce mayan-night-bbq-sauce A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats. fusion condiment dinner tomato chocolate simmer blend cookout bbq sauce mayan bbq sauce chipotle sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Mayan Night BBQ Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "mayan-three-cacoa-bbq-sauce",
+      "title": "Mayan Three-Cacao BBQ Sauce",
+      "slug": "mayan-three-cacoa-bbq-sauce",
+      "description": "A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke.",
+      "href": "mayan-three-cacoa-bbq-sauce.html",
+      "sourcePath": "recipes/mayan-three-cacoa-bbq-sauce.md",
+      "searchText": "Mayan Three-Cacao BBQ Sauce mayan-three-cacoa-bbq-sauce A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke. fusion condiment dinner tomato chocolate simmer blend cookout competition bbq sauce cacao bbq sauce competition sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Mayan Three-Cacao BBQ Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
       }
     },
     {
@@ -1781,6 +2020,166 @@
         "totalTimeMinutes": null,
         "estimatedServings": null,
         "confidence": 0.96
+      }
+    },
+    {
+      "id": "sweet-home-chicago-dip",
+      "title": "Sweet Home Chicago Dip",
+      "slug": "sweet-home-chicago-dip",
+      "description": "A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders.",
+      "href": "sweet-home-chicago-dip.html",
+      "sourcePath": "recipes/sweet-home-chicago-dip.md",
+      "searchText": "Sweet Home Chicago Dip sweet-home-chicago-dip A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders. american appetizer party dinner beef dairy bake game-day italian beef dip baked dip party dip party-food dips",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "appetizer"
+        ],
+        "mealTypes": [
+          "party",
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "beef",
+          "dairy"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "bake"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "game-day",
+          "party"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "party-food",
+          "dips"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Sweet Home Chicago Dip",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "sweet-home-chicken-itza-sauce",
+      "title": "Sweet Home Chichén Itzá Sauce",
+      "slug": "sweet-home-chicken-itza-sauce",
+      "description": "A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle.",
+      "href": "sweet-home-chicken-itza-sauce.html",
+      "sourcePath": "recipes/sweet-home-chicken-itza-sauce.md",
+      "searchText": "Sweet Home Chichén Itzá Sauce sweet-home-chicken-itza-sauce A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle. fusion condiment dinner tomato chocolate simmer blend cookout competition table sauce yucatan sauce cacao sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Sweet Home Chichén Itzá Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
       }
     }
   ]

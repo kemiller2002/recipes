@@ -1,3 +1,31 @@
+---
+title: Pro Mac & Cheese (Sloppy-Joe-Proof Edition)
+slug: mac-and-cheese
+description: A structured baked macaroni and cheese with a crisp panko topping and savory cheese blend.
+servings: 6
+yield: servings
+prepTime: 30 minutes
+cookTime: 20 minutes
+totalTime: 50 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [american]
+  courses: [side-dish, main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [bake]
+  primaryIngredients: [pasta, dairy]
+  dietaryTags: []
+  occasions: [family-dinner, potluck]
+  collections: [comfort-food, weeknight-dinner]
+  keywords: [mac and cheese, baked macaroni, panko topping]
+  relatedRecipes: [sloppy-joes, nacho-bar]
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Pro Mac & Cheese (Sloppy-Joe-Proof Edition)
 
 A rich, savory, adult mac & cheese designed to stand up to beefy, tangy sloppy joes without getting lost. Creamy interior, structured sauce, crisp top.

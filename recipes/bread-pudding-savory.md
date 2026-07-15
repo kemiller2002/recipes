@@ -1,3 +1,31 @@
+---
+title: Pro-Style Savory Bread Pudding
+slug: bread-pudding-savory
+description: A custardy savory baked bread pudding with cheese, herbs, and either bacon or mushrooms.
+servings: 8
+yield: servings
+prepTime: 35 minutes
+cookTime: 1 hour
+totalTime: 1 hour 35 minutes
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [american, french]
+  courses: [side-dish, brunch-main]
+  mealTypes: [brunch, dinner]
+  cookingMethods: [bake]
+  primaryIngredients: [bread, dairy, egg]
+  dietaryTags: []
+  occasions: [brunch, holiday-side]
+  collections: [brunch, comfort-food]
+  keywords: [savory bread pudding, brunch casserole, cheesy bread bake]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Pro-Style Savory Bread Pudding
 *Crisp top, custardy interior, deeply savory*
 

@@ -1,3 +1,31 @@
+---
+title: Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)
+slug: sloppy-joes
+description: A savory-sweet loose beef sandwich filling with ketchup, mustard, Worcestershire, and optional add-ins.
+servings: 5
+yield: servings
+prepTime: 15 minutes
+cookTime: 30 minutes
+totalTime: 45 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [american]
+  courses: [main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [saute]
+  primaryIngredients: [beef, sandwich]
+  dietaryTags: []
+  occasions: [family-dinner]
+  collections: [comfort-food, weeknight-dinner]
+  keywords: [sloppy joes, ground beef sandwich, weeknight sandwich]
+  relatedRecipes: [mac-and-cheese]
+  makeAhead: true
+  freezerFriendly: true
+  reheatsWell: true
+---
 # Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)
 
 Serves 4–6  

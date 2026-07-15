@@ -1,3 +1,31 @@
+---
+title: Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar
+slug: nacho-bar
+description: A multi-component event packet for a themed nacho and mac-and-cheese buffet with proteins, queso, toppings, and service notes.
+servings: 8
+yield: event
+prepTime: 4 hours
+cookTime: 2 hours
+totalTime: 6 hours
+difficulty: hard
+source: null
+author: null
+
+search:
+  cuisines: [tex-mex, american, fusion]
+  courses: [main-course]
+  mealTypes: [party, dinner]
+  cookingMethods: [braise, saute, bake]
+  primaryIngredients: [beef, chicken, dairy, pasta]
+  dietaryTags: []
+  occasions: [game-night, party]
+  collections: [party-food, game-night]
+  keywords: [nacho bar, mac and cheese bar, party menu, dungeons and dragons food]
+  relatedRecipes: [mac-and-cheese]
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar
 ## Complete Event Packet
 

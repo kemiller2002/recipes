@@ -1,11 +1,34 @@
 ---
 title: Sweet Home Chicago Dip
-servings: 10-12
-prepTime: 20 minutes
-cookTime: 25 minutes
----
+slug: sweet-home-chicago-dip
+description: A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders.
+servings: null
+yield: dip
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: medium
+source: null
+author: null
 
+search:
+  cuisines: [american]
+  courses: [appetizer]
+  mealTypes: [party, dinner]
+  cookingMethods: [bake]
+  primaryIngredients: [beef, dairy]
+  dietaryTags: []
+  occasions: [game-day, party]
+  collections: [party-food, dips]
+  keywords: [italian beef dip, baked dip, party dip]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Sweet Home Chicago Dip
+
+A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders.
 
 ## Main Recipe
 

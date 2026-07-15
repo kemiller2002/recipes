@@ -1,3 +1,31 @@
+---
+title: Pro Mexican Rice (Arroz Rojo)
+slug: mexican-rice
+description: A fluffy tomato-forward Mexican rice finished with a savory stock base.
+servings: 5
+yield: servings
+prepTime: 20 minutes
+cookTime: 15 minutes
+totalTime: 35 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [mexican]
+  courses: [side-dish]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [simmer]
+  primaryIngredients: [rice]
+  dietaryTags: []
+  occasions: [family-dinner, taco-night]
+  collections: [mexican-sides, weeknight-dinner]
+  keywords: [arroz rojo, mexican rice, restaurant rice]
+  relatedRecipes: [beef-tacos]
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Pro Mexican Rice (Arroz Rojo)
 
 A restaurant-style Mexican rice with deep tomato flavor, fluffy grains, and a rich savory finish.

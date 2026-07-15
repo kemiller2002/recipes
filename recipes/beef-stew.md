@@ -1,3 +1,31 @@
+---
+title: Pro Beef Stew
+slug: beef-stew
+description: A slow-cooked beef stew built with deep browning, stock, wine, and a bright acidic finish.
+servings: null
+yield: servings
+prepTime: 45 minutes
+cookTime: 3 hours
+totalTime: 3 hours 45 minutes
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [american]
+  courses: [main-course]
+  mealTypes: [dinner]
+  cookingMethods: [braise]
+  primaryIngredients: [beef, vegetables]
+  dietaryTags: []
+  occasions: [family-dinner]
+  collections: [comfort-food, cold-weather]
+  keywords: [beef stew, dutch oven, slow cooked, comfort food]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: true
+  reheatsWell: true
+---
 # Pro Beef Stew
 
 ## Why It Works

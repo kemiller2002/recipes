@@ -1,3 +1,31 @@
+---
+title: Potaje de Garbanzos con Chorizo
+slug: potato-soup-spanish
+description: A Spanish chickpea, vegetable, and chorizo stew with smoky paprika broth.
+servings: 5
+yield: servings
+prepTime: 20 minutes
+cookTime: 40 minutes
+totalTime: 1 hour
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [spanish]
+  courses: [main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [simmer]
+  primaryIngredients: [pork, legumes, vegetables]
+  dietaryTags: []
+  occasions: [family-dinner]
+  collections: [spanish, cold-weather]
+  keywords: [potaje de garbanzos, spanish chickpea stew, chorizo stew]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: true
+  reheatsWell: true
+---
 # Potaje de Garbanzos con Chorizo
 ## Spanish Chickpea, Vegetable & Chorizo Stew
 

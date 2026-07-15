@@ -1,13 +1,22 @@
 # Entry Checklist
 
+- [ ] Frontmatter completed
+- [ ] Slug set and matches filename
+- [ ] Description written directly below the title
+- [ ] `search` tags filled with lowercase kebab-case values
+- [ ] `structure` block updated if recipe has sub-recipes
+- [ ] Snapshot section completed
 - [ ] Recipe typed on 8 1/2 x 11 sheet
 - [ ] Entry # included
 - [ ] Category name included
 - [ ] Class number and class name included
+- [ ] Standard `##` sections used for main recipe and sub-recipes
+- [ ] Standard `###` sections used inside each recipe component
 - [ ] Ingredients include quantities
 - [ ] Directions complete
 - [ ] Servings listed
 - [ ] Prep time listed
+- [ ] Storage or make-ahead guidance included if relevant
 - [ ] Entrant name included at bottom
 - [ ] Address included at bottom
 - [ ] Phone number included at bottom

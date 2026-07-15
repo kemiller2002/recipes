@@ -1,3 +1,31 @@
+---
+title: Restaurant-Style Lobster Corn Chowder
+slug: lobster-corn-chowder
+description: A creamy chowder featuring lobster, sweet corn, potatoes, and bacon in a rich broth.
+servings: 6
+yield: servings
+prepTime: 30 minutes
+cookTime: 30 minutes
+totalTime: 1 hour
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [new-england, american]
+  courses: [starter, main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [simmer]
+  primaryIngredients: [seafood, dairy, vegetables]
+  dietaryTags: []
+  occasions: [dinner-party, summer-seafood]
+  collections: [seafood, special-occasion]
+  keywords: [lobster chowder, corn chowder, seafood soup]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Restaurant-Style Lobster Corn Chowder
 
 A rich, creamy chowder that lets the sweetness of the lobster and fresh corn shine without becoming overly thick. Built in layers for a restaurant-quality result.

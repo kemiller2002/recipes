@@ -1,3 +1,31 @@
+---
+title: Pro-Style Bread Pudding
+slug: bread-pudding-sweet
+description: A rich dessert bread pudding with browned butter, warm spices, and an optional bourbon sauce.
+servings: 9
+yield: servings
+prepTime: 30 minutes
+cookTime: 1 hour
+totalTime: 1 hour 30 minutes
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [american, british]
+  courses: [dessert-course]
+  mealTypes: [dessert]
+  cookingMethods: [bake]
+  primaryIngredients: [bread, dairy, egg]
+  dietaryTags: []
+  occasions: [holiday-dessert, dinner-party]
+  collections: [desserts, holiday-baking]
+  keywords: [bread pudding, bourbon sauce, holiday dessert]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Pro-Style Bread Pudding
 *Rich, custardy, restaurant-level dessert*
 

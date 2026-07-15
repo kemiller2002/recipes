@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "generatedAt": "2026-07-14",
-  "recipeCount": 16,
+  "recipeCount": 21,
   "recipes": [
     {
       "sourcePath": "recipes/beef-stew.md",
@@ -369,7 +369,7 @@
           "activeTimeMinutes": 35,
           "inactiveTimeMinutes": 0,
           "totalTimeMinutes": 35,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": false,
           "reheatsWell": true,
@@ -975,6 +975,184 @@
       }
     },
     {
+      "sourcePath": "recipes/cacao-del-sol-bbq-sauce.md",
+      "href": "cacao-del-sol-bbq-sauce.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Cacao del Sol Competition Sauce",
+          "slug": "cacao-del-sol-bbq-sauce",
+          "description": "A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [
+            "fusion"
+          ],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [
+            "condiment"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [
+            "tomato",
+            "chocolate"
+          ],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer",
+            "blend"
+          ],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [
+            "cookout",
+            "competition"
+          ],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": "sauce",
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "bbq sauce",
+            "competition sauce",
+            "cacao sauce"
+          ],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": [
+            "sauces",
+            "grilling"
+          ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
       "sourcePath": "recipes/cuban-black-beans.md",
       "href": "cuban-black-beans.html",
       "recipeClassification": {
@@ -1318,7 +1496,7 @@
           "activeTimeMinutes": 15,
           "inactiveTimeMinutes": 25,
           "totalTimeMinutes": 40,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": true,
           "reheatsWell": false,
@@ -1541,7 +1719,7 @@
           "activeTimeMinutes": 30,
           "inactiveTimeMinutes": 300,
           "totalTimeMinutes": 330,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": false,
           "reheatsWell": false,
@@ -1773,7 +1951,7 @@
           "activeTimeMinutes": 30,
           "inactiveTimeMinutes": 30,
           "totalTimeMinutes": 60,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": false,
           "reheatsWell": true,
@@ -2126,6 +2304,361 @@
       }
     },
     {
+      "sourcePath": "recipes/mayan-night-bbq-sauce.md",
+      "href": "mayan-night-bbq-sauce.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Mayan Night BBQ Sauce",
+          "slug": "mayan-night-bbq-sauce",
+          "description": "A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [
+            "fusion"
+          ],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [
+            "condiment"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [
+            "tomato",
+            "chocolate"
+          ],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer",
+            "blend"
+          ],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [
+            "cookout"
+          ],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": "sauce",
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "bbq sauce",
+            "mayan bbq sauce",
+            "chipotle sauce"
+          ],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": [
+            "sauces",
+            "grilling"
+          ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/mayan-three-cacoa-bbq-sauce.md",
+      "href": "mayan-three-cacoa-bbq-sauce.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Mayan Three-Cacao BBQ Sauce",
+          "slug": "mayan-three-cacoa-bbq-sauce",
+          "description": "A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [
+            "fusion"
+          ],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [
+            "condiment"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [
+            "tomato",
+            "chocolate"
+          ],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer",
+            "blend"
+          ],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [
+            "cookout",
+            "competition"
+          ],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": "sauce",
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "bbq sauce",
+            "cacao bbq sauce",
+            "competition sauce"
+          ],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": [
+            "sauces",
+            "grilling"
+          ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
       "sourcePath": "recipes/mexican-rice.md",
       "href": "mexican-rice.html",
       "recipeClassification": {
@@ -2227,7 +2760,7 @@
           "activeTimeMinutes": 20,
           "inactiveTimeMinutes": 15,
           "totalTimeMinutes": 35,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": false,
           "reheatsWell": true,
@@ -3365,7 +3898,7 @@
           "activeTimeMinutes": 20,
           "inactiveTimeMinutes": 20,
           "totalTimeMinutes": 40,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": false,
           "reheatsWell": true,
@@ -3584,7 +4117,7 @@
           "activeTimeMinutes": null,
           "inactiveTimeMinutes": null,
           "totalTimeMinutes": null,
-          "makeAheadSuitability": "medium",
+          "makeAheadSuitability": "high",
           "makeAheadMaximumHours": null,
           "freezerFriendly": null,
           "reheatsWell": null,
@@ -3694,6 +4227,362 @@
           "classificationDate": "2026-07-14",
           "overallConfidence": 0.96,
           "uncertainFields": [],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/sweet-home-chicago-dip.md",
+      "href": "sweet-home-chicago-dip.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Sweet Home Chicago Dip",
+          "slug": "sweet-home-chicago-dip",
+          "description": "A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [
+            "american"
+          ],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [
+            "appetizer"
+          ],
+          "mealTypes": [
+            "party",
+            "dinner"
+          ],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [
+            "beef",
+            "dairy"
+          ],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "bake"
+          ],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": "medium",
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [
+            "game-day",
+            "party"
+          ],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": "dip",
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "italian beef dip",
+            "baked dip",
+            "party dip"
+          ],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": [
+            "party-food",
+            "dips"
+          ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/sweet-home-chicken-itza-sauce.md",
+      "href": "sweet-home-chicken-itza-sauce.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Sweet Home Chichén Itzá Sauce",
+          "slug": "sweet-home-chicken-itza-sauce",
+          "description": "A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [
+            "fusion"
+          ],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [
+            "condiment"
+          ],
+          "mealTypes": [
+            "dinner"
+          ],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [
+            "tomato",
+            "chocolate"
+          ],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [
+            "simmer",
+            "blend"
+          ],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": "easy",
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": "high",
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": false,
+          "reheatsWell": true,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [
+            "cookout",
+            "competition"
+          ],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": "sauce",
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [
+            "table sauce",
+            "yucatan sauce",
+            "cacao sauce"
+          ],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": [
+            "sauces",
+            "grilling"
+          ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
           "notes": null
         }
       }

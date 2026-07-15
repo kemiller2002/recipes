@@ -1,3 +1,31 @@
+---
+title: Pro Hard-Shell Ground Beef Tacos
+slug: beef-tacos
+description: A crisp hard-shell taco built around juicy seasoned ground beef and layered toppings.
+servings: 8
+yield: tacos
+prepTime: 35 minutes
+cookTime: 0 minutes
+totalTime: 35 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [tex-mex, american]
+  courses: [main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [saute]
+  primaryIngredients: [beef, dairy]
+  dietaryTags: []
+  occasions: [taco-night, family-dinner]
+  collections: [weeknight-dinner, tex-mex]
+  keywords: [ground beef tacos, hard shell tacos, taco night]
+  relatedRecipes: [mexican-rice]
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # 🌮 Pro Hard-Shell Ground Beef Tacos
 
 ## Overview

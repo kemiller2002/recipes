@@ -1,3 +1,31 @@
+---
+title: Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)
+slug: sopa-de-pollo
+description: A Spanish-style chicken noodle soup with paprika, tomato, chickpeas, and optional saffron.
+servings: 7
+yield: servings
+prepTime: 20 minutes
+cookTime: 20 minutes
+totalTime: 40 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [spanish]
+  courses: [starter, main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [simmer]
+  primaryIngredients: [chicken, pasta, legumes]
+  dietaryTags: []
+  occasions: [family-dinner]
+  collections: [soups, comfort-food]
+  keywords: [sopa de pollo, spanish chicken soup, fideos soup]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)
 
 **Serves:** 6–8

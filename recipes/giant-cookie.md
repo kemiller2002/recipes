@@ -1,3 +1,31 @@
+---
+title: 9x9 Cookie Bar (or Giant Cookie)
+slug: giant-cookie
+description: A simple chocolate chip cookie dough baked as a bar or giant cookie cake.
+servings: 9
+yield: bars
+prepTime: 15 minutes
+cookTime: 25 minutes
+totalTime: 40 minutes
+difficulty: easy
+source: null
+author: null
+
+search:
+  cuisines: [american]
+  courses: [dessert-course]
+  mealTypes: [dessert, snack]
+  cookingMethods: [bake]
+  primaryIngredients: [baking, chocolate]
+  dietaryTags: []
+  occasions: [birthday, casual-dessert]
+  collections: [desserts, easy-baking]
+  keywords: [giant cookie, cookie bar, cookie cake]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: true
+  reheatsWell: false
+---
 # 9×9 Cookie Bar (or Giant Cookie)
 
 If you're deciding between a giant cookie and a 9×9 cookie bar, they're essentially the same thing—the main difference is thickness and baking time.

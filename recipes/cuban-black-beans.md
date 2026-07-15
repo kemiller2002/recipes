@@ -1,3 +1,31 @@
+---
+title: Pro Cuban Black Beans (Frijoles Negros)
+slug: cuban-black-beans
+description: A Cuban-style black bean preparation with sofrito, vinegar, and a silky bean broth.
+servings: 7
+yield: servings
+prepTime: 35 minutes
+cookTime: 2 hours
+totalTime: 2 hours 35 minutes
+difficulty: medium
+source: null
+author: null
+
+search:
+  cuisines: [cuban, caribbean]
+  courses: [side-dish, main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [simmer]
+  primaryIngredients: [beans, legumes]
+  dietaryTags: []
+  occasions: [family-dinner]
+  collections: [caribbean, budget-friendly]
+  keywords: [cuban black beans, frijoles negros, beans and rice]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: true
+  reheatsWell: true
+---
 # 🇨🇺 Pro Cuban Black Beans (Frijoles Negros)
 
 A traditional Cuban-style black bean recipe featuring a proper sofrito, balanced acidity, and a rich, silky texture.

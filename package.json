@@ -3,7 +3,8 @@
     "build:recipes": "node scripts/build-recipes.js",
     "build:classifications": "node scripts/build-classifications.js",
     "build:index": "node scripts/build-index.js",
-    "build:site": "npm run build:classifications && npm run build:index"
+    "build:site": "npm run build:recipes && npm run build:classifications && npm run build:index",
+    "normalize:recipes": "node scripts/normalize-recipe-frontmatter.js"
   },
   "dependencies": {
     "marked": "^15.0.0"

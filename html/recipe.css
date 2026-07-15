@@ -58,6 +58,88 @@ body {
   padding: var(--recipe-pad);
 }
 
+.recipe-card > h1:first-child {
+  margin-top: 0;
+}
+
+.recipe-card > p:first-of-type {
+  font-size: 1.02rem;
+  color: var(--recipe-muted);
+}
+
+/* ---------- Section Navigation ---------- */
+
+.recipe-nav {
+  margin: 1.2rem 0 1.6rem;
+  padding: 1rem;
+  border: 1px solid var(--recipe-border);
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fff5e9 0%, #fffaf4 100%);
+}
+
+.recipe-nav__heading {
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--recipe-muted);
+}
+
+.recipe-nav__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.recipe-nav__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--recipe-border);
+  border-radius: 999px;
+  background: white;
+  color: var(--recipe-text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 650;
+}
+
+.recipe-nav__link--primary {
+  border-color: var(--recipe-accent);
+  background: var(--recipe-accent-soft);
+}
+
+.recipe-nav__link:hover {
+  border-color: var(--recipe-accent);
+}
+
+/* ---------- Structured Sections ---------- */
+
+.recipe-section {
+  margin: 1.35rem 0 0;
+  padding: 1rem;
+  border: 1px solid var(--recipe-border);
+  border-radius: 18px;
+  background: #fffdf9;
+}
+
+.recipe-section--primary {
+  background: linear-gradient(180deg, #fff8ef 0%, #fffdf9 100%);
+}
+
+.recipe-section--component {
+  border-style: dashed;
+  background: linear-gradient(180deg, #fffdf9 0%, #fff8f2 100%);
+}
+
+.recipe-section--support {
+  background: #ffffff;
+}
+
+.recipe-section > h2:first-child {
+  margin-top: 0;
+}
+
 /* ---------- Headings ---------- */
 
 .recipe h1,
@@ -88,6 +170,10 @@ body {
 
 .recipe p {
   margin: 0 0 1rem;
+}
+
+.recipe-section h3 {
+  margin-top: 1.15rem;
 }
 
 .recipe blockquote {

@@ -1,11 +1,34 @@
 ---
 title: Mayan Night BBQ Sauce
-servings: 3 cups
-prepTime: 15 minutes
-cookTime: 30 minutes
----
+slug: mayan-night-bbq-sauce
+description: A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats.
+servings: null
+yield: sauce
+prepTime: null
+cookTime: null
+totalTime: null
+difficulty: easy
+source: null
+author: null
 
+search:
+  cuisines: [fusion]
+  courses: [condiment]
+  mealTypes: [dinner]
+  cookingMethods: [simmer, blend]
+  primaryIngredients: [tomato, chocolate]
+  dietaryTags: []
+  occasions: [cookout]
+  collections: [sauces, grilling]
+  keywords: [bbq sauce, mayan bbq sauce, chipotle sauce]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Mayan Night BBQ Sauce
+
+A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats.
 
 ## Main Recipe
 

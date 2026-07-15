@@ -1,11 +1,34 @@
 ---
 title: Savory Grilled Chicken Wings
-servings: 4-6
-prepTime: 15 minutes (plus 1 hour to overnight rest)
-cookTime: 35-45 minutes
----
+slug: savory-chicken-wing-rub
+description: Dry-rubbed grilled chicken wings with an optional garlic butter finish.
+servings: 5
+yield: servings
+prepTime: 20 minutes
+cookTime: 1 hour
+totalTime: 1 hour 20 minutes
+difficulty: easy
+source: null
+author: null
 
+search:
+  cuisines: [american]
+  courses: [appetizer, main-course]
+  mealTypes: [lunch, dinner]
+  cookingMethods: [grill]
+  primaryIngredients: [chicken, seasoning]
+  dietaryTags: []
+  occasions: [game-day, cookout]
+  collections: [game-day, grilling]
+  keywords: [grilled chicken wings, dry rub wings, game day wings]
+  relatedRecipes: []
+  makeAhead: true
+  freezerFriendly: false
+  reheatsWell: true
+---
 # Savory Grilled Chicken Wings
+
+Dry-rubbed grilled chicken wings with an optional garlic butter finish.
 
 ## Main Recipe
 

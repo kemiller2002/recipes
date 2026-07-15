@@ -13,6 +13,328 @@ function clone(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
+function fileExists(filePath) {
+  return fs.existsSync(filePath);
+}
+
+function parseScalar(rawValue) {
+  const value = rawValue.trim();
+
+  if (value === "null") return null;
+  if (value === "true") return true;
+  if (value === "false") return false;
+  if (value === "[]") return [];
+
+  if (value.startsWith("[") && value.endsWith("]")) {
+    const inner = value.slice(1, -1).trim();
+    if (!inner) return [];
+
+    return inner
+      .split(",")
+      .map((item) => item.trim())
+      .filter(Boolean)
+      .map((item) => {
+        if (
+          (item.startsWith('"') && item.endsWith('"')) ||
+          (item.startsWith("'") && item.endsWith("'"))
+        ) {
+          return item.slice(1, -1);
+        }
+
+        return item;
+      });
+  }
+
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    return value.slice(1, -1);
+  }
+
+  if (/^-?\d+(\.\d+)?$/.test(value)) {
+    return Number(value);
+  }
+
+  return value;
+}
+
+function parseSimpleYaml(yamlText) {
+  const root = {};
+  const stack = [{ indent: -1, value: root }];
+
+  for (const rawLine of yamlText.split(/\r?\n/)) {
+    if (!rawLine.trim() || rawLine.trimStart().startsWith("#")) {
+      continue;
+    }
+
+    const match = rawLine.match(/^(\s*)([^:]+):(.*)$/);
+    if (!match) {
+      continue;
+    }
+
+    const indent = match[1].length;
+    const key = match[2].trim();
+    const rawValue = match[3];
+
+    while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
+      stack.pop();
+    }
+
+    const parent = stack[stack.length - 1].value;
+    const trimmedValue = rawValue.trim();
+
+    if (!trimmedValue) {
+      parent[key] = {};
+      stack.push({ indent, value: parent[key] });
+      continue;
+    }
+
+    parent[key] = parseScalar(trimmedValue);
+  }
+
+  return root;
+}
+
+function parseFrontmatter(markdown) {
+  const match = markdown.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+  if (!match) {
+    return { data: {}, content: markdown };
+  }
+
+  return {
+    data: parseSimpleYaml(match[1]),
+    content: markdown.slice(match[0].length)
+  };
+}
+
+function stripMarkdownInline(value) {
+  return String(value)
+    .replace(/[*_`~]/g, "")
+    .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
+    .trim();
+}
+
+function getTitleFromBody(markdown) {
+  const match = markdown.match(/^#\s+(.+)$/m);
+  return match ? stripMarkdownInline(match[1]) : null;
+}
+
+function getDescriptionFromBody(markdown) {
+  const lines = markdown.split(/\r?\n/);
+  let seenTitle = false;
+  const buffer = [];
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+
+    if (!seenTitle) {
+      if (line.startsWith("# ")) {
+        seenTitle = true;
+      }
+      continue;
+    }
+
+    if (!line) {
+      if (buffer.length) {
+        break;
+      }
+      continue;
+    }
+
+    if (/^---+$/.test(line)) {
+      if (buffer.length) {
+        break;
+      }
+      continue;
+    }
+
+    if (line.startsWith("#")) {
+      if (buffer.length) {
+        break;
+      }
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(line) || /^\d+\.\s+/.test(line)) {
+      if (buffer.length) {
+        break;
+      }
+      continue;
+    }
+
+    buffer.push(stripMarkdownInline(line));
+  }
+
+  return buffer.join(" ").trim() || null;
+}
+
+function parseRangeAverage(value) {
+  if (!value) return null;
+
+  const normalized = String(value)
+    .toLowerCase()
+    .replace(/[–—]/g, "-")
+    .replace(/½/g, ".5")
+    .replace(/¼/g, ".25")
+    .replace(/¾/g, ".75")
+    .replace(/⅓/g, ".33")
+    .replace(/⅔/g, ".67");
+
+  const numbers = [...normalized.matchAll(/(\d+(?:\.\d+)?)/g)].map((match) =>
+    Number(match[1])
+  );
+
+  if (!numbers.length) {
+    return null;
+  }
+
+  if (numbers.length >= 2 && normalized.includes("-")) {
+    return Math.round((numbers[0] + numbers[1]) / 2);
+  }
+
+  return Math.round(numbers[0]);
+}
+
+function parseDurationMinutes(value) {
+  if (!value) return null;
+
+  const normalized = String(value)
+    .toLowerCase()
+    .replace(/[–—]/g, "-")
+    .replace(/½/g, ".5")
+    .replace(/¼/g, ".25")
+    .replace(/¾/g, ".75");
+
+  const hourMatch = normalized.match(/(\d+(?:\.\d+)?)\s*hour/);
+  const minuteMatch = normalized.match(/(\d+(?:\.\d+)?)\s*minute/);
+
+  if (hourMatch || minuteMatch) {
+    const hours = hourMatch ? Number(hourMatch[1]) : 0;
+    const minutes = minuteMatch ? Number(minuteMatch[1]) : 0;
+    return Math.round(hours * 60 + minutes);
+  }
+
+  return parseRangeAverage(normalized);
+}
+
+function buildMarkdownClassificationPatch(frontmatter) {
+  const search = frontmatter.search || {};
+  const patch = {
+    identity: {},
+    culinaryClassification: {},
+    techniqueClassification: {},
+    dietaryClassification: {},
+    difficultyAndTime: {},
+    occasionClassification: {},
+    serviceAndStorage: {},
+    searchAndOrganization: {}
+  };
+
+  if (frontmatter.title) patch.identity.title = frontmatter.title;
+  if (frontmatter.slug) patch.identity.slug = frontmatter.slug;
+  if (frontmatter.description) patch.identity.description = frontmatter.description;
+  if (frontmatter.author) patch.identity.author = frontmatter.author;
+
+  if (frontmatter.source) {
+    patch.identity.source = {
+      type: "unknown",
+      name: frontmatter.source,
+      url: null
+    };
+  }
+
+  if (Array.isArray(search.cuisines) && search.cuisines.length) {
+    patch.culinaryClassification.cuisines = search.cuisines;
+  }
+  if (Array.isArray(search.courses) && search.courses.length) {
+    patch.culinaryClassification.dishCourses = search.courses;
+  }
+  if (Array.isArray(search.mealTypes) && search.mealTypes.length) {
+    patch.culinaryClassification.mealTypes = search.mealTypes;
+  }
+  if (Array.isArray(search.primaryIngredients) && search.primaryIngredients.length) {
+    patch.culinaryClassification.primaryIngredientCategories =
+      search.primaryIngredients;
+  }
+  if (Array.isArray(search.cookingMethods) && search.cookingMethods.length) {
+    patch.techniqueClassification.primaryCookingMethods = search.cookingMethods;
+  }
+  if (Array.isArray(search.dietaryTags) && search.dietaryTags.length) {
+    patch.dietaryClassification.dietaryPatterns = search.dietaryTags;
+  }
+  if (Array.isArray(search.occasions) && search.occasions.length) {
+    patch.occasionClassification.occasions = search.occasions;
+  }
+  if (Array.isArray(search.collections) && search.collections.length) {
+    patch.searchAndOrganization.collectionNames = search.collections;
+  }
+  if (Array.isArray(search.keywords) && search.keywords.length) {
+    patch.searchAndOrganization.keywords = search.keywords;
+  }
+  if (Array.isArray(search.relatedRecipes) && search.relatedRecipes.length) {
+    patch.searchAndOrganization.relatedRecipes = search.relatedRecipes;
+  }
+
+  if (search.makeAhead !== undefined && search.makeAhead !== null) {
+    patch.difficultyAndTime.makeAheadSuitability = search.makeAhead
+      ? "high"
+      : "low";
+  }
+  if (search.freezerFriendly !== undefined) {
+    patch.difficultyAndTime.freezerFriendly = search.freezerFriendly;
+  }
+  if (search.reheatsWell !== undefined) {
+    patch.difficultyAndTime.reheatsWell = search.reheatsWell;
+  }
+
+  if (frontmatter.difficulty) {
+    patch.difficultyAndTime.difficulty = frontmatter.difficulty;
+  }
+
+  if (frontmatter.prepTime) {
+    patch.difficultyAndTime.activeTimeMinutes = parseDurationMinutes(
+      frontmatter.prepTime
+    );
+  }
+
+  if (frontmatter.cookTime) {
+    patch.difficultyAndTime.inactiveTimeMinutes = parseDurationMinutes(
+      frontmatter.cookTime
+    );
+  }
+
+  if (frontmatter.totalTime) {
+    patch.difficultyAndTime.totalTimeMinutes = parseDurationMinutes(
+      frontmatter.totalTime
+    );
+  } else {
+    const active = patch.difficultyAndTime.activeTimeMinutes;
+    const inactive = patch.difficultyAndTime.inactiveTimeMinutes;
+
+    if (typeof active === "number" && typeof inactive === "number") {
+      patch.difficultyAndTime.totalTimeMinutes = active + inactive;
+    }
+  }
+
+  if (frontmatter.servings) {
+    patch.serviceAndStorage.estimatedServings = parseRangeAverage(
+      frontmatter.servings
+    );
+  }
+
+  if (frontmatter.yield) {
+    patch.serviceAndStorage.yieldType = String(frontmatter.yield)
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-");
+  } else if (frontmatter.servings) {
+    patch.serviceAndStorage.yieldType = "servings";
+  }
+
+  return patch;
+}
+
 function mergeDeep(base, override) {
   if (Array.isArray(base) || Array.isArray(override)) {
     return override === undefined ? clone(base) : clone(override);
@@ -198,8 +520,30 @@ function makeDefaultRecipe(title, slug, description) {
 }
 
 function buildRecipeDocument(entry) {
-  const base = makeDefaultRecipe(entry.title, entry.slug, entry.description);
-  const merged = mergeDeep(base, entry.classification || {});
+  const sourcePath = path.join(ROOT, entry.sourcePath);
+  const rawMarkdown = fileExists(sourcePath)
+    ? fs.readFileSync(sourcePath, "utf8")
+    : "";
+  const { data: frontmatter, content } = parseFrontmatter(rawMarkdown);
+
+  const markdownTitle = frontmatter.title || getTitleFromBody(content);
+  const markdownDescription =
+    frontmatter.description || getDescriptionFromBody(content);
+  const derivedTitle = markdownTitle || entry.title;
+  const derivedSlug =
+    frontmatter.slug || entry.slug || path.basename(entry.sourcePath, ".md");
+  const derivedDescription = markdownDescription || entry.description;
+
+  const base = makeDefaultRecipe(derivedTitle, derivedSlug, derivedDescription);
+  const markdownPatch = buildMarkdownClassificationPatch(frontmatter);
+  const merged = mergeDeep(
+    mergeDeep(base, entry.classification || {}),
+    markdownPatch
+  );
+
+  merged.identity.title = derivedTitle;
+  merged.identity.slug = derivedSlug;
+  merged.identity.description = derivedDescription;
 
   merged.classificationMetadata.classifiedBy = seed.classifiedBy;
   merged.classificationMetadata.classificationDate = seed.classificationDate;
@@ -210,7 +554,7 @@ function buildRecipeDocument(entry) {
 
   return {
     sourcePath: entry.sourcePath,
-    href: entry.href,
+    href: entry.href || `${derivedSlug}.html`,
     recipeClassification: merged
   };
 }
@@ -317,7 +661,41 @@ function buildSearchDocument(recipe) {
   };
 }
 
-const recipes = seed.recipes.map(buildRecipeDocument);
+function getRecipeMarkdownFiles() {
+  return fs
+    .readdirSync(path.join(ROOT, "recipes"))
+    .filter((file) => file.endsWith(".md"))
+    .map((file) => path.join("recipes", file))
+    .sort();
+}
+
+const seedEntriesBySourcePath = new Map(
+  seed.recipes.map((entry) => [entry.sourcePath, entry])
+);
+
+const recipeEntries = getRecipeMarkdownFiles().map((sourcePath) => {
+  const seedEntry = seedEntriesBySourcePath.get(sourcePath);
+
+  if (seedEntry) {
+    return seedEntry;
+  }
+
+  const slug = path.basename(sourcePath, ".md");
+  return {
+    slug,
+    title: null,
+    description: null,
+    sourcePath,
+    href: `${slug}.html`,
+    overallConfidence: 0.65,
+    uncertainFields: [
+      "classification-inferred-from-markdown-only"
+    ],
+    classification: {}
+  };
+});
+
+const recipes = recipeEntries.map(buildRecipeDocument);
 const searchIndex = recipes.map(buildSearchDocument);
 
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
