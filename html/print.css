@@ -119,6 +119,7 @@ body {
   right: var(--sheet-pad);
   bottom: var(--footer-space);
   left: var(--sheet-pad);
+  padding-top: 0.06in;
   min-height: 0;
   overflow: hidden;
   column-count: var(--recipe-columns);
