@@ -1,116 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Recipe Atlas</title>
-  <meta
-    name="description"
-    content="Search, sort, and filter the recipe collection by cuisine, course, method, occasion, and service metadata."
-  >
-  <link rel="stylesheet" href="assets/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="recipe.css">
 </head>
 <body>
-  <main class="page-shell">
-    <section class="hero">
-      <div class="hero__copy">
-        <p class="eyebrow">Recipe Atlas</p>
-        <h1>Search the collection with real metadata, not filename luck.</h1>
-        <p class="hero__lede">
-          The index is generated from structured recipe metadata and stays updateable as recipes evolve.
-          Search by text, filter by facets, and sort by time, confidence, or servings.
-        </p>
-        <div id="heroStats" class="hero__stats" aria-live="polite"></div>
-      </div>
-
-      <aside class="hero__panel">
-        <h2>Collection Signals</h2>
-        <ul id="collectionSignals" class="signal-list"></ul>
-        <p id="dataNote" class="hero__panel-note"></p>
-      </aside>
-    </section>
-
-    <section class="workspace" aria-label="Recipe search workspace">
-      <button
-        id="filterToggle"
-        class="mobile-filter-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="filterPanel"
-      >
-        Filters
-      </button>
-
-      <div id="filterBackdrop" class="filter-backdrop" hidden></div>
-
-      <aside id="filterPanel" class="filters-panel" aria-label="Recipe filters">
-        <div class="filters-panel__inner">
-          <div class="filters-panel__header">
-            <div>
-              <p class="filters-panel__eyebrow">Controls</p>
-              <h2>Search and Filter</h2>
-            </div>
-            <button id="filterClose" class="filters-close" type="button" aria-label="Close filters">
-              ×
-            </button>
-          </div>
-
-          <div class="filter-search">
-            <label class="filter-label" for="search">Search</label>
-            <input
-              id="search"
-              type="search"
-              placeholder="Try stew, grill, appetizer, make-ahead..."
-              autocomplete="off"
-            >
-          </div>
-
-          <div class="sort-row">
-            <label class="filter-label" for="sortBy">Sort</label>
-            <select id="sortBy">
-              <option value="featured">Featured</option>
-              <option value="title">Title</option>
-              <option value="time">Fastest</option>
-              <option value="servings">Servings</option>
-              <option value="confidence">Confidence</option>
-            </select>
-          </div>
-
-          <section class="filter-group">
-            <h3 class="filter-group__title">Quick Filters</h3>
-            <div id="quickToggles" class="quick-toggles"></div>
-          </section>
-
-          <section class="filter-group">
-            <div class="filter-group__row">
-              <h3 class="filter-group__title">Facets</h3>
-              <button id="clearFilters" class="clear-button" type="button">Clear all</button>
-            </div>
-            <div id="facetSections" class="facet-sections"></div>
-          </section>
-        </div>
-      </aside>
-
-      <section class="results">
-        <div class="results__toolbar">
-          <div>
-            <p class="results__label">Visible Recipes</p>
-            <h2 id="resultCount">Loading…</h2>
-          </div>
-          <div id="activeFilters" class="active-filters" aria-live="polite"></div>
-        </div>
-
-        <div id="entries" class="recipe-grid">
-          <div class="empty-state">
-            <h3>Loading recipes…</h3>
-            <p>The index is reading the generated metadata bundle.</p>
-          </div>
-        </div>
-      </section>
-    </section>
+  <main class="recipe">
+    <article class="recipe-card">
+      <h1>Recipes</h1>
+      <ul>
+          <li><a href="Moroccan-Short-Rib-Compendium.html">Moroccan-Inspired Short Rib Compendium</a></li>
+          <li><a href="README.html">Biscuits and Gravy Compendium</a></li>
+          <li><a href="beef-stew.html">Pro Beef Stew</a></li>
+          <li><a href="beef-tacos.html">🌮 Pro Hard-Shell Ground Beef Tacos</a></li>
+          <li><a href="bread-pudding-savory.html">Pro-Style Savory Bread Pudding</a></li>
+          <li><a href="bread-pudding-sweet.html">Pro-Style Bread Pudding</a></li>
+          <li><a href="cacao-del-sol-bbq-sauce.html">Cacao del Sol Competition Sauce</a></li>
+          <li><a href="canonical-recipe.html">Canonical Professional Biscuits and Gravy</a></li>
+          <li><a href="chef-variations.html">Chef Variations</a></li>
+          <li><a href="cuban-black-beans.html">🇨🇺 Pro Cuban Black Beans (Frijoles Negros)</a></li>
+          <li><a href="experiments.html">Experiments</a></li>
+          <li><a href="flavor-genome.html">Flavor Genome</a></li>
+          <li><a href="giant-cookie.html">9×9 Cookie Bar (or Giant Cookie)</a></li>
+          <li><a href="grilled-lamb-chops.html">Pro Grilled Lamb Chops</a></li>
+          <li><a href="ingredient-encyclopedia.html">Ingredient Encyclopedia</a></li>
+          <li><a href="lobster-corn-chowder.html">Restaurant-Style Lobster Corn Chowder</a></li>
+          <li><a href="mac-and-cheese.html">Pro Mac & Cheese (Sloppy-Joe-Proof Edition)</a></li>
+          <li><a href="mayan-night-bbq-sauce.html">Mayan Night BBQ Sauce</a></li>
+          <li><a href="mayan-three-cacoa-bbq-sauce.html">Mayan Three-Cacao BBQ Sauce</a></li>
+          <li><a href="mexican-rice.html">Pro Mexican Rice (Arroz Rojo)</a></li>
+          <li><a href="nacho-bar.html">Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar</a></li>
+          <li><a href="potato-soup-spanish.html">Potaje de Garbanzos con Chorizo</a></li>
+          <li><a href="references.html">References</a></li>
+          <li><a href="regional-variations.html">Regional Variations</a></li>
+          <li><a href="research-notes.html">Research Notes</a></li>
+          <li><a href="savory-chicken-wing-rub.html">Savory Grilled Chicken Wings</a></li>
+          <li><a href="shopping-guide.html">Shopping Guide</a></li>
+          <li><a href="sloppy-joes.html">Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)</a></li>
+          <li><a href="sopa-de-pollo.html">Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)</a></li>
+          <li><a href="spanish-ribs.html">Spanish-Inspired Rib Dinner Menu</a></li>
+          <li><a href="spice-library.html">Spice Library</a></li>
+          <li><a href="sweet-home-chicago-dip.html">Sweet Home Chicago Dip</a></li>
+          <li><a href="sweet-home-chicken-itza-sauce.html">Sweet Home Chichén Itzá Sauce</a></li>
+          <li><a href="technique-guide.html">Technique Guide</a></li>
+          <li><a href="troubleshooting.html">Troubleshooting</a></li>
+      </ul>
+    </article>
   </main>
-
-  <script src="assets/recipe-index-data.js"></script>
-  <script src="assets/index.js"></script>
 </body>
 </html>
