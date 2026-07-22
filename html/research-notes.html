@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Notes</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Research Notes</h1>
+        <p class="recipe-summary">Major findings:</p>
+        
+      </header>
+
+      <section class="recipe-body">
+<h1>Research Notes</h1>
+<p>Major findings:</p>
+<ul>
+  <li>Layering pepper creates better aroma.</li>
+  <li>Sage defines the traditional profile.</li>
+  <li>Small amounts of ginger, mustard, marjoram, and nutmeg increase complexity.</li>
+  <li>Umami boosters (porcini, white miso, MSG) improve depth without changing identity.</li>
+  <li>Regional variants provide inspiration while preserving core structure.</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

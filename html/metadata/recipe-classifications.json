@@ -1,8 +1,320 @@
 {
   "schemaVersion": "1.0",
   "generatedAt": "2026-07-14",
-  "recipeCount": 21,
+  "recipeCount": 35,
   "recipes": [
+    {
+      "sourcePath": "recipes/Moroccan-Short-Rib-Compendium.md",
+      "href": "Moroccan-Short-Rib-Compendium.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Moroccan-Inspired Short Rib Compendium",
+          "slug": "Moroccan-Short-Rib-Compendium",
+          "description": "This compendium collects several Moroccan-inspired directions for braised beef short ribs. Each concept shares the same foundation: deeply browned short ribs, slow braising, and a sauce reduced until glossy.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/README.md",
+      "href": "README.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Biscuits and Gravy Compendium",
+          "slug": "README",
+          "description": "This compendium separates the canonical recipe from the research supporting it.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
     {
       "sourcePath": "recipes/beef-stew.md",
       "href": "beef-stew.html",
@@ -1153,6 +1465,318 @@
       }
     },
     {
+      "sourcePath": "recipes/canonical-recipe.md",
+      "href": "canonical-recipe.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Canonical Professional Biscuits and Gravy",
+          "slug": "canonical-recipe",
+          "description": "Elevate the classic through better ingredients and technique, not novelty.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/chef-variations.md",
+      "href": "chef-variations.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Chef Variations",
+          "slug": "chef-variations",
+          "description": null,
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
       "sourcePath": "recipes/cuban-black-beans.md",
       "href": "cuban-black-beans.html",
       "recipeClassification": {
@@ -1378,6 +2002,318 @@
             "containsMeat",
             "vegetarian",
             "vegan"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/experiments.md",
+      "href": "experiments.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Experiments",
+          "slug": "experiments",
+          "description": "Track hypothesis, changes, tasting notes, and scores for each trial.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/flavor-genome.md",
+      "href": "flavor-genome.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Flavor Genome",
+          "slug": "flavor-genome",
+          "description": null,
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
           ],
           "notes": null
         }
@@ -1829,6 +2765,162 @@
           "classificationDate": "2026-07-14",
           "overallConfidence": 0.93,
           "uncertainFields": [],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/ingredient-encyclopedia.md",
+      "href": "ingredient-encyclopedia.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Ingredient Encyclopedia",
+          "slug": "ingredient-encyclopedia",
+          "description": "Document each ingredient's role, chemistry, substitutions, and recommended brands.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
           "notes": null
         }
       }
@@ -3354,6 +4446,474 @@
       }
     },
     {
+      "sourcePath": "recipes/references.md",
+      "href": "references.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "References",
+          "slug": "references",
+          "description": "Maintain books, papers, interviews, and reputable culinary sources used during research.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/regional-variations.md",
+      "href": "regional-variations.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Regional Variations",
+          "slug": "regional-variations",
+          "description": null,
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/research-notes.md",
+      "href": "research-notes.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Research Notes",
+          "slug": "research-notes",
+          "description": "Major findings:",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
       "sourcePath": "recipes/savory-chicken-wing-rub.md",
       "href": "savory-chicken-wing-rub.html",
       "recipeClassification": {
@@ -3566,6 +5126,162 @@
           "overallConfidence": 0.96,
           "uncertainFields": [
             "dairyFree"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/shopping-guide.md",
+      "href": "shopping-guide.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Shopping Guide",
+          "slug": "shopping-guide",
+          "description": "Recommend White Lily flour, quality coarse breakfast sausage, cultured buttermilk, Tellicherry pepper, European butter, whole milk, heavy cream.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
           ],
           "notes": null
         }
@@ -4232,6 +5948,162 @@
       }
     },
     {
+      "sourcePath": "recipes/spice-library.md",
+      "href": "spice-library.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Spice Library",
+          "slug": "spice-library",
+          "description": "| Spice | Purpose | Typical Amount | Notes | |---|---|---:|---| | Black Pepper | Primary aroma | 1-2 tsp | Use in layers | | Sage | Signature | 1/4-1/2 tsp | Core identity | | Thyme | Structure | 1/8-1/4 tsp | Supports sage | | White Pepper | Finish | 1/8 tsp | Extends heat | | Marjoram | Complexity | 1/8 tsp | German influence | | Ginger | Warmth | pinch-1/8 tsp | Invisible if balanced | | Nutmeg | Dairy bridge | pinch | Freshly grate | | Mace | Floral warmth | pinch | Elegant alternative | | Mustard Powder | Savory lift | 1/8 tsp | Not mustardy | | Cayenne | Bright heat | pinch | Cuts richness | | Fennel | Italian note | tiny pinch | Easy to overdo | | Coriander | Citrus | 1/8 tsp | Chef variation | | Paprika | Warmth | tiny pinch | Avoid muddy color | | Porcini Powder | Umami | 1/4 tsp | Excellent enhancer | | White Miso | Umami | 1 tsp | Chef secret | | MSG | Umami | 1/4 tsp | Optional | | Long Pepper | Historic spice | to taste | Fascinating alternative | | Cubeb | Pepper/allspice | tiny | Historical |",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
       "sourcePath": "recipes/sweet-home-chicago-dip.md",
       "href": "sweet-home-chicago-dip.html",
       "recipeClassification": {
@@ -4575,6 +6447,318 @@
             "sauces",
             "grilling"
           ]
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/technique-guide.md",
+      "href": "technique-guide.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Technique Guide",
+          "slug": "technique-guide",
+          "description": null,
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
+        },
+        "classificationMetadata": {
+          "classifiedBy": "codex",
+          "classificationDate": "2026-07-14",
+          "overallConfidence": 0.65,
+          "uncertainFields": [
+            "classification-inferred-from-markdown-only"
+          ],
+          "notes": null
+        }
+      }
+    },
+    {
+      "sourcePath": "recipes/troubleshooting.md",
+      "href": "troubleshooting.html",
+      "recipeClassification": {
+        "identity": {
+          "title": "Troubleshooting",
+          "slug": "troubleshooting",
+          "description": "Thin gravy: simmer longer. Thick gravy: add warm milk. Bland: more pepper, acid, or umami. Greasy: too much fat; balance with roux.",
+          "source": {
+            "type": "unknown",
+            "name": null,
+            "url": null
+          },
+          "author": null,
+          "version": "1.0"
+        },
+        "culinaryClassification": {
+          "cuisines": [],
+          "regionalCuisines": [],
+          "culturalInfluences": [],
+          "recipeTypes": [],
+          "dishCourses": [],
+          "mealTypes": [],
+          "menuRoles": [],
+          "cookingStyles": [],
+          "primaryIngredientCategories": [],
+          "featuredIngredients": [],
+          "flavorProfiles": [],
+          "textureProfiles": [],
+          "temperatureServed": [],
+          "servingFormats": []
+        },
+        "techniqueClassification": {
+          "primaryCookingMethods": [],
+          "secondaryCookingMethods": [],
+          "preparationTechniques": [],
+          "equipmentRequired": [],
+          "preservationMethods": [],
+          "fermentationType": null
+        },
+        "dietaryClassification": {
+          "dietaryPatterns": [],
+          "containsMeat": null,
+          "containsSeafood": null,
+          "vegetarian": null,
+          "vegan": null,
+          "glutenFree": null,
+          "dairyFree": null,
+          "eggFree": null,
+          "nutFree": null,
+          "alcoholFree": null,
+          "lowCarb": null,
+          "ketoCompatible": null,
+          "paleoCompatible": null
+        },
+        "allergenClassification": {
+          "contains": [],
+          "mayContain": [],
+          "substitutionPossible": []
+        },
+        "difficultyAndTime": {
+          "difficulty": null,
+          "skillLevel": null,
+          "activeTimeMinutes": null,
+          "inactiveTimeMinutes": null,
+          "totalTimeMinutes": null,
+          "makeAheadSuitability": null,
+          "makeAheadMaximumHours": null,
+          "freezerFriendly": null,
+          "reheatsWell": null,
+          "overnightRestRequired": null
+        },
+        "occasionClassification": {
+          "occasions": [],
+          "seasons": [],
+          "holidays": [],
+          "eventTypes": [],
+          "competitionSuitable": null,
+          "competitionCategories": [],
+          "crowdFriendly": null,
+          "weeknightFriendly": null,
+          "specialOccasion": null
+        },
+        "serviceAndStorage": {
+          "yieldType": null,
+          "estimatedServings": null,
+          "batchSize": null,
+          "bestServed": [],
+          "holdingSuitability": null,
+          "maximumHoldingMinutes": null,
+          "storageMethods": [],
+          "refrigeratedShelfLifeDays": null,
+          "frozenShelfLifeDays": null,
+          "transportability": null,
+          "picnicFriendly": null,
+          "potluckFriendly": null
+        },
+        "sensoryClassification": {
+          "sweetnessLevel": null,
+          "saltinessLevel": null,
+          "acidityLevel": null,
+          "bitternessLevel": null,
+          "umamiLevel": null,
+          "richnessLevel": null,
+          "smokeLevel": null,
+          "heatLevel": null,
+          "spiceIntensity": null,
+          "dominantAromas": [],
+          "dominantFlavors": [],
+          "contrastingFlavors": []
+        },
+        "ingredientAndCost": {
+          "ingredientCount": null,
+          "ingredientAvailability": null,
+          "specialtyIngredients": [],
+          "usesLeftovers": null,
+          "leftoverIngredientsUsed": [],
+          "budgetLevel": null,
+          "estimatedCostPerServing": null
+        },
+        "recipeStructure": {
+          "componentCount": null,
+          "components": [],
+          "hasSubRecipes": null,
+          "requiresAssembly": null,
+          "requiresGarnish": null,
+          "garnishes": [],
+          "optionalComponents": []
+        },
+        "qualityAndUse": {
+          "testedStatus": null,
+          "rating": null,
+          "familyFavorite": null,
+          "competitionResult": null,
+          "competitionPlacement": null,
+          "needsRevision": null,
+          "revisionNotes": null
+        },
+        "searchAndOrganization": {
+          "keywords": [],
+          "additionalTags": [],
+          "relatedRecipes": [],
+          "pairsWith": [],
+          "collectionNames": []
         },
         "classificationMetadata": {
           "classifiedBy": "codex",

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canonical Professional Biscuits and Gravy</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Canonical Professional Biscuits and Gravy</h1>
+        <p class="recipe-summary">Elevate the classic through better ingredients and technique, not novelty.</p>
+        
+      </header>
+
+      <section class="recipe-body">
+<h1>Canonical Professional Biscuits and Gravy</h1>
+<h2>Philosophy</h2>
+<p>Elevate the classic through better ingredients and technique, not novelty.</p>
+<h2>Ingredients</h2>
+<h3>Biscuits</h3>
+<ul>
+  <li>White Lily flour (preferred)</li>
+  <li>Baking powder</li>
+  <li>Baking soda</li>
+  <li>Kosher salt</li>
+  <li>Frozen grated butter</li>
+  <li>Cold buttermilk</li>
+</ul>
+<h3>Gravy</h3>
+<ul>
+  <li><span class="amount">1 lb</span> <span class="item">quality breakfast sausage</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">flour</span></li>
+  <li>2½ cups whole milk</li>
+  <li><span class="amount">1/2 cup</span> <span class="item">heavy cream</span></li>
+</ul>
+<h3>House Spice Blend</h3>
+<ul>
+  <li>1¼ tsp black pepper (divided)</li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">rubbed sage</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">thyme</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">marjoram</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">ground ginger</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">white pepper</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">dry mustard</span></li>
+  <li>Pinch nutmeg</li>
+  <li>Pinch cayenne</li>
+</ul>
+<h3>Finish</h3>
+<ul>
+  <li>Worcestershire (few drops)</li>
+  <li>Optional cultured buttermilk splash</li>
+  <li>Fresh cracked pepper</li>
+  <li>Chives</li>
+  <li>Fried sage leaves</li>
+</ul>
+<h2>Directions</h2>
+<ol>
+  <li>Bake laminated buttermilk biscuits.</li>
+  <li>Brown sausage deeply until fond develops.</li>
+  <li><span class="verb">Add</span> flour and cook 2–3 minutes.</li>
+  <li>Bloom dry spices in the rendered fat.</li>
+  <li>Gradually whisk in milk and cream.</li>
+  <li><span class="verb">Simmer</span> until silky.</li>
+  <li>Finish with Worcestershire, optional buttermilk, fresh pepper, and garnish.</li>
+</ol>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

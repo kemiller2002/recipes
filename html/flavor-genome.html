@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavor Genome</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Flavor Genome</h1>
+        
+        
+      </header>
+
+      <section class="recipe-body">
+<h1>Flavor Genome</h1>
+<h2>Core Identity</h2>
+<ul>
+  <li>Pork ★★★★★</li>
+  <li>Black Pepper ★★★★★</li>
+  <li>Cream ★★★★★</li>
+  <li>Biscuit ★★★★★</li>
+  <li>Sage ★★★★☆</li>
+</ul>
+<h2>Supporting</h2>
+<ul>
+  <li>Thyme</li>
+  <li>White Pepper</li>
+  <li>Ginger</li>
+  <li>Nutmeg</li>
+  <li>Cayenne</li>
+</ul>
+<h2>Accent</h2>
+<ul>
+  <li>Brown Butter</li>
+  <li>Sorghum</li>
+  <li>Chives</li>
+  <li>Fried Sage</li>
+  <li>White Miso</li>
+  <li>Porcini</li>
+</ul>
+<h2>Avoid</h2>
+<ul>
+  <li>Excess rosemary</li>
+  <li>Heavy oregano</li>
+  <li>Too much fennel</li>
+  <li>Excess garlic</li>
+  <li>Sweet gravy</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

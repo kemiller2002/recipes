@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biscuits and Gravy Compendium</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Biscuits and Gravy Compendium</h1>
+        <p class="recipe-summary">This compendium separates the canonical recipe from the research supporting it.</p>
+        
+      </header>
+
+      <section class="recipe-body">
+<h1>Biscuits and Gravy Compendium</h1>
+<p>This compendium separates the canonical recipe from the research supporting it.</p>
+<h2>Contents</h2>
+<ul>
+  <li>canonical-recipe.md</li>
+  <li>flavor-genome.md</li>
+  <li>spice-library.md</li>
+  <li>ingredient-encyclopedia.md</li>
+  <li>technique-guide.md</li>
+  <li>regional-variations.md</li>
+  <li>chef-variations.md</li>
+  <li>shopping-guide.md</li>
+  <li>troubleshooting.md</li>
+  <li>experiments.md</li>
+  <li>references.md</li>
+  <li>research-notes.md</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
