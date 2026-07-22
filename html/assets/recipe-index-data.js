@@ -1,0 +1,2177 @@
+window.RECIPE_INDEX_DATA = {
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-14",
+  "recipeCount": 21,
+  "recipes": [
+    {
+      "id": "beef-stew",
+      "title": "Pro Beef Stew",
+      "slug": "beef-stew",
+      "description": "A slow-cooked beef stew built with deep browning, stock, wine, and a bright acidic finish.",
+      "href": "beef-stew.html",
+      "sourcePath": "recipes/beef-stew.md",
+      "searchText": "Pro Beef Stew beef-stew A slow-cooked beef stew built with deep browning, stock, wine, and a bright acidic finish. american french entree main-course dinner main comfort-food restaurant-style beef vegetables beef-chuck potato mushroom red-wine thyme savory rich umami hearty tender brothy hot braise browning deglazing batch-searing fond-building oven-braising dutch-oven oven family-dinner fall winter cold-weather-meal wine beefy stew parsley beef stew dutch oven slow cooked comfort food one-pot make-ahead cold-weather",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [
+          "main"
+        ],
+        "cookingStyles": [
+          "comfort-food",
+          "restaurant-style"
+        ],
+        "primaryIngredients": [
+          "beef",
+          "vegetables"
+        ],
+        "featuredIngredients": [
+          "beef-chuck",
+          "potato",
+          "mushroom",
+          "red-wine",
+          "thyme"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "rich",
+          "umami",
+          "hearty"
+        ],
+        "textureProfiles": [
+          "tender",
+          "brothy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "braise",
+          "browning",
+          "deglazing"
+        ],
+        "equipment": [
+          "dutch-oven",
+          "oven"
+        ],
+        "allergens": [
+          "milk",
+          "soy"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner"
+        ],
+        "seasons": [
+          "fall",
+          "winter"
+        ],
+        "eventTypes": [
+          "cold-weather-meal"
+        ],
+        "collections": [
+          "comfort-food",
+          "cold-weather"
+        ],
+        "tags": [
+          "one-pot",
+          "make-ahead"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": null,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": null,
+        "dairyFree": false,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": true,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": false,
+        "hasSubRecipes": false,
+        "requiresAssembly": false
+      },
+      "sort": {
+        "title": "Pro Beef Stew",
+        "totalTimeMinutes": 225,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 225,
+        "estimatedServings": null,
+        "confidence": 0.92
+      }
+    },
+    {
+      "id": "beef-tacos",
+      "title": "Pro Hard-Shell Ground Beef Tacos",
+      "slug": "beef-tacos",
+      "description": "A crisp hard-shell taco built around juicy seasoned ground beef and layered toppings.",
+      "href": "beef-tacos.html",
+      "sourcePath": "recipes/beef-tacos.md",
+      "searchText": "Pro Hard-Shell Ground Beef Tacos beef-tacos A crisp hard-shell taco built around juicy seasoned ground beef and layered toppings. tex-mex american entree main-course lunch dinner main beef dairy ground-beef hard-taco-shells cheddar lettuce tomato savory smoky tangy crisp juicy hot saute bake simmer browning assembly skillet oven baking-sheet taco-night family-dinner casual-dinner cheese taco-meat taco-assembly lime salsa ground beef tacos hard shell tacos taco night crispy-shell weeknight-dinner",
+      "filters": {
+        "cuisines": [
+          "tex-mex",
+          "american"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "beef",
+          "dairy"
+        ],
+        "featuredIngredients": [
+          "ground-beef",
+          "hard-taco-shells",
+          "cheddar",
+          "lettuce",
+          "tomato"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "smoky",
+          "tangy"
+        ],
+        "textureProfiles": [
+          "crisp",
+          "juicy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "saute",
+          "bake",
+          "simmer"
+        ],
+        "equipment": [
+          "skillet",
+          "oven",
+          "baking-sheet"
+        ],
+        "allergens": [
+          "milk",
+          "gluten",
+          "soy"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "taco-night",
+          "family-dinner"
+        ],
+        "seasons": [],
+        "eventTypes": [
+          "casual-dinner"
+        ],
+        "collections": [
+          "weeknight-dinner",
+          "tex-mex"
+        ],
+        "tags": [
+          "crispy-shell"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": false,
+        "potluckFriendly": false,
+        "picnicFriendly": false,
+        "hasSubRecipes": false,
+        "requiresAssembly": true
+      },
+      "sort": {
+        "title": "Pro Hard-Shell Ground Beef Tacos",
+        "totalTimeMinutes": 35,
+        "estimatedServings": 8
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 35,
+        "estimatedServings": 8,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "bread-pudding-savory",
+      "title": "Pro-Style Savory Bread Pudding",
+      "slug": "bread-pudding-savory",
+      "description": "A custardy savory baked bread pudding with cheese, herbs, and either bacon or mushrooms.",
+      "href": "bread-pudding-savory.html",
+      "sourcePath": "recipes/bread-pudding-savory.md",
+      "searchText": "Pro-Style Savory Bread Pudding bread-pudding-savory A custardy savory baked bread pudding with cheese, herbs, and either bacon or mushrooms. american french casserole side-dish brunch-main brunch dinner side main bread dairy egg brioche cream gruyere thyme savory rich umami buttery custardy crisp-top hot warm bake toast brown custard-making layering resting oven baking-dish mixing-bowl holiday-side fall winter brown-butter cheese bread-base savory-custard flavor-core chive-oil savory bread pudding brunch casserole cheesy bread bake make-ahead comfort-food",
+      "filters": {
+        "cuisines": [
+          "american",
+          "french"
+        ],
+        "recipeTypes": [
+          "casserole"
+        ],
+        "dishCourses": [
+          "side-dish",
+          "brunch-main"
+        ],
+        "mealTypes": [
+          "brunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "side",
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "bread",
+          "dairy",
+          "egg"
+        ],
+        "featuredIngredients": [
+          "brioche",
+          "cream",
+          "egg",
+          "gruyere",
+          "thyme"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "rich",
+          "umami",
+          "buttery"
+        ],
+        "textureProfiles": [
+          "custardy",
+          "crisp-top"
+        ],
+        "temperatureServed": [
+          "hot",
+          "warm"
+        ],
+        "cookingMethods": [
+          "bake",
+          "toast",
+          "brown"
+        ],
+        "equipment": [
+          "oven",
+          "baking-dish",
+          "mixing-bowl"
+        ],
+        "allergens": [
+          "milk",
+          "egg",
+          "gluten"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "brunch",
+          "holiday-side"
+        ],
+        "seasons": [
+          "fall",
+          "winter"
+        ],
+        "eventTypes": [],
+        "collections": [
+          "brunch",
+          "comfort-food"
+        ],
+        "tags": [
+          "make-ahead",
+          "holiday-side"
+        ]
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": false,
+        "vegetarian": null,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": false,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": false,
+        "requiresAssembly": true
+      },
+      "sort": {
+        "title": "Pro-Style Savory Bread Pudding",
+        "totalTimeMinutes": 95,
+        "estimatedServings": 8
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 95,
+        "estimatedServings": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "id": "bread-pudding-sweet",
+      "title": "Pro-Style Bread Pudding",
+      "slug": "bread-pudding-sweet",
+      "description": "A rich dessert bread pudding with browned butter, warm spices, and an optional bourbon sauce.",
+      "href": "bread-pudding-sweet.html",
+      "sourcePath": "recipes/bread-pudding-sweet.md",
+      "searchText": "Pro-Style Bread Pudding bread-pudding-sweet A rich dessert bread pudding with browned butter, warm spices, and an optional bourbon sauce. american british dessert dessert-course bread dairy egg brioche brown-butter vanilla cinnamon bourbon sweet rich warm-spiced custardy soft golden-top warm bake brown custard-making resting oven baking-dish saucepan holiday-dessert dinner-party fall winter brown-sugar bread-pudding bourbon-vanilla-sauce powdered-sugar vanilla-ice-cream whipped-mascarpone bread pudding bourbon sauce holiday dessert restaurant-style desserts holiday-baking",
+      "filters": {
+        "cuisines": [
+          "american",
+          "british"
+        ],
+        "recipeTypes": [
+          "dessert"
+        ],
+        "dishCourses": [
+          "dessert-course"
+        ],
+        "mealTypes": [
+          "dessert"
+        ],
+        "menuRoles": [
+          "dessert"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "bread",
+          "dairy",
+          "egg"
+        ],
+        "featuredIngredients": [
+          "brioche",
+          "brown-butter",
+          "vanilla",
+          "cinnamon",
+          "bourbon"
+        ],
+        "flavorProfiles": [
+          "sweet",
+          "rich",
+          "warm-spiced"
+        ],
+        "textureProfiles": [
+          "custardy",
+          "soft",
+          "golden-top"
+        ],
+        "temperatureServed": [
+          "warm"
+        ],
+        "cookingMethods": [
+          "bake",
+          "brown"
+        ],
+        "equipment": [
+          "oven",
+          "baking-dish",
+          "saucepan"
+        ],
+        "allergens": [
+          "milk",
+          "egg",
+          "gluten"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "holiday-dessert",
+          "dinner-party"
+        ],
+        "seasons": [
+          "fall",
+          "winter"
+        ],
+        "eventTypes": [],
+        "collections": [
+          "desserts",
+          "holiday-baking"
+        ],
+        "tags": [
+          "restaurant-style"
+        ]
+      },
+      "booleans": {
+        "containsMeat": false,
+        "containsSeafood": false,
+        "vegetarian": true,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": false,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": true,
+        "requiresAssembly": false
+      },
+      "sort": {
+        "title": "Pro-Style Bread Pudding",
+        "totalTimeMinutes": 90,
+        "estimatedServings": 9
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 90,
+        "estimatedServings": 9,
+        "confidence": 0.94
+      }
+    },
+    {
+      "id": "cacao-del-sol-bbq-sauce",
+      "title": "Cacao del Sol Competition Sauce",
+      "slug": "cacao-del-sol-bbq-sauce",
+      "description": "A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert.",
+      "href": "cacao-del-sol-bbq-sauce.html",
+      "sourcePath": "recipes/cacao-del-sol-bbq-sauce.md",
+      "searchText": "Cacao del Sol Competition Sauce cacao-del-sol-bbq-sauce A competition-style barbecue sauce that layers cacao, chipotle, and dark chocolate without drifting into dessert. fusion condiment dinner tomato chocolate simmer blend cookout competition bbq sauce competition sauce cacao sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Cacao del Sol Competition Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "cuban-black-beans",
+      "title": "Pro Cuban Black Beans (Frijoles Negros)",
+      "slug": "cuban-black-beans",
+      "description": "A Cuban-style black bean preparation with sofrito, vinegar, and a silky bean broth.",
+      "href": "cuban-black-beans.html",
+      "sourcePath": "recipes/cuban-black-beans.md",
+      "searchText": "Pro Cuban Black Beans (Frijoles Negros) cuban-black-beans A Cuban-style black bean preparation with sofrito, vinegar, and a silky bean broth. cuban caribbean entree side-dish main-course lunch dinner side main beans legumes black-beans sofrito red-wine-vinegar savory earthy tangy creamy brothy hot simmer soak sofrito-building bean-cooking mashing pot dutch-oven family-dinner beans-and-rice-meal black-bean vinegar cuban black beans frijoles negros beans and rice make-ahead freezer-friendly budget-friendly",
+      "filters": {
+        "cuisines": [
+          "cuban",
+          "caribbean"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "side-dish",
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "side",
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "beans",
+          "legumes"
+        ],
+        "featuredIngredients": [
+          "black-beans",
+          "sofrito",
+          "red-wine-vinegar"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "earthy",
+          "tangy"
+        ],
+        "textureProfiles": [
+          "creamy",
+          "brothy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "simmer",
+          "soak"
+        ],
+        "equipment": [
+          "pot",
+          "dutch-oven"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner"
+        ],
+        "seasons": [],
+        "eventTypes": [
+          "beans-and-rice-meal"
+        ],
+        "collections": [
+          "caribbean",
+          "budget-friendly"
+        ],
+        "tags": [
+          "make-ahead",
+          "freezer-friendly"
+        ]
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": false,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": true,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": true,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": false,
+        "requiresAssembly": false
+      },
+      "sort": {
+        "title": "Pro Cuban Black Beans (Frijoles Negros)",
+        "totalTimeMinutes": 155,
+        "estimatedServings": 7
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 155,
+        "estimatedServings": 7,
+        "confidence": 0.93
+      }
+    },
+    {
+      "id": "giant-cookie",
+      "title": "9x9 Cookie Bar (or Giant Cookie)",
+      "slug": "giant-cookie",
+      "description": "A simple chocolate chip cookie dough baked as a bar or giant cookie cake.",
+      "href": "giant-cookie.html",
+      "sourcePath": "recipes/giant-cookie.md",
+      "searchText": "9x9 Cookie Bar (or Giant Cookie) giant-cookie A simple chocolate chip cookie dough baked as a bar or giant cookie cake. american cookie dessert dessert-course snack baking chocolate butter brown-sugar chocolate-chips sweet buttery chewy gooey-center crisp-edge warm room-temperature bake smoke mixing pan-pressing mixing-bowl 9x9-pan oven birthday casual-dessert vanilla cookie-bar giant cookie cookie bar cookie cake one-bowl kid-friendly desserts easy-baking",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [
+          "cookie",
+          "dessert"
+        ],
+        "dishCourses": [
+          "dessert-course"
+        ],
+        "mealTypes": [
+          "dessert",
+          "snack"
+        ],
+        "menuRoles": [
+          "dessert"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "baking",
+          "chocolate"
+        ],
+        "featuredIngredients": [
+          "butter",
+          "brown-sugar",
+          "chocolate-chips"
+        ],
+        "flavorProfiles": [
+          "sweet",
+          "buttery"
+        ],
+        "textureProfiles": [
+          "chewy",
+          "gooey-center",
+          "crisp-edge"
+        ],
+        "temperatureServed": [
+          "warm",
+          "room-temperature"
+        ],
+        "cookingMethods": [
+          "bake",
+          "smoke"
+        ],
+        "equipment": [
+          "mixing-bowl",
+          "9x9-pan",
+          "oven"
+        ],
+        "allergens": [
+          "milk",
+          "egg",
+          "gluten"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "birthday",
+          "casual-dessert"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "desserts",
+          "easy-baking"
+        ],
+        "tags": [
+          "one-bowl",
+          "kid-friendly"
+        ]
+      },
+      "booleans": {
+        "containsMeat": false,
+        "containsSeafood": false,
+        "vegetarian": true,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": false,
+        "nutFree": true,
+        "freezerFriendly": true,
+        "reheatsWell": false,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": true,
+        "hasSubRecipes": false,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "9x9 Cookie Bar (or Giant Cookie)",
+        "totalTimeMinutes": 40,
+        "estimatedServings": 9
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 40,
+        "estimatedServings": 9,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "grilled-lamb-chops",
+      "title": "Pro Grilled Lamb Chops",
+      "slug": "grilled-lamb-chops",
+      "description": "Herb-marinated lamb chops grilled over high heat and finished with lemon and optional mint chimichurri.",
+      "href": "grilled-lamb-chops.html",
+      "sourcePath": "recipes/grilled-lamb-chops.md",
+      "searchText": "Pro Grilled Lamb Chops grilled-lamb-chops Herb-marinated lamb chops grilled over high heat and finished with lemon and optional mint chimichurri. mediterranean greek entree main-course dinner main lamb lamb-chops rosemary thyme lemon mint savory herbaceous smoky bright charred tender juicy hot grill sear marinating two-zone-cooking resting mixing-bowl date-night dinner-party grill-out garlic grill-smoke mint-chimichurri flaky-sea-salt grilled lamb chops mint chimichurri special occasion dinner high-heat-grilling grilling special-occasion",
+      "filters": {
+        "cuisines": [
+          "mediterranean"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "lamb"
+        ],
+        "featuredIngredients": [
+          "lamb-chops",
+          "rosemary",
+          "thyme",
+          "lemon",
+          "mint"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "herbaceous",
+          "smoky",
+          "bright"
+        ],
+        "textureProfiles": [
+          "charred",
+          "tender",
+          "juicy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "grill",
+          "sear"
+        ],
+        "equipment": [
+          "grill",
+          "mixing-bowl"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "date-night",
+          "dinner-party"
+        ],
+        "seasons": [],
+        "eventTypes": [
+          "grill-out"
+        ],
+        "collections": [
+          "grilling",
+          "special-occasion"
+        ],
+        "tags": [
+          "high-heat-grilling"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": false,
+        "crowdFriendly": false,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": false,
+        "picnicFriendly": null,
+        "hasSubRecipes": true,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Pro Grilled Lamb Chops",
+        "totalTimeMinutes": 330,
+        "estimatedServings": 4
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 330,
+        "estimatedServings": 4,
+        "confidence": 0.93
+      }
+    },
+    {
+      "id": "lobster-corn-chowder",
+      "title": "Restaurant-Style Lobster Corn Chowder",
+      "slug": "lobster-corn-chowder",
+      "description": "A creamy chowder featuring lobster, sweet corn, potatoes, and bacon in a rich broth.",
+      "href": "lobster-corn-chowder.html",
+      "sourcePath": "recipes/lobster-corn-chowder.md",
+      "searchText": "Restaurant-Style Lobster Corn Chowder lobster-corn-chowder A creamy chowder featuring lobster, sweet corn, potatoes, and bacon in a rich broth. new-england american broth entree starter main-course lunch dinner main seafood dairy vegetables lobster corn potato bacon cream rich savory sweet-corn briny creamy chunky hot simmer render poach roux-building layered-soup-building dutch-oven pot dinner-party summer-seafood summer fall chowder chives parsley lobster chowder corn chowder seafood soup restaurant-style special-occasion",
+      "filters": {
+        "cuisines": [
+          "new-england",
+          "american"
+        ],
+        "recipeTypes": [
+          "broth",
+          "entree"
+        ],
+        "dishCourses": [
+          "starter",
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "starter",
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "seafood",
+          "dairy",
+          "vegetables"
+        ],
+        "featuredIngredients": [
+          "lobster",
+          "corn",
+          "potato",
+          "bacon",
+          "cream"
+        ],
+        "flavorProfiles": [
+          "rich",
+          "savory",
+          "sweet-corn",
+          "briny"
+        ],
+        "textureProfiles": [
+          "creamy",
+          "chunky"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "simmer",
+          "render",
+          "poach"
+        ],
+        "equipment": [
+          "dutch-oven",
+          "pot"
+        ],
+        "allergens": [
+          "shellfish",
+          "milk",
+          "gluten"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "dinner-party",
+          "summer-seafood"
+        ],
+        "seasons": [
+          "summer",
+          "fall"
+        ],
+        "eventTypes": [],
+        "collections": [
+          "seafood",
+          "special-occasion"
+        ],
+        "tags": [
+          "restaurant-style"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": true,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": false,
+        "picnicFriendly": null,
+        "hasSubRecipes": false,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Restaurant-Style Lobster Corn Chowder",
+        "totalTimeMinutes": 60,
+        "estimatedServings": 6
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": "intermediate",
+        "totalTimeMinutes": 60,
+        "estimatedServings": 6,
+        "confidence": 0.94
+      }
+    },
+    {
+      "id": "mac-and-cheese",
+      "title": "Pro Mac & Cheese (Sloppy-Joe-Proof Edition)",
+      "slug": "mac-and-cheese",
+      "description": "A structured baked macaroni and cheese with a crisp panko topping and savory cheese blend.",
+      "href": "mac-and-cheese.html",
+      "sourcePath": "recipes/mac-and-cheese.md",
+      "searchText": "Pro Mac & Cheese (Sloppy-Joe-Proof Edition) mac-and-cheese A structured baked macaroni and cheese with a crisp panko topping and savory cheese blend. american casserole entree side-dish main-course lunch dinner side pasta dairy cavatappi cheddar gruyere fontina panko savory cheesy rich creamy crisp-top hot bake boil broil bechamel cheese-sauce pot baking-dish oven family-dinner potluck butter parsley chives mac and cheese baked macaroni panko topping comfort-food make-ahead weeknight-dinner",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [
+          "casserole",
+          "entree"
+        ],
+        "dishCourses": [
+          "side-dish",
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "side"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "pasta",
+          "dairy"
+        ],
+        "featuredIngredients": [
+          "cavatappi",
+          "cheddar",
+          "gruyere",
+          "fontina",
+          "panko"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "cheesy",
+          "rich"
+        ],
+        "textureProfiles": [
+          "creamy",
+          "crisp-top"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "bake",
+          "boil",
+          "broil"
+        ],
+        "equipment": [
+          "pot",
+          "baking-dish",
+          "oven"
+        ],
+        "allergens": [
+          "milk",
+          "gluten"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner",
+          "potluck"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "comfort-food",
+          "weeknight-dinner"
+        ],
+        "tags": [
+          "comfort-food",
+          "make-ahead"
+        ]
+      },
+      "booleans": {
+        "containsMeat": false,
+        "containsSeafood": false,
+        "vegetarian": true,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": false,
+        "requiresAssembly": true
+      },
+      "sort": {
+        "title": "Pro Mac & Cheese (Sloppy-Joe-Proof Edition)",
+        "totalTimeMinutes": 50,
+        "estimatedServings": 6
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 50,
+        "estimatedServings": 6,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "mayan-night-bbq-sauce",
+      "title": "Mayan Night BBQ Sauce",
+      "slug": "mayan-night-bbq-sauce",
+      "description": "A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats.",
+      "href": "mayan-night-bbq-sauce.html",
+      "sourcePath": "recipes/mayan-night-bbq-sauce.md",
+      "searchText": "Mayan Night BBQ Sauce mayan-night-bbq-sauce A smoky, cocoa-driven barbecue sauce with chipotle heat and a rounded, dark finish for grilled meats. fusion condiment dinner tomato chocolate simmer blend cookout bbq sauce mayan bbq sauce chipotle sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Mayan Night BBQ Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "mayan-three-cacoa-bbq-sauce",
+      "title": "Mayan Three-Cacao BBQ Sauce",
+      "slug": "mayan-three-cacoa-bbq-sauce",
+      "description": "A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke.",
+      "href": "mayan-three-cacoa-bbq-sauce.html",
+      "sourcePath": "recipes/mayan-three-cacoa-bbq-sauce.md",
+      "searchText": "Mayan Three-Cacao BBQ Sauce mayan-three-cacoa-bbq-sauce A refined barbecue sauce built around cocoa powder, dark chocolate, and cacao nibs for layered bitterness and smoke. fusion condiment dinner tomato chocolate simmer blend cookout competition bbq sauce cacao bbq sauce competition sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Mayan Three-Cacao BBQ Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "mexican-rice",
+      "title": "Pro Mexican Rice (Arroz Rojo)",
+      "slug": "mexican-rice",
+      "description": "A fluffy tomato-forward Mexican rice finished with a savory stock base.",
+      "href": "mexican-rice.html",
+      "sourcePath": "recipes/mexican-rice.md",
+      "searchText": "Pro Mexican Rice (Arroz Rojo) mexican-rice A fluffy tomato-forward Mexican rice finished with a savory stock base. mexican side-dish lunch dinner side rice long-grain-rice tomato chicken-stock savory tomato-forward fluffy hot simmer toast steam blending rice-toasting covered-resting blender saucepan family-dinner taco-night toasted-rice arroz rojo mexican rice restaurant rice mexican-sides weeknight-dinner",
+      "filters": {
+        "cuisines": [
+          "mexican"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "side-dish"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "side"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "rice"
+        ],
+        "featuredIngredients": [
+          "long-grain-rice",
+          "tomato",
+          "chicken-stock"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "tomato-forward"
+        ],
+        "textureProfiles": [
+          "fluffy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "simmer",
+          "toast",
+          "steam"
+        ],
+        "equipment": [
+          "blender",
+          "saucepan"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner",
+          "taco-night"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "mexican-sides",
+          "weeknight-dinner"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": null,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Pro Mexican Rice (Arroz Rojo)",
+        "totalTimeMinutes": 35,
+        "estimatedServings": 5
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 35,
+        "estimatedServings": 5,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "nacho-bar",
+      "title": "Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar",
+      "slug": "nacho-bar",
+      "description": "A multi-component event packet for a themed nacho and mac-and-cheese buffet with proteins, queso, toppings, and service notes.",
+      "href": "nacho-bar.html",
+      "sourcePath": "recipes/nacho-bar.md",
+      "searchText": "Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar nacho-bar A multi-component event packet for a themed nacho and mac-and-cheese buffet with proteins, queso, toppings, and service notes. tex-mex american fusion main-course party dinner buffet party-food batch-cooking beef chicken dairy pasta ground-beef chicken-thighs queso tortilla-chips cavatappi savory crowd-pleasing customizable crispy melty saucy hot room-temperature braise saute bake hold-hot pickle dry-brine assembly oven stovetop hotel-pan sheet-pan game-night themed-event chile cheese smoke red-chile-base braised-chicken nacho-beef pickled-onions nacho-bar-layout mac-base bacon-topping panko-topping chile-oil scallions chives parsley pickled-red-onions nacho bar mac and cheese bar party menu dungeons and dragons food event-packet multi-component theme-menu",
+      "filters": {
+        "cuisines": [
+          "tex-mex",
+          "american",
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "party",
+          "dinner"
+        ],
+        "menuRoles": [
+          "buffet"
+        ],
+        "cookingStyles": [
+          "party-food",
+          "batch-cooking"
+        ],
+        "primaryIngredients": [
+          "beef",
+          "chicken",
+          "dairy",
+          "pasta"
+        ],
+        "featuredIngredients": [
+          "ground-beef",
+          "chicken-thighs",
+          "queso",
+          "tortilla-chips",
+          "cavatappi"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "crowd-pleasing",
+          "customizable"
+        ],
+        "textureProfiles": [
+          "crispy",
+          "melty",
+          "saucy"
+        ],
+        "temperatureServed": [
+          "hot",
+          "room-temperature"
+        ],
+        "cookingMethods": [
+          "braise",
+          "saute",
+          "bake",
+          "hold-hot",
+          "pickle"
+        ],
+        "equipment": [
+          "oven",
+          "stovetop",
+          "hotel-pan",
+          "sheet-pan"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "game-night",
+          "party"
+        ],
+        "seasons": [],
+        "eventTypes": [
+          "buffet",
+          "themed-event"
+        ],
+        "collections": [
+          "party-food",
+          "game-night"
+        ],
+        "tags": [
+          "event-packet",
+          "multi-component",
+          "theme-menu"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": false,
+        "picnicFriendly": null,
+        "hasSubRecipes": true,
+        "requiresAssembly": true
+      },
+      "sort": {
+        "title": "Dungeons & Dragons Nacho Bar & Pro Mac & Cheese Bar",
+        "totalTimeMinutes": 360,
+        "estimatedServings": 8
+      },
+      "metadata": {
+        "difficulty": "hard",
+        "skillLevel": "advanced",
+        "totalTimeMinutes": 360,
+        "estimatedServings": 8,
+        "confidence": 0.97
+      }
+    },
+    {
+      "id": "potato-soup-spanish",
+      "title": "Potaje de Garbanzos con Chorizo",
+      "slug": "potato-soup-spanish",
+      "description": "A Spanish chickpea, vegetable, and chorizo stew with smoky paprika broth.",
+      "href": "potato-soup-spanish.html",
+      "sourcePath": "recipes/potato-soup-spanish.md",
+      "searchText": "Potaje de Garbanzos con Chorizo potato-soup-spanish A Spanish chickpea, vegetable, and chorizo stew with smoky paprika broth. spanish entree main-course lunch dinner main pork legumes vegetables chorizo chickpeas potato smoked-paprika savory smoky hearty brothy hot simmer render sofrito-building stewing dutch-oven soup-pot family-dinner fall winter paprika chickpea stew potaje de garbanzos spanish chickpea stew chorizo stew cold-weather",
+      "filters": {
+        "cuisines": [
+          "spanish"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "pork",
+          "legumes",
+          "vegetables"
+        ],
+        "featuredIngredients": [
+          "chorizo",
+          "chickpeas",
+          "potato",
+          "smoked-paprika"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "smoky",
+          "hearty"
+        ],
+        "textureProfiles": [
+          "brothy",
+          "hearty"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "simmer",
+          "render"
+        ],
+        "equipment": [
+          "dutch-oven",
+          "soup-pot"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner"
+        ],
+        "seasons": [
+          "fall",
+          "winter"
+        ],
+        "eventTypes": [],
+        "collections": [
+          "spanish",
+          "cold-weather"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": true,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Potaje de Garbanzos con Chorizo",
+        "totalTimeMinutes": 60,
+        "estimatedServings": 5
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 60,
+        "estimatedServings": 5,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "savory-chicken-wing-rub",
+      "title": "Savory Grilled Chicken Wings",
+      "slug": "savory-chicken-wing-rub",
+      "description": "Dry-rubbed grilled chicken wings with an optional garlic butter finish.",
+      "href": "savory-chicken-wing-rub.html",
+      "sourcePath": "recipes/savory-chicken-wing-rub.md",
+      "searchText": "Savory Grilled Chicken Wings savory-chicken-wing-rub Dry-rubbed grilled chicken wings with an optional garlic butter finish. american entree appetizer main-course lunch dinner starter main chicken seasoning chicken-wings smoked-paprika garlic butter savory smoky crisp-skin juicy hot grill smoke dry-brine two-zone-cooking mixing-bowl game-day cookout grill-out paprika dry-rub garlic-butter-finish grilled chicken wings dry rub wings game day wings grilling",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "appetizer",
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "starter",
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "chicken",
+          "seasoning"
+        ],
+        "featuredIngredients": [
+          "chicken-wings",
+          "smoked-paprika",
+          "garlic",
+          "butter"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "smoky"
+        ],
+        "textureProfiles": [
+          "crisp-skin",
+          "juicy"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "grill",
+          "smoke"
+        ],
+        "equipment": [
+          "grill",
+          "mixing-bowl"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "game-day",
+          "cookout"
+        ],
+        "seasons": [],
+        "eventTypes": [
+          "grill-out"
+        ],
+        "collections": [
+          "game-day",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": null,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": true,
+        "requiresAssembly": false
+      },
+      "sort": {
+        "title": "Savory Grilled Chicken Wings",
+        "totalTimeMinutes": 80,
+        "estimatedServings": 5
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 80,
+        "estimatedServings": 5,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "sloppy-joes",
+      "title": "Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)",
+      "slug": "sloppy-joes",
+      "description": "A savory-sweet loose beef sandwich filling with ketchup, mustard, Worcestershire, and optional add-ins.",
+      "href": "sloppy-joes.html",
+      "sourcePath": "recipes/sloppy-joes.md",
+      "searchText": "Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary) sloppy-joes A savory-sweet loose beef sandwich filling with ketchup, mustard, Worcestershire, and optional add-ins. american entree main-course lunch dinner main beef sandwich ground-beef ketchup mustard worcestershire savory sweet-savory tangy smoky saucy crumbly hot saute simmer browning sauce-building skillet family-dinner sandwich-filling sloppy joes ground beef sandwich weeknight sandwich comfort-food weeknight-dinner",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "beef",
+          "sandwich"
+        ],
+        "featuredIngredients": [
+          "ground-beef",
+          "ketchup",
+          "mustard",
+          "worcestershire"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "sweet-savory",
+          "tangy",
+          "smoky"
+        ],
+        "textureProfiles": [
+          "saucy",
+          "crumbly"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "saute",
+          "simmer"
+        ],
+        "equipment": [
+          "skillet"
+        ],
+        "allergens": [
+          "soy"
+        ],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "comfort-food",
+          "weeknight-dinner"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": null,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": true,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": false,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Pro-Level Sloppy Joes (Rich, Balanced, Not Sugary)",
+        "totalTimeMinutes": 45,
+        "estimatedServings": 5
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 45,
+        "estimatedServings": 5,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "sopa-de-pollo",
+      "title": "Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)",
+      "slug": "sopa-de-pollo",
+      "description": "A Spanish-style chicken noodle soup with paprika, tomato, chickpeas, and optional saffron.",
+      "href": "sopa-de-pollo.html",
+      "sourcePath": "recipes/sopa-de-pollo.md",
+      "searchText": "Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos) sopa-de-pollo A Spanish-style chicken noodle soup with paprika, tomato, chickpeas, and optional saffron. spanish entree starter main-course lunch dinner main chicken pasta legumes fideos chickpeas smoked-paprika saffron savory comforting bright brothy hearty hot simmer soup-building dutch-oven soup-pot family-dinner fall winter paprika tomato soup sopa de pollo spanish chicken soup fideos soup soups comfort-food",
+      "filters": {
+        "cuisines": [
+          "spanish"
+        ],
+        "recipeTypes": [
+          "entree"
+        ],
+        "dishCourses": [
+          "starter",
+          "main-course"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "menuRoles": [
+          "starter",
+          "main"
+        ],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "chicken",
+          "pasta",
+          "legumes"
+        ],
+        "featuredIngredients": [
+          "chicken",
+          "fideos",
+          "chickpeas",
+          "smoked-paprika",
+          "saffron"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "comforting",
+          "bright"
+        ],
+        "textureProfiles": [
+          "brothy",
+          "hearty"
+        ],
+        "temperatureServed": [
+          "hot"
+        ],
+        "cookingMethods": [
+          "simmer"
+        ],
+        "equipment": [
+          "dutch-oven",
+          "soup-pot"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "family-dinner"
+        ],
+        "seasons": [
+          "fall",
+          "winter"
+        ],
+        "eventTypes": [],
+        "collections": [
+          "soups",
+          "comfort-food"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": false,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": true,
+        "eggFree": true,
+        "nutFree": true,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": true,
+        "weeknightFriendly": true,
+        "specialOccasion": null,
+        "potluckFriendly": true,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Spanish Chicken Noodle Soup (Sopa de Pollo con Fideos)",
+        "totalTimeMinutes": 40,
+        "estimatedServings": 7
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": "beginner",
+        "totalTimeMinutes": 40,
+        "estimatedServings": 7,
+        "confidence": 0.95
+      }
+    },
+    {
+      "id": "spanish-ribs",
+      "title": "Spanish-Inspired Rib Dinner Menu",
+      "slug": "spanish-ribs",
+      "description": "A Spanish-style dinner menu centered on smoked paprika ribs with tapas, sides, dessert, and beverage pairings.",
+      "href": "spanish-ribs.html",
+      "sourcePath": "recipes/spanish-ribs.md",
+      "searchText": "Spanish-Inspired Rib Dinner Menu spanish-ribs A Spanish-style dinner menu centered on smoked paprika ribs with tapas, sides, dessert, and beverage pairings. spanish main-course dinner menu dinner-party family-style pork appetizers dessert ribs smoked-paprika sherry marcona-almonds basque-cheesecake savory smoky bright multi-texture hot room-temperature roast assemble menu-planning multi-course-service oven serving-platters holiday-dinner paprika-ribs pan-con-tomate olive-tapenade warm-marcona-almonds roasted-peppers citrus-fennel-salad spanish dinner menu paprika ribs dinner party menu menu-plan multi-course",
+      "filters": {
+        "cuisines": [
+          "spanish"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "main-course"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [
+          "menu"
+        ],
+        "cookingStyles": [
+          "dinner-party",
+          "family-style"
+        ],
+        "primaryIngredients": [
+          "pork",
+          "appetizers",
+          "dessert"
+        ],
+        "featuredIngredients": [
+          "ribs",
+          "smoked-paprika",
+          "sherry",
+          "marcona-almonds",
+          "basque-cheesecake"
+        ],
+        "flavorProfiles": [
+          "savory",
+          "smoky",
+          "bright"
+        ],
+        "textureProfiles": [
+          "multi-texture"
+        ],
+        "temperatureServed": [
+          "hot",
+          "room-temperature"
+        ],
+        "cookingMethods": [
+          "roast",
+          "assemble"
+        ],
+        "equipment": [
+          "oven",
+          "serving-platters"
+        ],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "dinner-party",
+          "holiday-dinner"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "spanish",
+          "dinner-party"
+        ],
+        "tags": [
+          "menu-plan",
+          "multi-course"
+        ]
+      },
+      "booleans": {
+        "containsMeat": true,
+        "containsSeafood": null,
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": false,
+        "freezerFriendly": null,
+        "reheatsWell": null,
+        "crowdFriendly": true,
+        "weeknightFriendly": false,
+        "specialOccasion": true,
+        "potluckFriendly": false,
+        "picnicFriendly": null,
+        "hasSubRecipes": true,
+        "requiresAssembly": true
+      },
+      "sort": {
+        "title": "Spanish-Inspired Rib Dinner Menu",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "hard",
+        "skillLevel": "advanced",
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.96
+      }
+    },
+    {
+      "id": "sweet-home-chicago-dip",
+      "title": "Sweet Home Chicago Dip",
+      "slug": "sweet-home-chicago-dip",
+      "description": "A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders.",
+      "href": "sweet-home-chicago-dip.html",
+      "sourcePath": "recipes/sweet-home-chicago-dip.md",
+      "searchText": "Sweet Home Chicago Dip sweet-home-chicago-dip A baked Italian beef dip with sweet-pepper, giardiniera, and jus sections inspired by classic Chicago sandwich orders. american appetizer party dinner beef dairy bake game-day italian beef dip baked dip party dip party-food dips",
+      "filters": {
+        "cuisines": [
+          "american"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "appetizer"
+        ],
+        "mealTypes": [
+          "party",
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "beef",
+          "dairy"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "bake"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "game-day",
+          "party"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "party-food",
+          "dips"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Sweet Home Chicago Dip",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "medium",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    },
+    {
+      "id": "sweet-home-chicken-itza-sauce",
+      "title": "Sweet Home Chichén Itzá Sauce",
+      "slug": "sweet-home-chicken-itza-sauce",
+      "description": "A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle.",
+      "href": "sweet-home-chicken-itza-sauce.html",
+      "sourcePath": "recipes/sweet-home-chicken-itza-sauce.md",
+      "searchText": "Sweet Home Chichén Itzá Sauce sweet-home-chicken-itza-sauce A Yucatan-inspired table sauce balancing fire-roasted tomato, cacao, orange, and chipotle. fusion condiment dinner tomato chocolate simmer blend cookout competition table sauce yucatan sauce cacao sauce sauces grilling",
+      "filters": {
+        "cuisines": [
+          "fusion"
+        ],
+        "recipeTypes": [],
+        "dishCourses": [
+          "condiment"
+        ],
+        "mealTypes": [
+          "dinner"
+        ],
+        "menuRoles": [],
+        "cookingStyles": [],
+        "primaryIngredients": [
+          "tomato",
+          "chocolate"
+        ],
+        "featuredIngredients": [],
+        "flavorProfiles": [],
+        "textureProfiles": [],
+        "temperatureServed": [],
+        "cookingMethods": [
+          "simmer",
+          "blend"
+        ],
+        "equipment": [],
+        "allergens": [],
+        "dietaryPatterns": [],
+        "occasions": [
+          "cookout",
+          "competition"
+        ],
+        "seasons": [],
+        "eventTypes": [],
+        "collections": [
+          "sauces",
+          "grilling"
+        ],
+        "tags": []
+      },
+      "booleans": {
+        "containsMeat": null,
+        "containsSeafood": null,
+        "vegetarian": null,
+        "vegan": null,
+        "glutenFree": null,
+        "dairyFree": null,
+        "eggFree": null,
+        "nutFree": null,
+        "freezerFriendly": false,
+        "reheatsWell": true,
+        "crowdFriendly": null,
+        "weeknightFriendly": null,
+        "specialOccasion": null,
+        "potluckFriendly": null,
+        "picnicFriendly": null,
+        "hasSubRecipes": null,
+        "requiresAssembly": null
+      },
+      "sort": {
+        "title": "Sweet Home Chichén Itzá Sauce",
+        "totalTimeMinutes": null,
+        "estimatedServings": null
+      },
+      "metadata": {
+        "difficulty": "easy",
+        "skillLevel": null,
+        "totalTimeMinutes": null,
+        "estimatedServings": null,
+        "confidence": 0.65
+      }
+    }
+  ]
+};
