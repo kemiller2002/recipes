@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custard-Rich Hot Chocolate for Eight</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Custard-Rich Hot Chocolate for Eight</h1>
+        <p class="recipe-summary">A large-batch hot chocolate enriched with tempered eggs for a silky custard-like texture without becoming pudding-thick.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>8</dd></div>
+<div><dt>Yield</dt><dd>about 8 cups</dd></div>
+<div><dt>Prep</dt><dd>15 minutes</dd></div>
+<div><dt>Cook</dt><dd>20 minutes</dd></div>
+<div><dt>Total</dt><dd>35 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Custard-Rich Hot Chocolate for Eight</h1>
+<p>A reconstructed large-batch hot chocolate enriched with tempered eggs. It is silkier and fuller-bodied than standard cocoa, but still pourable.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">8 cups</span> <span class="item">whole milk</span></li>
+  <li>or 6 cups whole milk plus 2 cups half-and-half</li>
+  <li><span class="amount">3/4 cup</span> <span class="item">unsweetened cocoa powder</span></li>
+  <li><span class="amount">3/4 cup</span> <span class="item">granulated sugar</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">8 oz</span> <span class="item">dark chocolate, 60 to 70%, finely chopped</span></li>
+  <li><span class="amount">4</span> <span class="item">large eggs</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">vanilla extract</span></li>
+</ul>
+<h2>Equipment</h2>
+<ul>
+  <li>Large heavy saucepan</li>
+  <li>Large mixing bowl</li>
+  <li>Whisk</li>
+  <li>Instant-read thermometer</li>
+  <li>Fine-mesh strainer, recommended</li>
+</ul>
+<h2>Steps</h2>
+<ol>
+  <li>In a large saucepan, whisk together the cocoa powder, sugar, salt, and 1 cup of the cold milk until completely smooth.</li>
+  <li>Whisk in the remaining milk.</li>
+  <li><span class="verb">Heat</span> over medium-low heat, whisking occasionally, until steaming and about 170°F. Do not boil.</li>
+  <li><span class="verb">Add</span> the chopped dark chocolate and whisk until completely melted.</li>
+  <li>In a large bowl, whisk the eggs until smooth.</li>
+  <li>While whisking constantly, slowly ladle about 2 cups of the hot chocolate mixture into the eggs.</li>
+  <li><span class="verb">Reduce</span> the heat under the saucepan to low.</li>
+  <li>Slowly whisk the tempered egg mixture back into the saucepan.</li>
+  <li><span class="verb">Cook</span> gently, stirring or whisking continuously, until the hot chocolate reaches 160 to 165°F and becomes slightly more velvety. Do not allow it to simmer or boil.</li>
+  <li><span class="verb">Remove</span> from heat.</li>
+  <li><span class="verb">Stir</span> in the vanilla.</li>
+  <li>Strain through a fine-mesh strainer for the smoothest texture.</li>
+  <li><span class="verb">Serve</span> immediately.</li>
+</ol>
+<h2>Texture Target</h2>
+<p>The finished drink should:</p>
+<ul>
+  <li>Coat the tongue more fully than ordinary cocoa</li>
+  <li>Remain pourable</li>
+  <li>Feel custardy without tasting eggy</li>
+  <li>Have no visible curds or graininess</li>
+</ul>
+<h2>Adjustments</h2>
+<ul>
+  <li>Richer: use the 6 cups milk plus 2 cups half-and-half option.</li>
+  <li>Darker: use 1 cup cocoa powder rather than 3/4 cup.</li>
+  <li>Sweeter: increase sugar to 1 cup.</li>
+  <li>Less sweet: reduce sugar to 2/3 cup and use 70% chocolate.</li>
+  <li>Spiced: steep cinnamon, ancho chile, espresso powder, or orange peel in the milk.</li>
+</ul>
+<h2>Reheating</h2>
+<p>Reheat over low heat while stirring constantly. Keep the mixture below a simmer because the eggs can curdle if overheated.</p>
+<h2>Reconstruction Note</h2>
+<p>The core quantities were preserved from the earlier recipe. The tempering sequence and temperature controls were rebuilt to make the formula safe, repeatable, and smooth.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
