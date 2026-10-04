@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crispy Shredded Onion Rings</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Crispy Shredded Onion Rings</h1>
+        <p class="recipe-summary">Thin, lacy fried onion cakes inspired by Daltz-style shredded onion rings, with Parmesan in the mix and on the finish.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>4</dd></div>
+<div><dt>Yield</dt><dd>appetizer</dd></div>
+<div><dt>Prep</dt><dd>25 minutes</dd></div>
+<div><dt>Cook</dt><dd>20 minutes</dd></div>
+<div><dt>Total</dt><dd>45 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Crispy Shredded Onion Rings</h1>
+<p>A thin, lacy onion fritter style designed to emphasize crisp edges rather than a thick batter shell.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">2</span> <span class="item">large sweet onions</span></li>
+  <li>Kosher salt, for drawing out moisture</li>
+  <li><span class="amount">1/4 cup</span> <span class="item">finely grated Parmesan, plus more for finishing</span></li>
+  <li><span class="amount">2</span> <span class="item">to 3 tbsp all-purpose flour or potato starch</span></li>
+  <li><span class="amount">1</span> <span class="item">large egg or egg white</span></li>
+  <li>Freshly ground black pepper, to taste</li>
+  <li>Garlic powder, optional</li>
+  <li>Paprika, optional</li>
+  <li>Neutral frying oil</li>
+  <li>Flaky salt, optional for finishing</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Julienne or coarsely grate the onions into thin strands.</li>
+  <li>Toss lightly with kosher salt and rest 10 to 15 minutes.</li>
+  <li>Squeeze the onions very aggressively to remove as much liquid as possible.</li>
+  <li>Mix with the egg, flour or potato starch, 1/4 cup Parmesan, black pepper, and optional garlic powder or paprika.</li>
+  <li><span class="verb">Heat</span> a shallow layer of neutral oil over medium-high heat.</li>
+  <li>Drop small piles of the onion mixture into the oil and press them very thin.</li>
+  <li>Leave them undisturbed until the underside is deep golden and lacy.</li>
+  <li>Flip and crisp the second side.</li>
+  <li><span class="verb">Drain</span> briefly.</li>
+  <li>Finish immediately with additional Parmesan and optional flaky salt.</li>
+</ol>
+<h2>Notes</h2>
+<p>Keeping the piles thin and removing excess onion moisture are the two main controls for crispness.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

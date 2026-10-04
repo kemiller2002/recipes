@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackened Salmon Bites</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Blackened Salmon Bites</h1>
+        <p class="recipe-summary">Small salmon pieces seared hard with a blackening-style spice blend and finished with lemon.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>varies</dd></div>
+<div><dt>Prep</dt><dd>15 minutes</dd></div>
+<div><dt>Cook</dt><dd>10 minutes</dd></div>
+<div><dt>Total</dt><dd>25 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Blackened Salmon Bites</h1>
+<p>Small pieces of salmon cooked quickly in a hot skillet so the spices darken and become aromatic without burning.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li>Salmon, cut into bite-size pieces</li>
+  <li>Olive oil, for coating</li>
+  <li>Paprika, to taste</li>
+  <li>Garlic powder, to taste</li>
+  <li>Onion powder, to taste</li>
+  <li>Dried thyme, to taste</li>
+  <li>Dried oregano, to taste</li>
+  <li>Freshly ground black pepper, to taste</li>
+  <li>Cayenne, optional</li>
+  <li>Kosher salt, to taste</li>
+  <li>High-smoke-point oil such as avocado, canola, or grapeseed, for the pan</li>
+  <li>Lemon juice, for finishing</li>
+  <li>Butter, optional for basting</li>
+</ul>
+<h2>Skinless Method</h2>
+<ol>
+  <li>Toss the salmon lightly with olive oil and the seasonings.</li>
+  <li><span class="verb">Heat</span> a skillet over medium-high heat with a thin film of high-smoke-point oil.</li>
+  <li><span class="verb">Place</span> the most heavily seasoned side down.</li>
+  <li>Sear about 2 minutes.</li>
+  <li>Flip and cook another 1 to 2 minutes, until just cooked through.</li>
+  <li>Finish with lemon juice.</li>
+</ol>
+<h2>Skin-On Method</h2>
+<ol>
+  <li><span class="verb">Season</span> the flesh side.</li>
+  <li><span class="verb">Heat</span> the skillet over medium-high heat with a thin layer of high-smoke-point oil.</li>
+  <li><span class="verb">Place</span> the salmon skin-side down.</li>
+  <li><span class="verb">Cook</span> 3 to 5 minutes, until the salmon is roughly 70 to 80 percent cooked and the skin is crisp.</li>
+  <li>Flip and cook the seasoned flesh side only 30 to 90 seconds.</li>
+  <li>Optionally baste briefly with butter.</li>
+  <li>Finish with lemon juice.</li>
+</ol>
+<h2>Serving Suggestion</h2>
+<p>Serve over a baked sweet potato with garlic-butter green beans or asparagus.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

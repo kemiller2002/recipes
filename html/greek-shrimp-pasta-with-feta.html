@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greek Shrimp Pasta with Feta</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Greek Shrimp Pasta with Feta</h1>
+        <p class="recipe-summary">Shrimp pasta with garlic, cherry tomatoes, oregano, feta, Kalamata olives, lemon, and parsley.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>4</dd></div>
+<div><dt>Yield</dt><dd>4 servings</dd></div>
+<div><dt>Prep</dt><dd>20 minutes</dd></div>
+<div><dt>Cook</dt><dd>20 minutes</dd></div>
+<div><dt>Total</dt><dd>40 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Greek Shrimp Pasta with Feta</h1>
+<p>A quick Mediterranean pasta where the feta is added off heat so it stays creamy and distinct instead of turning grainy.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">12 oz</span> <span class="item">pasta</span></li>
+  <li><span class="amount">1 lb</span> <span class="item">large shrimp, peeled and deveined</span></li>
+  <li>Kosher salt</li>
+  <li>Freshly ground black pepper</li>
+  <li><span class="amount">1 tsp</span> <span class="item">dried oregano</span></li>
+  <li><span class="amount">3 tbsp</span> <span class="item">olive oil, divided</span></li>
+  <li><span class="amount">5</span> <span class="item">garlic cloves, minced</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">red pepper flakes</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">cherry tomatoes, halved</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">dry white wine, optional</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">reserved pasta water</span></li>
+  <li><span class="amount">4 oz</span> <span class="item">feta, crumbled</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">Kalamata olives, sliced</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">chopped fresh parsley</span></li>
+  <li>Zest and juice of 1/2 lemon</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Cook</span> the pasta in well-salted water until al dente.</li>
+  <li><span class="verb">Reserve</span> 1/2 cup pasta water, then drain.</li>
+  <li><span class="verb">Season</span> the shrimp with salt, pepper, and oregano.</li>
+  <li><span class="verb">Heat</span> 1 tbsp olive oil in a large skillet.</li>
+  <li><span class="verb">Cook</span> the shrimp about 60 to 90 seconds per side, just until nearly cooked through. Remove.</li>
+  <li><span class="verb">Add</span> the remaining 2 tbsp olive oil.</li>
+  <li><span class="verb">Add</span> the garlic and red pepper flakes and cook about 30 seconds.</li>
+  <li><span class="verb">Add</span> the cherry tomatoes and optional white wine.</li>
+  <li><span class="verb">Cook</span> 2 to 3 minutes, until the tomatoes begin to soften.</li>
+  <li><span class="verb">Add</span> the reserved pasta water and simmer briefly.</li>
+  <li>Toss in the pasta and shrimp.</li>
+  <li>Turn off the heat.</li>
+  <li><span class="verb">Add</span> the feta, olives, lemon zest, lemon juice, and parsley.</li>
+  <li>Toss gently and serve immediately.</li>
+</ol>
+<h2>Notes</h2>
+<p>Adding the feta after the heat is off preserves its texture and keeps the sauce from becoming grainy.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

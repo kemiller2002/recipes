@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvest Wind Cheese Dip</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Harvest Wind Cheese Dip</h1>
+        <p class="recipe-summary">A chilled cream-cheese and white-cheddar dip with roasted corn, brown butter, dark maple syrup, cider vinegar, and smoked salt.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>11</dd></div>
+<div><dt>Yield</dt><dd>10 to 12 servings</dd></div>
+<div><dt>Prep</dt><dd>25 minutes</dd></div>
+<div><dt>Cook</dt><dd>15 minutes</dd></div>
+<div><dt>Total</dt><dd>4 hours 40 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Harvest Wind Cheese Dip</h1>
+<p>A chilled competition-style dip balancing roasted corn, sharp cheese, brown butter, maple, acidity, and smoke.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">8 oz</span> <span class="item">cream cheese, softened</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">shredded sharp white cheddar</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">sour cream</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">roasted corn</span></li>
+  <li><span class="amount">2</span> <span class="item">green onions, thinly sliced</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">brown butter</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">dark maple syrup</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">apple cider vinegar</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">smoked salt</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">freshly ground black pepper</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Reserve</span> about 3/4 cup of the roasted corn for the flavor base.</li>
+  <li>Blend the reserved corn with the maple syrup and apple cider vinegar until mostly smooth but still recognizable as corn.</li>
+  <li>In a bowl, combine the cream cheese, white cheddar, sour cream, green onions, brown butter, smoked salt, and black pepper.</li>
+  <li>Fold in the blended corn mixture and the remaining roasted corn.</li>
+  <li><span class="verb">Cover</span> and refrigerate at least 4 hours, preferably overnight.</li>
+  <li><span class="verb">Serve</span> chilled.</li>
+</ol>
+<h2>Serving Suggestions</h2>
+<ul>
+  <li>Crackers</li>
+  <li>Pita chips</li>
+  <li>A crisp crumble or other crunchy garnish</li>
+</ul>
+<h2>Notes</h2>
+<p>The maple should support the roasted corn and brown butter, not make the dip read as sweet.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
