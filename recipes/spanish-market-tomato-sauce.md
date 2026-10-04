@@ -1,76 +1,105 @@
 ---
 title: Spanish Market Tomato Sauce
-slug: spanish-market-tomato-sauce
-description: A long-simmered tomato sauce with piquillo pepper, smoked paprika, Amontillado sherry, saffron, and sherry vinegar.
 servings: 8
-yield: servings
 prepTime: 30 minutes
 cookTime: 3 hours
-totalTime: 3 hours 30 minutes
-difficulty: medium
-source: recovered from prior recipe conversation
-author: null
-
-search:
-  cuisines: [spanish, mediterranean]
-  courses: [sauce]
-  mealTypes: [dinner]
-  cookingMethods: [simmer]
-  primaryIngredients: [tomato, piquillo-pepper]
-  dietaryTags: [vegetarian]
-  occasions: [dinner-party]
-  collections: [spanish, sauces]
-  keywords: [spanish tomato sauce, piquillo pepper, amontillado, saffron, sherry vinegar]
-  relatedRecipes: [spanish-ribs]
-  makeAhead: true
-  freezerFriendly: true
-  reheatsWell: true
 ---
+
 # Spanish Market Tomato Sauce
 
-A deeply cooked tomato sauce with Spanish pantry flavors layered in at the end so the sherry, saffron, and vinegar stay distinct.
+A competition-style tomato sauce built around canned tomatoes with Spanish influences. The goal is to remain unmistakably tomato-forward while adding subtle layers of flavor that make judges pause and wonder what makes it different.
 
-## Ingredients
+## Main Recipe
 
-### Base
+### Ingredients
 
-- 2 (28 oz) cans whole peeled tomatoes
-- 1 large onion, finely diced
-- 8 garlic cloves, minced
-- 3 tbsp olive oil
+- 2 (28 oz) cans whole peeled tomatoes, crushed by hand
+- 1 large sweet onion, finely diced
+- 8 cloves garlic, minced
+- 3 tbsp extra virgin olive oil
 - 2 tbsp tomato paste
-- 3 piquillo peppers, drained and chopped
-- 1 tsp smoked paprika
+- 3 piquillo peppers
+- 1 tsp sweet smoked paprika
 - 1 Parmesan rind
-- 1 tsp kosher salt
+- 1 tsp kosher salt, plus more to taste
 - 1/2 tsp freshly ground black pepper
 - 1 cup water
 
-### Finish
+### Steps
+
+1. Heat the olive oil in a heavy Dutch oven over medium heat.
+2. Cook the onion for 12–15 minutes until soft and lightly golden.
+3. Add the garlic and cook for 1 minute.
+4. Add the tomato paste and cook, stirring constantly, until it darkens to a deep brick-red color, about 3 minutes.
+5. Stir in the smoked paprika and cook for 30 seconds.
+6. Add the crushed tomatoes, piquillo peppers, water, Parmesan rind, salt, and pepper.
+7. Bring to a gentle simmer.
+8. Reduce heat to low and cook uncovered for 2 to 3 hours, stirring occasionally.
+9. During the final 45 minutes, periodically scrape any caramelized sauce from the sides of the pot back into the sauce.
+10. Remove the Parmesan rind before finishing.
+
+---
+
+## Sherry Reduction
+
+### Ingredients
 
 - 1/2 cup Amontillado sherry
+
+### Steps
+
+1. Place the sherry in a small saucepan.
+2. Simmer gently until reduced to approximately 2 tablespoons.
+3. Remove from heat and reserve.
+
+---
+
+## Saffron Infusion
+
+### Ingredients
+
 - 6 saffron threads
 - 1 tbsp hot water
+
+### Steps
+
+1. Place the saffron in a small bowl.
+2. Pour the hot water over the saffron.
+3. Allow to steep for at least 10 minutes before use.
+
+---
+
+## Final Seasoning
+
+### Ingredients
+
+- Reserved sherry reduction
+- Reserved saffron infusion
 - 1 tsp sherry vinegar
 
-## Instructions
+### Steps
 
-1. Heat the olive oil in a heavy saucepan or Dutch oven over medium-low heat.
-2. Add the onion and cook 12 to 15 minutes until soft and lightly golden.
-3. Add the garlic and cook 1 minute.
-4. Stir in the tomato paste and cook about 3 minutes, until darkened to brick red.
-5. Add the smoked paprika and cook 30 seconds.
-6. Add the tomatoes, piquillo peppers, water, Parmesan rind, salt, and black pepper.
-7. Bring to a simmer and cook uncovered for 2 to 3 hours.
-8. During the final 45 minutes, scrape the concentrated sauce from the sides of the pot back into the mixture.
-9. Remove the Parmesan rind.
-10. In a small saucepan, reduce the Amontillado from 1/2 cup to about 2 tbsp.
-11. Steep the saffron in 1 tbsp hot water for at least 10 minutes.
-12. Stir the reduced sherry, saffron and its liquid, and sherry vinegar into the sauce.
-13. Simmer 5 minutes.
-14. Rest 15 to 20 minutes.
-15. Leave rustic or blend lightly for a smoother texture.
+1. Stir the sherry reduction into the sauce.
+2. Add the saffron infusion and mix thoroughly.
+3. Add the sherry vinegar.
+4. Simmer for 5 minutes.
+5. Taste and adjust salt as needed.
+
+---
+
+## Assembly
+
+1. Allow the sauce to rest for 15–20 minutes before serving.
+2. Blend lightly with an immersion blender if a smoother texture is desired, leaving some texture for a rustic appearance.
+3. Serve over pasta, use as a tasting sauce, or present as a stand-alone sauce entry.
+
+---
 
 ## Notes
 
-The finishing ingredients are deliberately added late so their aroma and acidity remain present after the long tomato simmer.
+- Piquillo peppers add sweetness and complexity without making the sauce taste like roasted pepper sauce.
+- The Parmesan rind contributes umami but should remain a background note.
+- The saffron should not be identifiable; judges should perceive only additional depth and aroma.
+- The sherry vinegar provides brightness and balances the long-cooked sweetness.
+- For competition presentation, make the sauce one day ahead and reheat gently before judging. The flavor improves significantly overnight.
+- Consider using premium canned tomatoes such as Bianco DiNapoli or San Marzano DOP for the best results.

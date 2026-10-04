@@ -1,63 +1,75 @@
 ---
 title: Harvest Wind Cheese Dip
-slug: harvest-wind-cheese-dip
-description: A chilled cream-cheese and white-cheddar dip with roasted corn, brown butter, dark maple syrup, cider vinegar, and smoked salt.
-servings: 11
-yield: 10 to 12 servings
+servings: 10-12
 prepTime: 25 minutes
 cookTime: 15 minutes
-totalTime: 4 hours 40 minutes
-difficulty: medium
-source: recovered from prior recipe conversation
-author: null
-
-search:
-  cuisines: [american]
-  courses: [appetizer, dip]
-  mealTypes: [party]
-  cookingMethods: [roast, chill]
-  primaryIngredients: [cheese, corn]
-  dietaryTags: [vegetarian]
-  occasions: [party, competition, state-fair]
-  collections: [dips, state-fair]
-  keywords: [harvest wind cheese dip, roasted corn dip, maple cheese dip, brown butter dip]
-  relatedRecipes: []
-  makeAhead: true
-  freezerFriendly: false
-  reheatsWell: false
 ---
+
 # Harvest Wind Cheese Dip
 
-A chilled competition-style dip balancing roasted corn, sharp cheese, brown butter, maple, acidity, and smoke.
+A cold cheese dip inspired by the first cool breeze of late August, when sweet corn is still in season but autumn is beginning to appear in the fields.
 
-## Ingredients
+## Main Recipe
+
+### Ingredients
 
 - 8 oz cream cheese, softened
-- 1 cup shredded sharp white cheddar
+- 1 cup sharp white cheddar, finely shredded
 - 1/2 cup sour cream
-- 1 cup roasted corn
-- 2 green onions, thinly sliced
-- 2 tbsp brown butter
+- 1 cup roasted sweet corn kernels
+- 2 green onions, finely sliced
+- 2 tbsp brown butter, cooled
 - 1 tbsp dark maple syrup
 - 1 tsp apple cider vinegar
 - 1/2 tsp smoked salt
 - 1/4 tsp freshly ground black pepper
 
-## Instructions
+### Steps
 
-1. Reserve about 3/4 cup of the roasted corn for the flavor base.
-2. Blend the reserved corn with the maple syrup and apple cider vinegar until mostly smooth but still recognizable as corn.
-3. In a bowl, combine the cream cheese, white cheddar, sour cream, green onions, brown butter, smoked salt, and black pepper.
-4. Fold in the blended corn mixture and the remaining roasted corn.
-5. Cover and refrigerate at least 4 hours, preferably overnight.
-6. Serve chilled.
+1. Roast the corn until lightly caramelized and golden.
+2. Reserve 1/4 cup of the corn kernels for texture.
+3. Puree the remaining corn with the maple syrup and apple cider vinegar until mostly smooth.
+4. In a bowl, combine cream cheese, cheddar, sour cream, brown butter, smoked salt, and black pepper.
+5. Fold in the corn puree, reserved corn kernels, and green onions.
+6. Refrigerate at least 4 hours, preferably overnight.
 
-## Serving Suggestions
+---
 
-- Crackers
-- Pita chips
-- A crisp crumble or other crunchy garnish
+## Harvest Crumble
+
+### Ingredients
+
+- 1/3 cup sunflower seeds
+- 10 buttery crackers, crushed
+- 1 tbsp brown butter
+- 1 tsp maple sugar (or very fine brown sugar)
+- 1/4 tsp coarse black pepper
+- Pinch smoked salt
+
+### Steps
+
+1. Toast sunflower seeds until fragrant.
+2. Combine crackers, sunflower seeds, maple sugar, black pepper, and smoked salt.
+3. Drizzle with brown butter and toss.
+4. Allow to cool completely.
+5. Store separately until serving.
+
+---
+
+## Assembly
+
+### Steps
+
+1. Spread the chilled dip into a shallow serving dish.
+2. Just before judging, sprinkle the Harvest Crumble evenly over the top.
+3. Garnish with a few thinly sliced green onion tops.
+4. Serve with sturdy crackers or pita chips.
+
+---
 
 ## Notes
 
-The maple should support the roasted corn and brown butter, not make the dip read as sweet.
+- The maple should support the flavor, not dominate it.
+- Brown butter provides the "autumn leaves" note that ties the concept together.
+- Add the crumble immediately before serving to preserve texture.
+- Designed to evoke the transition from late summer harvest to the first hints of fall.
