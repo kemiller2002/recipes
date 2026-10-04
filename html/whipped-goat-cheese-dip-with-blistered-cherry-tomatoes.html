@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whipped Goat Cheese Dip with Blistered Cherry Tomatoes</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Whipped Goat Cheese Dip with Blistered Cherry Tomatoes</h1>
+        
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>5</dd></div>
+<div><dt>Prep</dt><dd>5 minutes</dd></div>
+<div><dt>Cook</dt><dd>15 minutes</dd></div>
+<div><dt>Total</dt><dd>20 minutes</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Whipped Goat Cheese Dip with Blistered Cherry Tomatoes</h1>
+<h2>Main Recipe</h2>
+<h3>Ingredients</h3>
+<ul>
+  <li><span class="amount">1 tbsp</span> <span class="item">olive oil</span></li>
+  <li><span class="amount">8 oz</span> <span class="item">cherry tomatoes</span></li>
+  <li><span class="amount">6 oz</span> <span class="item">soft goat cheese</span></li>
+  <li><span class="amount">4 oz</span> <span class="item">whole-milk, low-moisture mozzarella, freshly shredded</span></li>
+  <li><span class="amount">3 oz</span> <span class="item">cream cheese, softened</span></li>
+  <li><span class="amount">¼ cup</span> <span class="item">packed fresh basil leaves</span></li>
+  <li><span class="amount">1</span> <span class="item">small garlic clove, minced</span></li>
+  <li><span class="amount">¼ tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">⅛ tsp</span> <span class="item">freshly ground black pepper</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">finely grated lemon zest</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">fresh lemon juice</span></li>
+</ul>
+<h3>Steps</h3>
+<ol>
+  <li><span class="verb">Heat</span> the olive oil in a large skillet over high heat.</li>
+  <li><span class="verb">Add</span> the cherry tomatoes and cook for about 5 minutes, stirring occasionally, until they blister and begin to release their juices.</li>
+  <li><span class="verb">Remove</span> from heat and cover tomatoes in pan covered for 10 minutes.</li>
+  <li>Combine the goat cheese, mozzarella, cream cheese, basil, garlic, lemon zest, lemon juice, kosher salt, and black pepper in a food processor.</li>
+  <li>Process until completely smooth, stopping to scrape down the sides of the bowl as needed to ensure all ingredients are fully incorporated.</li>
+  <li>Spoon the whipped cheese mixture into a shallow serving dish.</li>
+  <li>Top with the blistered tomatoes.</li>
+  <li>Drizzle the reserved olive oil and tomato juices from the skillet over the top.</li>
+  <li>Garnish with fresh basil leaves.</li>
+</ol>
+<hr>
+<h2>Assembly</h2>
+<ol>
+  <li><span class="verb">Serve</span> with club crackers or water crackers</li>
+</ol>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nile Jewel Relish with Orange Blossom</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Nile Jewel Relish with Orange Blossom</h1>
+        
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>8</dd></div>
+<div><dt>Prep</dt><dd>30 minutes</dd></div>
+<div><dt>Cook</dt><dd>10 minutes</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Nile Jewel Relish with Orange Blossom</h1>
+<h2>Main Recipe</h2>
+<h3>Ingredients</h3>
+<ul>
+  <li><span class="amount">1/2 cup</span> <span class="item">Medjool dates, finely diced</span></li>
+  <li><span class="amount">3/4 cup</span> <span class="item">pomegranate arils</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">dried hibiscus flowers</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">minced shallot</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">tamarind concentrate</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">fresh lemon juice</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">orange blossom water</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">fresh parsley, finely chopped</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">fresh mint, finely chopped</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">ground cumin</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">ground coriander</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">kosher salt</span></li>
+</ul>
+<h3>Steps</h3>
+<ol>
+  <li><span class="verb">Place</span> the dried hibiscus in a small bowl and cover with hot water.</li>
+  <li>Let steep for 10 minutes, then drain thoroughly and finely chop.</li>
+  <li>In a mixing bowl, combine the dates, chopped hibiscus, shallot, tamarind concentrate, lemon juice, orange blossom water, cumin, coriander, and salt.</li>
+  <li>Mix thoroughly and allow the mixture to rest for 20 minutes.</li>
+  <li>Fold in the parsley, mint, and pomegranate arils just before serving.</li>
+  <li><span class="verb">Taste</span> carefully. The orange blossom should be subtle and aromatic, not dominant.</li>
+</ol>
+<hr>
+<h2>Pistachio Dukkah</h2>
+<h3>Ingredients</h3>
+<ul>
+  <li><span class="amount">2 tbsp</span> <span class="item">pistachios</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">sesame seeds</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">coriander seed</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">cumin seed</span></li>
+</ul>
+<h3>Steps</h3>
+<ol>
+  <li>Toast the pistachios, sesame seeds, coriander seed, and cumin seed in a dry skillet until fragrant.</li>
+  <li>Allow to cool completely.</li>
+  <li>Crush into a coarse mixture.</li>
+</ol>
+<hr>
+<h2>Assembly</h2>
+<ol>
+  <li>Transfer the relish to a serving dish.</li>
+  <li>Sprinkle with the pistachio dukkah.</li>
+  <li>Garnish with a few pomegranate arils and a small mint leaf if desired.</li>
+</ol>
+<hr>
+<h2>Notes</h2>
+<ul>
+  <li>Use orange blossom water sparingly; it should create intrigue rather than announce itself.</li>
+  <li>This version has a more pronounced Egyptian and Eastern Mediterranean character.</li>
+  <li>The floral aroma enhances the hibiscus and citrus while supporting the fruit.</li>
+  <li>If making ahead for competition, consider reducing the mint to 1/2 teaspoon and increasing the parsley to maintain freshness after overnight refrigeration.</li>
+  <li>Judges often remember aromas as much as flavors; this version is designed to create that effect.</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

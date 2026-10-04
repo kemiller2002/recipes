@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buffalo Ranch Vegetable Dip</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Buffalo Ranch Vegetable Dip</h1>
+        
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>8</dd></div>
+<div><dt>Prep</dt><dd>10 minutes</dd></div>
+<div><dt>Cook</dt><dd>0 minutes</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Buffalo Ranch Vegetable Dip</h1>
+<h2>Main Recipe</h2>
+<h3>Ingredients</h3>
+<ul>
+  <li><span class="amount">8 oz</span> <span class="item">full-fat sour cream</span></li>
+  <li><span class="amount">8 oz</span> <span class="item">plain Greek yogurt</span></li>
+  <li><span class="amount">2 tsp</span> <span class="item">Better Than Bouillon Roasted Chicken Base</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">Frank's RedHot Original</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">dried dill</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">dried parsley</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">garlic powder</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">onion powder</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">celery seed</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">smoked paprika</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">cayenne pepper (optional)</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">Worcestershire sauce</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">fresh lemon juice</span></li>
+  <li>Freshly ground black pepper, to taste</li>
+</ul>
+<h3>Steps</h3>
+<ol>
+  <li>In a medium bowl, whisk together the sour cream, Greek yogurt, and Better Than Bouillon until completely smooth.</li>
+  <li><span class="verb">Add</span> the Frank's RedHot, dill, parsley, garlic powder, onion powder, celery seed, smoked paprika, cayenne, Worcestershire sauce, and lemon juice.</li>
+  <li>Mix thoroughly until all seasonings are evenly distributed.</li>
+  <li><span class="verb">Taste</span> and adjust seasoning. Add additional Frank's for more Buffalo flavor or additional chicken base for more savory depth.</li>
+  <li><span class="verb">Cover</span> and refrigerate for at least 1 hour before serving.</li>
+  <li><span class="verb">Stir</span> once more before serving before transferring to a serving bowl.</li>
+</ol>
+<hr>
+<h2>Assembly</h2>
+<ol>
+  <li>Transfer the dip to a serving bowl.</li>
+  <li>Garnish with a light sprinkle of smoked paprika, dill, or chopped chives.</li>
+  <li><span class="verb">Serve</span> with celery sticks, carrot sticks, cucumber slices, bell pepper strips, broccoli florets, cauliflower florets, or cherry tomatoes.</li>
+</ol>
+<hr>
+<h2>Notes</h2>
+<ul>
+  <li>The flavor improves significantly after resting overnight.</li>
+  <li>Full-fat Greek yogurt provides the best texture and balances the Buffalo heat.</li>
+  <li>The celery seed is the "secret ingredient" that helps create a classic wing-house flavor profile.</li>
+  <li>For a more pronounced Buffalo flavor, increase Frank's RedHot to 3 tablespoons.</li>
+  <li>For a blue cheese wing variation, fold in 2 oz finely crumbled blue cheese just before serving.</li>
+  <li>For extra richness, replace 4 oz of the Greek yogurt with cream cheese.</li>
+  <li>This dip also works well as a spread for wraps, burgers, and grilled chicken sandwiches.</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
