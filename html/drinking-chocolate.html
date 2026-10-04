@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rich Drinking Chocolate</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Rich Drinking Chocolate</h1>
+        <p class="recipe-summary">A thick, intensely chocolatey drinking chocolate made with dark chocolate, cocoa, whole milk, and optional cream.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>2</dd></div>
+<div><dt>Yield</dt><dd>mugs</dd></div>
+<div><dt>Prep</dt><dd>5 minutes</dd></div>
+<div><dt>Cook</dt><dd>5 minutes</dd></div>
+<div><dt>Total</dt><dd>10 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Rich Drinking Chocolate</h1>
+<p>A richer, thicker drink than ordinary hot cocoa. Finely chopped dark chocolate provides body and intensity, while cocoa powder deepens the chocolate flavor.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">2 cups</span> <span class="item">whole milk</span></li>
+  <li><span class="amount">4 oz</span> <span class="item">dark chocolate, 60–70%, finely chopped</span></li>
+  <li><span class="amount">2 Tbsp</span> <span class="item">unsweetened cocoa powder</span></li>
+  <li><span class="amount">1–2 Tbsp</span> <span class="item">granulated sugar, to taste</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">vanilla extract</span></li>
+</ul>
+<h3>Optional for a Thicker, Spanish-Style Texture</h3>
+<ul>
+  <li><span class="amount">1 tsp</span> <span class="item">cornstarch</span></li>
+</ul>
+<h3>Optional for Extra Richness</h3>
+<ul>
+  <li>Replace 1/2 cup of the whole milk with 1/2 cup heavy cream</li>
+</ul>
+<h2>Directions</h2>
+<ol>
+  <li>In a saucepan, whisk together the cocoa powder, sugar, salt, and cornstarch, if using.</li>
+  <li><span class="verb">Add</span> about <strong>1/4 cup of the cold milk</strong> and whisk until completely smooth with no cocoa lumps.</li>
+  <li>Whisk in the remaining milk.</li>
+  <li><span class="verb">Heat</span> over medium-low heat until steaming, stirring frequently. Do not let it come to a hard boil.</li>
+  <li><span class="verb">Add</span> the finely chopped dark chocolate.</li>
+  <li>Whisk until the chocolate is completely melted and the mixture is smooth and glossy.</li>
+  <li><span class="verb">Simmer</span> very gently for <strong>2–4 minutes</strong>, whisking frequently. If using cornstarch, the chocolate will noticeably thicken.</li>
+  <li><span class="verb">Remove</span> from the heat and stir in the vanilla.</li>
+  <li>Pour into two mugs and serve immediately.</li>
+</ol>
+<h2>Preferred Rich Version</h2>
+<p>For a particularly luxurious version, use:</p>
+<ul>
+  <li><span class="amount">1 1/2 cups</span> <span class="item">whole milk</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">heavy cream</span></li>
+  <li><span class="amount">4 oz</span> <span class="item">70% dark chocolate</span></li>
+  <li><span class="amount">2 Tbsp</span> <span class="item">unsweetened cocoa powder</span></li>
+  <li><span class="amount">1 1/2 Tbsp</span> <span class="item">sugar</span></li>
+  <li><span class="amount">1/8 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">cornstarch</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">vanilla extract</span></li>
+</ul>
+<p>This produces a silky, intensely chocolatey drink with enough body to feel closer to melted chocolate than conventional hot cocoa.</p>
+<h2>Adjustments</h2>
+<ul>
+  <li><strong>Thinner:</strong> Add a splash of hot milk before serving.</li>
+  <li><strong>Thicker:</strong> Simmer another minute or increase cornstarch slightly.</li>
+  <li><strong>Less sweet:</strong> Use 70–85% dark chocolate and reduce the added sugar.</li>
+  <li><strong>Sweeter:</strong> Add sugar 1 teaspoon at a time after the chocolate has melted.</li>
+  <li><strong>Spiced:</strong> Add cinnamon, chile, espresso powder, or a small pinch of cayenne while heating the milk.</li>
+</ul>
+<h2>Reheating</h2>
+<p>Reheat gently over low heat while whisking. Add a small splash of milk if it has thickened too much in the refrigerator.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
