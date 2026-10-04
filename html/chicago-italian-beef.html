@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Chicago Italian Beef</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Professional Chicago Italian Beef</h1>
+        <p class="recipe-summary">Thin-sliced top round roasted rare, chilled, sliced paper-thin, and reheated gently in a seasoned beef jus.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>12</dd></div>
+<div><dt>Yield</dt><dd>4 to 6 lb</dd></div>
+<div><dt>Prep</dt><dd>45 minutes</dd></div>
+<div><dt>Cook</dt><dd>2 hours</dd></div>
+<div><dt>Total</dt><dd>8 hours</dd></div>
+<div><dt>Difficulty</dt><dd>hard</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Professional Chicago Italian Beef</h1>
+<p>The professional workflow is roast, chill, slice extremely thin, then reheat the slices gently in hot jus.</p>
+<h2>Beef</h2>
+<ul>
+  <li><span class="amount">4</span> <span class="item">to 6 lb top round</span></li>
+</ul>
+<h3>Dry Seasoning by Meat Weight</h3>
+<ul>
+  <li>Kosher salt: 1.5 percent of meat weight</li>
+  <li>Coarse black pepper: 0.5 percent of meat weight</li>
+  <li>Dried oregano, to taste</li>
+  <li>Dried thyme, to taste</li>
+  <li>Crushed red pepper, to taste</li>
+  <li>Ground coriander, to taste</li>
+  <li>Garlic powder, to taste</li>
+</ul>
+<h2>Jus</h2>
+<ul>
+  <li><span class="amount">3 qt</span> <span class="item">beef stock</span></li>
+  <li>Up to 2 cups reserved beef drippings, as available</li>
+  <li>Garlic, to taste</li>
+  <li>Dried oregano, to taste</li>
+  <li>Crushed red pepper, to taste</li>
+  <li>Fennel seed, to taste</li>
+  <li>Bay leaf</li>
+  <li>Worcestershire sauce, to taste</li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">MSG</span></li>
+</ul>
+<h2>For Serving</h2>
+<ul>
+  <li>Turano or Gonnella-style Italian rolls</li>
+  <li>Giardiniera</li>
+  <li>Sweet peppers, optional</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Season</span> the top round evenly with the measured salt and pepper plus the remaining dry seasonings.</li>
+  <li>Roast at 275°F until the center reaches 128 to 130°F.</li>
+  <li>Rest 30 minutes.</li>
+  <li>Chill at least 4 hours, preferably until fully cold and firm.</li>
+  <li>Slice across the grain about 1/16 inch thick.</li>
+  <li>Combine the stock, drippings, garlic, oregano, red pepper, fennel, bay, Worcestershire, and MSG.</li>
+  <li><span class="verb">Simmer</span> the jus 20 to 30 minutes and adjust seasoning.</li>
+  <li>Hold the jus between 160 and 170°F.</li>
+  <li>Reheat sliced beef in the hot jus only 1 to 2 minutes, just until warmed through.</li>
+  <li>Pile onto rolls with giardiniera and optional sweet peppers.</li>
+  <li><span class="verb">Serve</span> dry, wet, or fully dipped according to preference.</li>
+</ol>
+<h2>Notes</h2>
+<p>Do not boil the sliced beef. The low-temperature jus preserves the tender rare-roast texture while heating the sandwich for service.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

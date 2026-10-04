@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lechón Asado</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Lechón Asado</h1>
+        <p class="recipe-summary">Cuban-style mojo pork shoulder marinated overnight, slow-roasted until tender, then crisped at high heat.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>10</dd></div>
+<div><dt>Yield</dt><dd>5 to 7 lb pork shoulder</dd></div>
+<div><dt>Prep</dt><dd>30 minutes</dd></div>
+<div><dt>Cook</dt><dd>5 hours</dd></div>
+<div><dt>Total</dt><dd>18 hours</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Lechón Asado</h1>
+<p>A slow-roasted Cuban-style pork shoulder built around a garlic-citrus mojo.</p>
+<h2>Pork</h2>
+<ul>
+  <li><span class="amount">1</span> <span class="item">bone-in pork shoulder, 5 to 7 lb</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">neutral oil</span></li>
+</ul>
+<h2>Mojo</h2>
+<ul>
+  <li><span class="amount">12</span> <span class="item">garlic cloves</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">dried oregano</span></li>
+  <li><span class="amount">2 tsp</span> <span class="item">ground cumin</span></li>
+  <li><span class="amount">2 tsp</span> <span class="item">freshly ground black pepper</span></li>
+  <li><span class="amount">1 1/2 tbsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">sour orange juice</span></li>
+  <li>or 1/2 cup orange juice plus 1/2 cup lime juice</li>
+  <li><span class="amount">1/4 cup</span> <span class="item">olive oil</span></li>
+  <li><span class="amount">1</span> <span class="item">onion, thinly sliced</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Cut deep slits 1 to 2 inches apart across the pork.</li>
+  <li><span class="verb">Season</span> the pork with the kosher salt.</li>
+  <li>Blend the garlic, oregano, cumin, black pepper, citrus juice, and olive oil into the mojo.</li>
+  <li>Work or inject the mojo into the slits and coat the exterior thoroughly.</li>
+  <li><span class="verb">Cover</span> with the sliced onion.</li>
+  <li>Refrigerate 12 to 24 hours.</li>
+  <li><span class="verb">Heat</span> the oven to 300°F.</li>
+  <li><span class="verb">Place</span> the pork and marinade in a covered roasting pan or Dutch oven.</li>
+  <li>Roast 4 to 5 hours, until very tender and around 195°F internally.</li>
+  <li><span class="verb">Uncover</span> and raise the oven to 425°F.</li>
+  <li>Roast another 15 to 20 minutes to crisp the exterior.</li>
+  <li>Rest before slicing or pulling.</li>
+  <li>For extra crisp edges, shred portions of the pork and broil 3 to 5 minutes before serving.</li>
+</ol>
+<h2>Serving Suggestions</h2>
+<p>Serve with Cuban black beans, white rice, plantains, or pickled onions.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

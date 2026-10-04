@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smoked Flanken-Cut Short Ribs</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Smoked Flanken-Cut Short Ribs</h1>
+        <p class="recipe-summary">A smoke-then-covered-braise method for thin flanken-cut beef short ribs that makes them tender enough to pull easily from the bone.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>varies</dd></div>
+<div><dt>Prep</dt><dd>15 minutes</dd></div>
+<div><dt>Cook</dt><dd>4 hours</dd></div>
+<div><dt>Total</dt><dd>4 hours 15 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Smoked Flanken-Cut Short Ribs</h1>
+<p>Thin flanken-cut short ribs can dry out if treated like thick English-cut ribs. The reliable route to very tender ribs is to give them smoke first, then finish them tightly covered with a small amount of braising liquid.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li>Flanken-cut beef short ribs</li>
+  <li>Kosher salt, to taste</li>
+  <li>Coarse black pepper, to taste</li>
+  <li>Garlic powder, to taste</li>
+  <li>Paprika, to taste</li>
+  <li><span class="amount">1/2</span> <span class="item">to 1 cup beef stock</span></li>
+  <li>Worcestershire sauce, to taste</li>
+  <li>Sliced onion, optional</li>
+  <li>Garlic cloves, optional</li>
+  <li>Barbecue sauce, optional for finishing</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Season</span> the ribs with salt, black pepper, garlic powder, and paprika.</li>
+  <li><span class="verb">Heat</span> the smoker to 250°F.</li>
+  <li>Smoke the ribs uncovered for 60 to 90 minutes.</li>
+  <li>Transfer the ribs to a covered pan.</li>
+  <li><span class="verb">Add</span> 1/2 to 1 cup beef stock, a splash of Worcestershire, and optional onion or garlic.</li>
+  <li><span class="verb">Cover</span> the pan tightly.</li>
+  <li>Raise the cooking temperature to 275°F.</li>
+  <li><span class="verb">Cook</span> covered for 2 to 3 hours. Begin checking around the 2-hour mark.</li>
+  <li>The ribs are ready when a probe or fork enters with almost no resistance and the bones twist or pull with very little resistance. Internal temperature is often 195 to 205°F, but tenderness is the real test.</li>
+  <li><span class="verb">Uncover</span>, brush with barbecue sauce if desired, and return to the smoker for 10 to 15 minutes to set the exterior.</li>
+</ol>
+<h2>Timing Target</h2>
+<p>A useful baseline is about 1 hour of smoke followed by about 2 1/2 hours covered.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

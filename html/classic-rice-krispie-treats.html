@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Rice Krispie Treats</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Classic Rice Krispie Treats</h1>
+        <p class="recipe-summary">The classic butter, marshmallow, and crisp-rice cereal bar formula.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>1 pan</dd></div>
+<div><dt>Prep</dt><dd>10 minutes</dd></div>
+<div><dt>Cook</dt><dd>5 minutes</dd></div>
+<div><dt>Total</dt><dd>45 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Classic Rice Krispie Treats</h1>
+<p>The standard low-heat method keeps the marshmallow mixture soft rather than tough.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">3 tbsp</span> <span class="item">butter</span></li>
+  <li><span class="amount">10 oz</span> <span class="item">marshmallows, or about 4 cups mini marshmallows</span></li>
+  <li><span class="amount">6 cups</span> <span class="item">crisp rice cereal</span></li>
+  <li>Pinch salt, optional</li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">vanilla extract, optional</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Line or lightly grease an 8-by-8-inch or 9-by-13-inch pan.</li>
+  <li>Melt the butter over low heat.</li>
+  <li><span class="verb">Add</span> the marshmallows and stir over low heat until just melted and smooth.</li>
+  <li><span class="verb">Remove</span> from the heat.</li>
+  <li><span class="verb">Stir</span> in the optional salt and vanilla.</li>
+  <li>Fold in the cereal until evenly coated.</li>
+  <li>Press gently into the prepared pan without compacting excessively.</li>
+  <li>Cool about 30 minutes before cutting.</li>
+</ol>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Pot Roast</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Classic Pot Roast</h1>
+        <p class="recipe-summary">A straightforward chuck roast braised with onion, carrots, potatoes, tomato paste, broth, wine, and herbs.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>6</dd></div>
+<div><dt>Yield</dt><dd>3 to 4 lb roast</dd></div>
+<div><dt>Prep</dt><dd>30 minutes</dd></div>
+<div><dt>Cook</dt><dd>3 hours 30 minutes</dd></div>
+<div><dt>Total</dt><dd>4 hours</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Classic Pot Roast</h1>
+<p>A classic oven-braised chuck roast with vegetables and a reduced pan jus.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">1</span> <span class="item">beef chuck roast, 3 to 4 lb</span></li>
+  <li>Kosher salt</li>
+  <li>Freshly ground black pepper</li>
+  <li><span class="amount">2 tbsp</span> <span class="item">neutral oil</span></li>
+  <li><span class="amount">1</span> <span class="item">large onion, sliced or diced</span></li>
+  <li><span class="amount">4</span> <span class="item">to 6 carrots, cut into large pieces</span></li>
+  <li><span class="amount">1</span> <span class="item">to 1 1/2 lb potatoes, cut into large pieces</span></li>
+  <li><span class="amount">4</span> <span class="item">garlic cloves, minced</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">tomato paste</span></li>
+  <li><span class="amount">2 cups</span> <span class="item">beef broth</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">red wine, or additional broth</span></li>
+  <li>Bay leaf and thyme, to taste</li>
+  <li>Worcestershire sauce or soy sauce, optional</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Heat</span> the oven to 300°F.</li>
+  <li>Pat the roast dry and season generously with salt and pepper.</li>
+  <li><span class="verb">Heat</span> the oil in a Dutch oven and sear the roast deeply on all sides. Remove.</li>
+  <li><span class="verb">Add</span> the onion and cook until softened and beginning to brown.</li>
+  <li><span class="verb">Add</span> the garlic and tomato paste and cook briefly.</li>
+  <li><span class="verb">Deglaze</span> with the wine, scraping up the fond.</li>
+  <li><span class="verb">Add</span> the broth, herbs, and optional Worcestershire or soy.</li>
+  <li>Return the roast to the pot.</li>
+  <li><span class="verb">Cover</span> and braise 3 to 3 1/2 hours, until fork-tender.</li>
+  <li><span class="verb">Add</span> the carrots and potatoes during the final 60 to 90 minutes so they do not overcook.</li>
+  <li><span class="verb">Remove</span> the roast and vegetables.</li>
+  <li><span class="verb">Reduce</span> the braising liquid 10 to 15 minutes if a more concentrated jus is desired.</li>
+</ol>
+<h2>Slow Cooker Alternative</h2>
+<p>Cook on low 8 to 9 hours or high 4 to 5 hours, adding the vegetables at a point that preserves their texture.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

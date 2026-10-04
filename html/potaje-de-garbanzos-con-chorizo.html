@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Potaje de Garbanzos con Chorizo</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Potaje de Garbanzos con Chorizo</h1>
+        <p class="recipe-summary">A Spanish chickpea and chorizo stew with vegetables, smoked paprika, greens, and sherry vinegar.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>5</dd></div>
+<div><dt>Yield</dt><dd>4 to 6 servings</dd></div>
+<div><dt>Prep</dt><dd>20 minutes</dd></div>
+<div><dt>Cook</dt><dd>40 minutes</dd></div>
+<div><dt>Total</dt><dd>1 hour</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Potaje de Garbanzos con Chorizo</h1>
+<p>A hearty Spanish chickpea stew with chorizo, potato, vegetables, greens, smoked paprika, and a final splash of sherry vinegar.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">2 tbsp</span> <span class="item">olive oil</span></li>
+  <li><span class="amount">8 oz</span> <span class="item">Spanish chorizo, sliced or diced</span></li>
+  <li><span class="amount">1</span> <span class="item">onion, diced</span></li>
+  <li><span class="amount">3</span> <span class="item">garlic cloves, minced</span></li>
+  <li><span class="amount">2</span> <span class="item">carrots, diced</span></li>
+  <li><span class="amount">1</span> <span class="item">red bell pepper, diced</span></li>
+  <li><span class="amount">1</span> <span class="item">potato, diced</span></li>
+  <li><span class="amount">1</span> <span class="item">(15 oz) can chickpeas, drained</span></li>
+  <li><span class="amount">1</span> <span class="item">(14 oz) can crushed tomatoes</span></li>
+  <li><span class="amount">5 cups</span> <span class="item">chicken stock</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">smoked paprika</span></li>
+  <li><span class="amount">1</span> <span class="item">bay leaf</span></li>
+  <li>Kosher salt and black pepper, to taste</li>
+  <li><span class="amount">2 cups</span> <span class="item">spinach or kale</span></li>
+  <li><span class="amount">1</span> <span class="item">to 2 tsp sherry vinegar</span></li>
+  <li>Olive oil, for serving</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Heat</span> the olive oil in a Dutch oven over medium heat.</li>
+  <li><span class="verb">Add</span> the chorizo and cook 5 to 7 minutes to render its fat.</li>
+  <li><span class="verb">Remove</span> about one-third of the chorizo and reserve for serving.</li>
+  <li><span class="verb">Add</span> the onion and cook about 5 minutes.</li>
+  <li><span class="verb">Add</span> the garlic and cook 30 seconds.</li>
+  <li><span class="verb">Add</span> the smoked paprika and cook about 15 seconds.</li>
+  <li><span class="verb">Add</span> the crushed tomatoes and cook 5 to 8 minutes.</li>
+  <li><span class="verb">Add</span> the carrots, bell pepper, potato, chickpeas, chicken stock, and bay leaf.</li>
+  <li><span class="verb">Simmer</span> uncovered 25 to 30 minutes, until the vegetables are tender and the broth has developed.</li>
+  <li><span class="verb">Season</span> with salt and black pepper.</li>
+  <li><span class="verb">Stir</span> in the greens and cook 2 to 3 minutes.</li>
+  <li><span class="verb">Add</span> the sherry vinegar.</li>
+  <li>Discard the bay leaf.</li>
+  <li><span class="verb">Serve</span> topped with the reserved chorizo and a drizzle of olive oil.</li>
+</ol>
+<h2>Optional Upgrades</h2>
+<ul>
+  <li>Add a ham hock, jamón bone, or Parmesan rind during the simmer.</li>
+  <li>Mash about 1/2 cup of the chickpeas into the broth for a thicker texture.</li>
+  <li>Serve with crusty bread.</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

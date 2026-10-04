@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Castleton-Style Fried Spinach</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Castleton-Style Fried Spinach</h1>
+        <p class="recipe-summary">Crisp battered baby spinach inspired by the fried spinach served at Bravo in Castleton, with Parmesan finish and lemon-garlic mayonnaise.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>4</dd></div>
+<div><dt>Yield</dt><dd>appetizer</dd></div>
+<div><dt>Prep</dt><dd>25 minutes</dd></div>
+<div><dt>Cook</dt><dd>15 minutes</dd></div>
+<div><dt>Total</dt><dd>40 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Castleton-Style Fried Spinach</h1>
+<p>A reconstruction of the light, crisp fried spinach style served at Bravo in Castleton.</p>
+<h2>Spinach</h2>
+<ul>
+  <li><span class="amount">9</span> <span class="item">to 10 oz fresh baby spinach, washed and dried extremely well</span></li>
+</ul>
+<h2>Batter</h2>
+<ul>
+  <li><span class="amount">1/2 cup</span> <span class="item">all-purpose flour</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">cornstarch</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">finely grated Romano</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">baking powder</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">3/4 tsp</span> <span class="item">garlic powder</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">onion powder</span></li>
+  <li>Pinch white pepper, optional</li>
+  <li><span class="amount">3/4 cup</span> <span class="item">ice-cold club soda</span></li>
+</ul>
+<h2>Finish</h2>
+<ul>
+  <li><span class="amount">2 tbsp</span> <span class="item">finely grated Parmesan</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">garlic salt</span></li>
+  <li>Pinch dried oregano</li>
+</ul>
+<h2>Lemon-Garlic Mayonnaise</h2>
+<ul>
+  <li><span class="amount">1/2 cup</span> <span class="item">mayonnaise</span></li>
+  <li><span class="amount">1 1/2</span> <span class="item">garlic cloves, very finely minced or grated</span></li>
+  <li><span class="amount">1 1/2 tbsp</span> <span class="item">fresh lemon juice</span></li>
+  <li>Pinch kosher salt</li>
+  <li>Small splash olive oil</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Whisk together the mayonnaise, garlic, lemon juice, salt, and olive oil. Refrigerate 30 minutes.</li>
+  <li><span class="verb">Heat</span> frying oil to 350°F.</li>
+  <li>Whisk the flour, cornstarch, Romano, baking powder, salt, garlic powder, onion powder, and optional white pepper together.</li>
+  <li>Whisk in the ice-cold club soda just until a thin batter forms.</li>
+  <li>Work in very small batches of about 6 to 8 spinach leaves.</li>
+  <li>Coat lightly in batter and fry about 20 to 30 seconds, just until crisp.</li>
+  <li><span class="verb">Drain</span> immediately.</li>
+  <li>Toss or dust while hot with the Parmesan, garlic salt, and oregano mixture.</li>
+  <li><span class="verb">Serve</span> immediately with the chilled lemon-garlic mayonnaise.</li>
+</ol>
+<h2>Notes</h2>
+<p>The spinach must be very dry before battering. Water on the leaves both weakens the batter and makes frying dangerous.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

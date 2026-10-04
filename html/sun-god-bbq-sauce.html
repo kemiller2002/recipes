@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sun God BBQ Sauce</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Sun God BBQ Sauce</h1>
+        <p class="recipe-summary">A competition-style barbecue sauce that tastes familiar first, with restrained chipotle, orange, cinnamon, cumin, and cocoa underneath.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>3 cups</dd></div>
+<div><dt>Prep</dt><dd>15 minutes</dd></div>
+<div><dt>Cook</dt><dd>35 minutes</dd></div>
+<div><dt>Total</dt><dd>50 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Sun God BBQ Sauce</h1>
+<p>A competition-style sauce designed to read as classic barbecue first, with the Mayan-inspired elements kept subtle enough that the sauce still feels familiar.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">1 tbsp</span> <span class="item">vegetable oil</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">finely diced onion</span></li>
+  <li><span class="amount">3</span> <span class="item">garlic cloves, minced</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">tomato paste</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">tomato sauce</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">ketchup</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">apple cider vinegar</span></li>
+  <li><span class="amount">1/4 cup</span> <span class="item">honey</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">brown sugar</span></li>
+  <li><span class="amount">1</span> <span class="item">chipotle pepper in adobo</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">adobo sauce</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">freshly ground black pepper</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">smoked paprika</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">ground cumin</span></li>
+  <li><span class="amount">1/4 tsp</span> <span class="item">ground cinnamon</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">finely grated orange zest</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">fresh orange juice</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">unsweetened cocoa powder</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">water</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Heat</span> the oil in a saucepan over medium heat.</li>
+  <li><span class="verb">Add</span> the onion and cook about 5 minutes, until softened.</li>
+  <li><span class="verb">Add</span> the garlic and cook 30 seconds.</li>
+  <li><span class="verb">Stir</span> in the tomato paste and cook about 1 minute.</li>
+  <li><span class="verb">Add</span> the tomato sauce, ketchup, vinegar, honey, brown sugar, chipotle, adobo sauce, salt, pepper, smoked paprika, cumin, cinnamon, orange zest, orange juice, cocoa, and water.</li>
+  <li><span class="verb">Bring</span> to a gentle simmer.</li>
+  <li><span class="verb">Simmer</span> 25 to 30 minutes, stirring occasionally, until cohesive and slightly thickened.</li>
+  <li>Blend until smooth.</li>
+  <li>For a polished competition texture, strain through a fine-mesh strainer.</li>
+  <li>Cool and refrigerate overnight before judging or serving.</li>
+</ol>
+<h2>Notes</h2>
+<ul>
+  <li>The intended profile is recognizable barbecue first, with chipotle, orange, spice, and cocoa appearing as background complexity.</li>
+  <li>Avoid increasing the cocoa or cinnamon enough that either becomes individually identifiable.</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

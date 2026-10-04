@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Pepper Hot Sauce</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Fresh Pepper Hot Sauce</h1>
+        <p class="recipe-summary">A simple cooked hot sauce built from fresh peppers, vinegar, garlic, onion, and salt.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>about 1 1/2 cups</dd></div>
+<div><dt>Prep</dt><dd>10 minutes</dd></div>
+<div><dt>Cook</dt><dd>20 minutes</dd></div>
+<div><dt>Total</dt><dd>30 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Fresh Pepper Hot Sauce</h1>
+<p>A flexible cooked hot sauce that works with whatever fresh hot peppers are available.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">8 oz</span> <span class="item">fresh hot peppers, stems removed</span></li>
+  <li><span class="amount">3</span> <span class="item">to 4 garlic cloves</span></li>
+  <li><span class="amount">1/2</span> <span class="item">medium onion</span></li>
+  <li><span class="amount">3/4 cup</span> <span class="item">white vinegar or apple cider vinegar</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">water</span></li>
+  <li><span class="amount">1 1/2 tsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">1</span> <span class="item">to 2 tsp sugar or honey, optional</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">fresh lime juice, optional</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Roughly chop the peppers, garlic, and onion. Fine chopping is unnecessary.</li>
+  <li>Combine the peppers, garlic, onion, vinegar, water, salt, and optional sugar or honey in a saucepan.</li>
+  <li><span class="verb">Bring</span> just to a boil.</li>
+  <li><span class="verb">Reduce</span> to a gentle simmer and cook 15 to 20 minutes, until the vegetables are very soft.</li>
+  <li>Blend until smooth. For a thinner sauce, strain after blending.</li>
+  <li><span class="verb">Stir</span> in the lime juice, if using.</li>
+  <li><span class="verb">Adjust</span> salt, vinegar, water, or sweetness to taste.</li>
+</ol>
+<h2>Louisiana-Style Simplification</h2>
+<p>For a sharper, simpler version, use mostly peppers, vinegar, salt, and a little garlic, with little or no onion or sugar.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

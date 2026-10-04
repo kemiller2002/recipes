@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cayenne Cucumber Kimchi</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Cayenne Cucumber Kimchi</h1>
+        <p class="recipe-summary">A quick cucumber kimchi for pickling cucumbers that uses cayenne and sweet paprika instead of Korean chile flakes.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>4</dd></div>
+<div><dt>Yield</dt><dd>about 1 lb</dd></div>
+<div><dt>Prep</dt><dd>20 minutes</dd></div>
+<div><dt>Cook</dt><dd>0 minutes</dd></div>
+<div><dt>Total</dt><dd>1 hour</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Cayenne Cucumber Kimchi</h1>
+<p>A one-pound cucumber kimchi built for pickling cucumbers when cabbage and gochugaru are not available.</p>
+<h2>Ingredients</h2>
+<h3>Cucumbers</h3>
+<ul>
+  <li><span class="amount">1 lb</span> <span class="item">pickling cucumbers</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">kosher salt</span></li>
+  <li><span class="amount">3</span> <span class="item">scallions, sliced</span></li>
+  <li><span class="amount">1</span> <span class="item">small carrot, julienned, optional</span></li>
+</ul>
+<h3>Seasoning Paste</h3>
+<ul>
+  <li><span class="amount">1</span> <span class="item">to 1 1/2 tsp cayenne pepper</span></li>
+  <li><span class="amount">2 tsp</span> <span class="item">sweet paprika</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">fish sauce</span></li>
+  <li><span class="amount">2 tsp</span> <span class="item">soy sauce</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">sugar</span></li>
+  <li><span class="amount">3</span> <span class="item">garlic cloves, finely grated</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">finely grated fresh ginger</span></li>
+  <li><span class="amount">1 tbsp</span> <span class="item">grated apple or pear, optional</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">rice vinegar</span></li>
+  <li><span class="amount">1 tsp</span> <span class="item">sesame oil, optional</span></li>
+  <li>Sesame seeds, optional</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Quarter the cucumbers lengthwise and cut into roughly 2-inch pieces.</li>
+  <li>Toss with the kosher salt and rest 20 to 30 minutes.</li>
+  <li><span class="verb">Rinse</span> quickly and drain very well.</li>
+  <li>Mix the cayenne, paprika, fish sauce, soy sauce, sugar, garlic, ginger, optional fruit, rice vinegar, and optional sesame oil into a paste.</li>
+  <li>Toss the cucumbers with the paste, scallions, and optional carrot.</li>
+  <li>Pack into a clean container.</li>
+  <li>Eat immediately for a crisp fresh version, or refrigerate 2 to 4 hours before serving.</li>
+  <li>For light fermentation, leave at room temperature 6 to 12 hours, then refrigerate.</li>
+</ol>
+<h2>Notes</h2>
+<p>This is intentionally a cayenne-based adaptation, not a claim to replicate the flavor of gochugaru exactly.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

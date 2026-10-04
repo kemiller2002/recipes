@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Easy Artichoke Dip</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Easy Artichoke Dip</h1>
+        <p class="recipe-summary">A simple baked artichoke, mayonnaise, and Parmesan dip with optional mozzarella.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>6</dd></div>
+<div><dt>Yield</dt><dd>1 small baking dish</dd></div>
+<div><dt>Prep</dt><dd>10 minutes</dd></div>
+<div><dt>Cook</dt><dd>25 minutes</dd></div>
+<div><dt>Total</dt><dd>35 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Easy Artichoke Dip</h1>
+<p>A simple hot dip that comes together from pantry ingredients.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li><span class="amount">1</span> <span class="item">(14 oz) can artichoke hearts, drained and chopped</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">mayonnaise</span></li>
+  <li><span class="amount">1 cup</span> <span class="item">grated Parmesan</span></li>
+  <li><span class="amount">1</span> <span class="item">garlic clove, minced</span></li>
+  <li>or 1/2 tsp garlic powder</li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">freshly ground black pepper</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">shredded mozzarella, optional</span></li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Heat</span> the oven to 375°F.</li>
+  <li>Mix the artichokes, mayonnaise, Parmesan, garlic, black pepper, and optional mozzarella.</li>
+  <li>Spread in a small baking dish.</li>
+  <li>Bake 20 to 25 minutes, until hot and lightly golden.</li>
+  <li><span class="verb">Serve</span> warm.</li>
+</ol>
+<h2>Serving Suggestions</h2>
+<ul>
+  <li>Sliced baguette</li>
+  <li>Crackers</li>
+  <li>Tortilla chips</li>
+  <li>Raw vegetables</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

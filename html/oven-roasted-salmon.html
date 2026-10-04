@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oven-Roasted Salmon</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Oven-Roasted Salmon</h1>
+        <p class="recipe-summary">A simple high-heat salmon method with clear timing and internal-temperature targets.</p>
+        <dl class="recipe-meta"><div><dt>Yield</dt><dd>varies</dd></div>
+<div><dt>Prep</dt><dd>10 minutes</dd></div>
+<div><dt>Cook</dt><dd>12 minutes</dd></div>
+<div><dt>Total</dt><dd>22 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>easy</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Oven-Roasted Salmon</h1>
+<p>A minimal salmon method designed around high heat and internal temperature rather than a rigid clock.</p>
+<h2>Ingredients</h2>
+<ul>
+  <li>Salmon fillet or portions</li>
+  <li>Olive oil</li>
+  <li>Kosher salt</li>
+  <li>Freshly ground black pepper</li>
+  <li>Lemon</li>
+  <li>Fresh herbs, butter, or garlic, optional</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li><span class="verb">Heat</span> the oven to 425°F.</li>
+  <li>Pat the salmon dry.</li>
+  <li>Rub lightly with olive oil and season with salt and pepper.</li>
+  <li><span class="verb">Place</span> skin-side down on a baking sheet or roasting pan.</li>
+  <li>Roast about 8 to 10 minutes per inch of thickness. A typical portion often takes 10 to 12 minutes.</li>
+  <li>Pull the salmon about 5°F before the desired final temperature.</li>
+  <li>Rest 2 minutes.</li>
+  <li>Finish with lemon and optional butter, garlic, or herbs.</li>
+</ol>
+<h2>Temperature Guide</h2>
+<ul>
+  <li>Medium: 120 to 125°F</li>
+  <li>Fully cooked but still moist: 130 to 135°F</li>
+</ul>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>

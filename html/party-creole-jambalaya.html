@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Party Creole Jambalaya</title>
+  <link rel="stylesheet" href="recipe.css" />
+  <link rel="stylesheet" href="print.css" />
+</head>
+<body>
+  <main class="recipe-print-page">
+    <div class="screen-toolbar">
+      <a class="screen-toolbar__link" href="index.html">Back to recipes</a>
+      <button class="screen-toolbar__button" type="button" data-print-recipe>Print</button>
+    </div>
+
+    <article class="entry-sheet">
+      <header class="fair-header">
+        <h1>Party Creole Jambalaya</h1>
+        <p class="recipe-summary">A party-scale chicken, smoked sausage, and shrimp jambalaya with a tomato-and-trinity base plus a brown-rice adaptation.</p>
+        <dl class="recipe-meta"><div><dt>Servings</dt><dd>7</dd></div>
+<div><dt>Yield</dt><dd>about 7 servings</dd></div>
+<div><dt>Prep</dt><dd>35 minutes</dd></div>
+<div><dt>Cook</dt><dd>1 hour</dd></div>
+<div><dt>Total</dt><dd>1 hour 35 minutes</dd></div>
+<div><dt>Difficulty</dt><dd>medium</dd></div></dl>
+      </header>
+
+      <section class="recipe-body">
+<h1>Party Creole Jambalaya</h1>
+<p>A flexible party version built around the trinity, tomato paste, smoked sausage, chicken, and shrimp.</p>
+<h2>Ingredients</h2>
+<h3>Rice Base</h3>
+<ul>
+  <li><span class="amount">2 cups</span> <span class="item">long-grain white rice</span></li>
+  <li><span class="amount">2 1/2 cups</span> <span class="item">chicken stock</span></li>
+  <li><span class="amount">1/2 cup</span> <span class="item">crushed tomatoes or tomato sauce</span></li>
+  <li><span class="amount">2 tbsp</span> <span class="item">tomato paste</span></li>
+</ul>
+<h3>Trinity and Aromatics</h3>
+<ul>
+  <li><span class="amount">1</span> <span class="item">large onion, diced</span></li>
+  <li><span class="amount">2</span> <span class="item">celery stalks, diced</span></li>
+  <li><span class="amount">1</span> <span class="item">red or yellow bell pepper, diced</span></li>
+  <li><span class="amount">4</span> <span class="item">garlic cloves, minced</span></li>
+</ul>
+<h3>Seasoning</h3>
+<ul>
+  <li><span class="amount">1 tsp</span> <span class="item">smoked paprika</span></li>
+  <li><span class="amount">1/2</span> <span class="item">to 1 tsp cayenne</span></li>
+  <li><span class="amount">1/2 tsp</span> <span class="item">dried thyme</span></li>
+  <li><span class="amount">1</span> <span class="item">bay leaf</span></li>
+  <li>Kosher salt and black pepper, to taste</li>
+</ul>
+<h3>Proteins</h3>
+<ul>
+  <li><span class="amount">1 1/2</span> <span class="item">to 2 lb boneless skinless chicken thighs</span></li>
+  <li><span class="amount">12</span> <span class="item">to 14 oz smoked sausage, sliced</span></li>
+  <li><span class="amount">1 lb</span> <span class="item">peeled and deveined shrimp</span></li>
+</ul>
+<h3>Finish</h3>
+<ul>
+  <li>Butter or olive oil</li>
+  <li>Sliced green onions</li>
+  <li>Hot sauce</li>
+</ul>
+<h2>Instructions</h2>
+<ol>
+  <li>Brown or roast the chicken and sausage separately so each develops good color. Reserve rendered fat for the rice base.</li>
+  <li>In a heavy pot, cook the onion, celery, and bell pepper in the rendered fat until softened.</li>
+  <li><span class="verb">Add</span> the garlic and cook briefly.</li>
+  <li><span class="verb">Stir</span> in the tomato paste and cook until it darkens to a deep brick red.</li>
+  <li><span class="verb">Add</span> the smoked paprika, cayenne, thyme, and bay leaf.</li>
+  <li><span class="verb">Add</span> the rice, chicken stock, and crushed tomatoes.</li>
+  <li><span class="verb">Bring</span> to a simmer, cover, and cook until the rice is tender.</li>
+  <li>Fold the chicken and sausage back in.</li>
+  <li><span class="verb">Cook</span> the shrimp separately just until about 90 percent done, roughly 2 to 3 minutes, then fold in at the end so it does not overcook.</li>
+  <li>Finish with butter or olive oil, green onions, and hot sauce.</li>
+</ol>
+<h2>Brown-Rice Adaptation</h2>
+<ol>
+  <li><span class="verb">Cook</span> 2 cups brown rice separately with 3 cups chicken stock in a rice cooker.</li>
+  <li>Build the trinity, tomato paste, and spice base in the main pot.</li>
+  <li><span class="verb">Add</span> 1/2 cup crushed tomatoes plus 1/2 to 3/4 cup stock and simmer about 5 minutes.</li>
+  <li>Fold in the cooked brown rice.</li>
+  <li><span class="verb">Simmer</span> 5 to 10 minutes.</li>
+  <li><span class="verb">Cover</span>, remove from the heat, and rest 10 minutes.</li>
+  <li><span class="verb">Add</span> the cooked proteins and finish as above.</li>
+</ol>
+<h2>Party Service Note</h2>
+<p>For a choose-your-own-protein setup, hold the chicken, sausage, and shrimp separately and let guests add what they want. Shrimp can be held briefly, about 15 to 20 minutes, near 140°F in a little butter sauce.</p>
+      </section>
+    </article>
+  </main>
+
+  <script src="print-fit.js"></script>
+  <script>
+    (function () {
+      const button = document.querySelector("[data-print-recipe]");
+      if (!button) return;
+
+      button.addEventListener("click", () => {
+        if (typeof fitAllSheets === "function") {
+          fitAllSheets();
+        }
+        window.print();
+      });
+    })();
+  </script>
+</body>
+</html>
