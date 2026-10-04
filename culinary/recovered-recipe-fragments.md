@@ -1,184 +1,41 @@
 # Recovered Recipe Fragments
 
-These are recipes or recipe concepts remembered from prior conversations that were not complete enough to publish as finished recipes without inventing missing quantities or method details.
+This file originally preserved recipes and recipe concepts that were remembered from prior conversations but were not complete enough to publish without inventing missing quantities.
 
-They are preserved here so they are not lost. Promote an item into `recipes/` only after the missing details are reconstructed or retested.
+Those five fragments have now been deliberately reconstructed into complete recipes. They are not represented as exact historical transcriptions; missing quantities and method details were rebuilt using the preserved anchors and the cooking approach used elsewhere in this repository.
 
-## Maple Five Ways
+## Promoted Reconstructions
 
-A plated maple dessert built from five maple expressions.
+- [Maple Five Ways](../recipes/maple-five-ways.md)
+  - Preserved: financier quantities, five-component structure, core ingredients, temperatures, and presentation.
+  - Reconstructed: crémeux, Chantilly, tuile, and glaze ratios and complete service method.
 
-### Financier
+- [Custard-Rich Hot Chocolate for Eight](../recipes/custard-rich-hot-chocolate.md)
+  - Preserved: milk, cocoa, sugar, salt, vanilla, optional dark chocolate, four eggs, and the intent to temper the eggs.
+  - Reconstructed: complete tempering sequence, safe temperature range, and reheating procedure.
 
-Preserved quantities:
+- [Professional Shepherd's Pie](../recipes/shepherds-pie.md)
+  - Preserved: 1 1/2 lb lamb, mixed vegetables, tomato paste, flour, 1 cup stock, Worcestershire, about 2 1/2 lb potatoes, and a 400°F bake for 25 to 30 minutes.
+  - Reconstructed: exact vegetable, herb, seasoning, and potato-topping ratios.
 
-- 170 g butter
-- 90 g maple sugar
-- 60 g all-purpose flour
-- 60 g almond flour
-- 180 g egg whites
-- 30 g maple syrup
+- [Sun God Cheese Dip](../recipes/sun-god-cheese-dip.md)
+  - Preserved: cream cheese, white cheddar, small amount smoked Gouda, roasted corn, ancho, cocoa, honey, and lime.
+  - Reconstructed: exact proportions and chilled competition-dip method.
 
-Preserved method note:
+- [Professional Stir-Fry Master Formula](../recipes/professional-stir-fry-master-formula.md)
+  - Preserved: protein and vegetable framework, garlic, ginger, and the soy/oyster/sesame/Shaoxing/sugar/cornstarch/water sauce architecture.
+  - Reconstructed: exact sauce ratio, optional marinade, staging, scaling, and variations.
 
-- Bake at 375°F for about 14 to 18 minutes.
+## Policy for Future Recovery
 
-### Maple Crémeux
+When a remembered recipe is incomplete:
 
-Preserved ingredients:
-
-- Cream
-- Milk
-- Maple syrup
-- Egg yolks
-- Maple sugar
-- Gelatin
-
-Preserved method note:
-
-- Cook the custard to about 180°F and chill.
-
-Exact quantities were not recovered.
-
-### Maple Chantilly
-
-Preserved ingredients:
-
-- Cream
-- Maple sugar
-- Maple syrup
-
-Exact quantities and method were not recovered.
-
-### Maple Tuile
-
-Preserved ingredients:
-
-- Maple syrup
-- Butter
-- Sugar
-- Flour
-- Egg white
-
-Preserved method note:
-
-- Bake at 325°F for about 6 to 8 minutes and shape while warm.
-
-Exact quantities were not recovered.
-
-### Warm Maple Glaze
-
-Preserved ingredients:
-
-- Maple syrup
-- Butter
-- Salt
-
-Exact quantities were not recovered.
-
-### Assembly
-
-Preserved presentation:
-
-- Financier
-- Maple crémeux
-- Maple Chantilly
-- Vertical maple tuile
-- Warm maple-butter-salt glaze
-
----
-
-## Custard-Rich Hot Chocolate for 8
-
-Preserved quantities:
-
-- 8 cups milk
-  - or 6 cups milk plus 2 cups half-and-half
-- 3/4 to 1 cup unsweetened cocoa powder
-- 3/4 to 1 cup sugar
-- 1/2 tsp salt
-- 1 tsp vanilla
-- 8 oz chopped dark chocolate, optional
-- 4 large eggs
-
-Preserved method details:
-
-1. Whisk the cocoa, sugar, salt, and 1 cup milk in a very large pot until smooth.
-2. The eggs were to be tempered into the hot cocoa base so they would not scramble.
-
-The remaining exact sequence, temperatures, and timing were not recovered.
-
----
-
-## Shepherd's Pie
-
-Preserved core quantities and method:
-
-- 1 1/2 lb ground lamb
-- Mixed vegetables
-- Tomato paste
-- Flour
-- 1 cup stock
-- Worcestershire sauce
-- About 2 1/2 lb mashed potatoes for the topping
-- Bake at 400°F for about 25 to 30 minutes
-
-Exact vegetable quantities, seasoning amounts, and full assembly sequence were not recovered.
-
----
-
-## Sun God Cheese Dip
-
-A competition dip concept, not a finalized recipe.
-
-Preserved ingredients:
-
-- Cream cheese
-- White cheddar
-- Small amount smoked Gouda
-- Roasted corn
-- Ancho chile
-- 1/4 to 1/2 tsp unsweetened cocoa
-- Honey
-- Lime
-
-Intent:
-
-- Familiar cheese dip first
-- Cocoa only as background depth
-- Roasted corn and ancho as the recognizable flavor accents
-
-Exact quantities and method were not recovered.
-
----
-
-## Professional Stir-Fry Template
-
-A general professional workflow rather than a single finished recipe.
-
-Preserved framework:
-
-- 8 to 12 oz protein
-- 3 to 5 vegetables
-- Garlic
-- Ginger
-
-Preserved sauce components:
-
-- Soy sauce
-- Oyster sauce
-- Sesame oil
-- Shaoxing wine
-- Sugar
-- Cornstarch
-- Water
-
-Preserved method:
-
-1. Sear the protein separately.
-2. Stir-fry the vegetables.
-3. Add garlic and ginger.
-4. Recombine with the protein.
-5. Add the sauce and cook just until glossy and thickened.
-
-Exact sauce ratios were not recovered.
+1. Preserve any known historical quantities and method details.
+2. Rebuild missing pieces explicitly rather than silently presenting them as original.
+3. Prefer the established style of this repository:
+   - layer flavor rather than maximizing intensity;
+   - control texture deliberately;
+   - use acidity to balance richness;
+   - keep service and holding behavior in mind;
+   - write quantities that are practical to reproduce.
+4. Mark the recipe source as reconstructed when it is not an exact transcription.
