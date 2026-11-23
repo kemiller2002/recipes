@@ -61,3 +61,49 @@ A turkey-forward open-faced gratin with butter-crisp pain de mie, a restrained C
 - Use Mornay by coverage, not by obligation to use the whole batch.
 - The final bite should still have crisp bread, identifiable turkey, distinct tomato acidity, and crunchy bacon.
 - This is a carefully reasoned one-shot formulation, **not a recipe claimed to have been tested**.
+
+## Beverage pairings — expert service notes
+
+**Pairing principle:** Preserve the turkey's delicacy while cutting through dairy fat and Pecorino salt. Look for acidity, controlled body, savory/mineral complexity, and moderate alcohol. These are alternatives, not a multi-drink progression. Preferences and bottle style matter more than prestige.
+
+### Preferred wine: White Burgundy (Chardonnay)
+- **Style:** A poised, mineral, moderately textured village Puligny-Montrachet or Meursault, with integrated rather than obvious new oak; a fresh Saint-Aubin is another strong direction.
+- **Why:** Acidity refreshes the palate after Mornay; restrained lees and nutty notes echo Comté and toast without masking turkey.
+- **Service:** 50–54°F (10–12°C), white Burgundy stemware. Avoid overly buttery, high-alcohol, heavily oaked examples.
+- **Decision:** First choice when selecting one wine for guests comfortable with nuanced Chardonnay.
+
+### Most versatile: Blanc de Blancs Brut Champagne
+- **Style:** Chardonnay-based, balanced Brut with some lees development, not aggressively austere.
+- **Why:** Acidity and carbonation lift the sauce; subtle bread and brioche notes connect to the toasted pain de mie.
+- **Service:** 46–50°F (8–10°C), tulip-shaped sparkling stemware rather than a narrow flute.
+- **Decision:** Best broad-audience option, especially for a celebratory service.
+
+### Sommelier's alternative: Fino or Manzanilla Sherry
+- **Style:** Fresh, dry, flor-aged, saline; avoid oxidatively rich oloroso for this purpose.
+- **Why:** Salinity and almond-like savory notes bridge aged cheese, toasted bread, and smoked bacon. Its distinctive flor character makes it less universal.
+- **Service:** 45–50°F (7–10°C), small 2–3 oz pours in white-wine glasses or copitas; use a freshly opened bottle and refrigerate afterward.
+
+### Bourbon option: dry Kentucky bourbon highball
+- **Per drink:** 1½ oz (45 ml) 90–100-proof bourbon; 4–5 oz (120–150 ml) very cold, highly carbonated soda water; large clear ice; optional expressed lemon peel, discarded.
+- **Method:** Chill a tall glass, add ice and bourbon, top gently with soda and give one restrained stir. No syrup, bitters, or sweet soda.
+- **Why:** The dilution and bubbles provide a Kentucky connection while limiting alcohol heat and sweetness against Mornay.
+- **Service:** Very cold, immediately before eating. Avoid barrel-proof bourbon or a sweet Old Fashioned with this plate.
+
+### Beer alternative: dry saison
+- **Style:** Well-attenuated, moderately bitter, peppery rather than aggressively funky or heavily hopped; approximately 5–6.5% ABV.
+- **Why:** Carbonation and dryness refresh the palate, while restrained yeast spice complements bacon and cheese.
+- **Service:** Approximately 45–50°F (7–10°C), stemmed beer glass. Avoid overtly sour or very bitter versions.
+
+### Nonalcoholic: sparkling verjus spritz
+- **Per drink:** 1 oz (30 ml) white verjus, 4 oz (120 ml) chilled sparkling water, large ice; optionally a thin strip of lemon peel.
+- **Method:** Build in a chilled wine glass, stir once, and taste. Adjust verjus based on its acidity; do not sweeten automatically.
+- **Why:** Grape-derived tartness and carbonation cleanse the palate without a sugary soda profile.
+- **Service:** Ice-cold. Verjus is acidic but not a fermented wine; check the product label for dietary needs.
+
+### Pairing decisions to avoid
+- Highly oaked, high-alcohol Chardonnay: compounds the dish's weight.
+- Big tannic Cabernet or similarly extracted reds: can overpower turkey and create a harsh interaction with cheese and tomato.
+- Sweet bourbon cocktails: sweetness and ethanol amplify the perception of richness.
+- Aggressively bitter IPA: bitterness competes with cheese and delicate turkey.
+
+**If selecting just one bottle:** Choose a fresh, restrained white Burgundy. **If serving a diverse table:** Choose balanced Blanc de Blancs Brut Champagne. These are reasoned pairing recommendations, not pairings validated by a tasting of the finished dish.
