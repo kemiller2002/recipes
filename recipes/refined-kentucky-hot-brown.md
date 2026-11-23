@@ -107,3 +107,36 @@ A turkey-forward open-faced gratin with butter-crisp pain de mie, a restrained C
 - Aggressively bitter IPA: bitterness competes with cheese and delicate turkey.
 
 **If selecting just one bottle:** Choose a fresh, restrained white Burgundy. **If serving a diverse table:** Choose balanced Blanc de Blancs Brut Champagne. These are reasoned pairing recommendations, not pairings validated by a tasting of the finished dish.
+
+## Historical and regional beverage research — exploratory ideas
+
+**Historical context:** Chef Fred K. Schmidt created the Hot Brown at Louisville's Brown Hotel in 1926 as a late-night dish for guests attending hotel dinner dances. The Brown Hotel opened in 1923 during U.S. Prohibition, which continued until 1933. Therefore, modern Kentucky bourbon pairings should not be presented as documented original 1926 service. Sources:
+- Brown Hotel origin: https://www.brownhotel.com/dining/hot-brown
+- Brown Hotel history and Prohibition: https://www.brownhotel.com/about-the-brown/louisville-historic-hotel
+- Frazier Kentucky History Museum on early pimento and later tomato versions: https://www.fraziermuseum.org/weekly/11-22-2021
+- Brown Hotel historical oral account: https://be478d95e8aa404656c1-d983ce57e4c84901daded0f67d5a004f.r11.cf1.rackcdn.com/brown-hotel/media/HistoryoftheBrownHotel-59ee27c1c56e5.pdf
+
+**Interpretive note:** The Hot Brown is Louisville hotel cuisine using a French Mornay technique, not simply a rustic Southern sandwich. Its local origin does not require a bourbon pairing; choose beverages for culinary harmony first, with regional storytelling as an added dimension.
+
+### Kentucky and Louisville beverage candidates (ideas, not validated pairings)
+
+1. **Dry bourbon highball:** Strong modern regional identity; carbonation and dilution make it more food-compatible than neat whiskey. Retain as a leading Kentucky option.
+2. **Mint julep:** Iconic Kentucky and Derby association; mint and sweetness may interfere with the tomato, cheese and turkey. Consider as a welcome drink rather than default accompaniment.
+3. **Old Fashioned:** Significant Kentucky cocktail association, but precise invention claims are disputed. Sweetness and spirit concentration make it more suitable before or after the Hot Brown.
+4. **Seelbach-style cocktail:** Historic Louisville hotel connection; bourbon and sparkling wine are promising, but orange liqueur and bitters may overpower the dish. Investigate as an aperitif, not an assumed perfect pairing.
+5. **Bourbon with Ale-8-One:** A documented modern Louisville hotel-bar tradition, but likely sweeter than optimal for this refined plate.
+6. **Dry regional cider:** Hypothesis based on acidity and apple character, not a documented original Hot Brown pairing. Choose genuinely dry examples.
+
+**Sources for regional context:**
+- Brown Hotel modern beverage program: https://www.historichotels.org/us/hotels-resorts/the-brown-hotel/dining
+- Louisville hotel cocktail reporting: https://www.bostonglobe.com/lifestyle/travel/2013/01/13/food-find-louisville-urban-bourbon-trail/FKzQnNG23AOTzMgBsAjcBO/story.html
+- Kentucky Distillers' Association on Old Fashioned folklore: https://kybourbon.com/enthusiast/legacy/
+
+### Decision framework
+
+- **Best culinary pairing hypothesis:** Fresh, restrained white Burgundy.
+- **Most broadly compatible festive pairing hypothesis:** Balanced Blanc de Blancs Brut Champagne.
+- **Most regionally expressive food pairing hypothesis:** Dry bourbon highball.
+- **Most promising regional aperitif to explore:** Seelbach-style cocktail.
+- **Avoid asserting:** That bourbon was the Hot Brown's original drink, or that the original tomato garnish was identical to the modern version.
+- All pairings remain suggestions, not a tasting-verified final service.
